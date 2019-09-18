@@ -1249,6 +1249,15 @@ input[type="color"]:focus,
     border: none;
     height: 527px;
 }
+i.heartbeat-icon {
+    margin-bottom: 21px;
+}
+i.handgears-icon {
+    margin-bottom: 6px;
+}
+i.statup-icon {
+    margin-bottom: 11px;
+}
 
 .main-directions__block {
     background: #fff;
@@ -1285,7 +1294,6 @@ input[type="color"]:focus,
 
 .infographic-item i {
     width: 100%;
-    margin-bottom: 10px;
 }
 
 .infographic-item .headphones-icon:before {
@@ -2140,7 +2148,7 @@ section.error-404 {
 }
 
 .advantages {
-    padding-bottom: 116px;
+    padding-bottom: 186px;
     background-image: url(../images/kolosok.png);
     background-repeat: no-repeat;
     background-position: center 200px;
@@ -2203,7 +2211,7 @@ section.error-404 {
 }
 
 .zavod {
-    padding: 154px 0 394px 0;
+    padding: 101px 0 110px 0;
     background-image: url(../images/zavod_bg.png);
     background-repeat: no-repeat;
     background-position: center top;
@@ -2222,8 +2230,9 @@ section.error-404 {
     text-transform: uppercase;
     font-family: 'MullerMedium';
     font-size: 11px;
-    letter-spacing: 4px;
-    margin-bottom: 15px;
+    letter-spacing: 3px;
+    margin-bottom: 12px;
+    margin-top: 5px;
 }
 
 .zavod__info p:nth-child(2) {
