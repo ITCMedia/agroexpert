@@ -1261,13 +1261,14 @@ input[type="color"]:focus,
 
 .us-advantages .infographic-item {
     height: 311px;
-    margin: 0 20px;
+    margin: 0 26px;
 }
 
 
 
 i.timer-icon, i.headphones-icon {
     margin-bottom: 38px;
+    margin-left: -11px;
 }
 
 i.fast-truck-icon {
