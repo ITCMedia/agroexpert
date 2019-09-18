@@ -2514,11 +2514,13 @@ section.error-404 {
     background-position: left 4px;
     float: right;
     margin-top: 8px;
+    margin-right: 45px;
 }
 
 .products__right p:nth-child(1) {
     font-family: 'MullerBold';
     margin-bottom: 5px;
+    margin-top: 9px;
 }
 
 .products__right p:nth-child(2) {
