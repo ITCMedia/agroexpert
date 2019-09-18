@@ -1518,11 +1518,9 @@ input[type="color"]:focus,
 }
 
 .main-page .container{
-    margin-top: 46px;
+    margin-top: 47px;
 }
-.main-page .container row col-6{
-    margin-left: 17px;
-}
+
 .top-menu__menu {
     overflow: hidden;
     margin-top: 23px;
@@ -1546,7 +1544,11 @@ input[type="color"]:focus,
 }
 
 .main-page-left__block{
-    margin-bottom: 118px;
+    margin-bottom: 121px;
+}
+
+.main-page-left__block .col-6{
+    padding-left: 35px;
 }
 
 .main-page-left__block .pre-title {
@@ -1594,7 +1596,7 @@ input[type="color"]:focus,
     font-family: MullerLight;
     list-style: disc;
     color: #52bc2e;
-    margin-left: 27px;
+    margin-left: 20px;
     margin-top: 25px;
 }
 
