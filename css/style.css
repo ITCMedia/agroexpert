@@ -1259,11 +1259,18 @@ input[type="color"]:focus,
     height: 527px;
 }
 
-i.timer-icon i.headphones-icon{
+.us-advantages .infographic-item {
+    height: 311px;
+    margin: 0 20px;
+}
+
+
+
+i.timer-icon, i.headphones-icon {
     margin-bottom: 38px;
 }
 
-i.fast-truck-icon{
+i.fast-truck-icon {
     margin-bottom: 39px;
     margin-top: 16px;
 }
@@ -2360,7 +2367,7 @@ section.error-404 {
     margin: auto;
 }
 
-.us-advantages  infographic__block{
+.us-advantages infographic__block {
     height: 310px;
 }
 
@@ -2402,10 +2409,14 @@ section.error-404 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
-    padding-top: 167px;
-    padding-bottom: 95px;
+    padding-top: 122px;
+    padding-bottom: 125px;
     position: relative;
     margin-top: 50px;
+}
+
+.products-wrapper .container{
+    padding-left: 34px;
 }
 
 .order-table {
@@ -2487,7 +2498,7 @@ section.error-404 {
     font-size: 48px;
     color: #121212;
     font-family: 'MullerBlack';
-    margin-bottom: 25px;
+    margin-bottom: 13px;
 }
 
 .products__left p {
@@ -2600,7 +2611,7 @@ section.error-404 {
     text-transform: uppercase;
     font-size: 9px;
     color: #be937c;
-    letter-spacing: 5px;
+    letter-spacing: 4px;
     text-align: center;
     margin-top: 60px;
 }
@@ -2613,7 +2624,7 @@ section.error-404 {
     color: #fff;
     font-size: 16px;
     font-family: 'MullerMedium';
-    padding: 17px 35px;
+    padding: 20px 39px;
     cursor: pointer;
     margin: 0 16px;
     box-shadow: 0px 5px 20px rgba(0, 188, 0, .5);
@@ -2631,7 +2642,7 @@ section.error-404 {
 }
 
 .discount {
-    padding: 96px 0 0 0;
+    padding: 45px 0 0 0;
     position: relative;
 }
 
@@ -2708,7 +2719,7 @@ section.error-404 {
 
 .discount__form__flag {
     position: absolute;
-    width: 127px;
+    width: 141px;
     height: 129px;
     background-image: url(../images/discount.png);
     background-repeat: no-repeat;
@@ -2730,7 +2741,7 @@ section.error-404 {
 
 .discount__form form {
     overflow: hidden;
-    margin-top: 35px;
+    margin-top: 38px;
 }
 
 .discount__form form input {
@@ -2808,11 +2819,14 @@ section.error-404 {
 }
 
 .to-buy {
-    padding: 127px 0;
+    padding: 85px 0 190px;
     background-image: url(../images/buy_bg.jpg);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.to-buy .container{
+    padding: 0 37px;
 }
 
 .to-buy__head p {
@@ -2820,7 +2834,7 @@ section.error-404 {
     font-size: 11px;
     color: #834f1c;
     font-family: 'MullerMedium';
-    margin-bottom: 4px;
+    margin-bottom: 13px;
     letter-spacing: 4px;
 }
 
@@ -2837,8 +2851,8 @@ section.error-404 {
     background-repeat: no-repeat;
     padding: 5px 0px 5px 60px;
     float: right;
-    margin-top: 35px;
-    margin-right: 20px;
+    margin-top: 40px;
+    margin-right: 24px;
     margin-bottom: 23px;
 }
 
@@ -3305,7 +3319,7 @@ section.error-404 {
 }
 
 .to-bottom__discount {
-    bottom: -40px;
+    bottom: -61px;
     top: auto;
 }
 
@@ -3426,8 +3440,8 @@ section.error-404 {
 .slider__button {
     overflow: hidden;
     width: 412px;
-    margin: 92px auto 0 auto;
-    padding-bottom: 13px;
+    margin: 71px auto 0 auto;
+    padding-bottom: 26px;
     padding-left: 7px;
 }
 
@@ -3439,7 +3453,7 @@ section.error-404 {
     padding: 19px 0;
     transition: 0.5s all;
     cursor: pointer;
-    border-radius: 4px;
+    border-radius: 7px;
 }
 
 .slider__button__left {

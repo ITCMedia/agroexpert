@@ -293,7 +293,7 @@
             <div class="col-xl-12">
                 <div class="slider__button">
                     <button class="slider__button__left">Узнать о заводе</button>
-                    <button class="slider__button__right">Стать дилером</button>
+                    <button class="slider__button__right">Стать партнером</button>
                 </div>
             </div>
         </div>
@@ -326,7 +326,7 @@
                 <div class="col-xl-6 col-lg-6 col-md-6 order-md-first order-sm-first order-first">
                     <div class="products__item__info">
                         <p>Линейка кормов</p>
-                        <p>Баланс <span>от <span>12</span> руб.</span></p>
+                        <p>Эконом <span>от <span>13,5</span> руб.</span></p>
                         <p>Недорогой универсальный комбикорм на замену зерносмеси, зерна и отрубей. Состав небогатый, но
                             сбалансированный и доступный по цене</p>
                         <a href="">Подробнее</a>
@@ -343,7 +343,7 @@
                 <div class="col-xl-6 col-lg-6 col-md-6 order-md-first order-sm-first order-first">
                     <div class="products__item__info">
                         <p>Линейка кормов</p>
-                        <p>Эконом <span>от <span>13,5</span> руб.</span></p>
+                        <p>Баланс <span>от <span>12</span> руб.</span></p>
                         <p>Недорогой универсальный комбикорм на замену зерносмеси, зерна и отрубей. Состав небогатый, но
                             сбалансированный и доступный по цене</p>
                         <a href="">Подробнее</a>
@@ -457,7 +457,7 @@
         </div>
         <div class="row to-buy__plash">
             <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
-                <p class="to-buy__plash__left"><span>Как купить</span> оптом</p>
+                <p class="to-buy__plash__left"><span>Как купить</span><br/> оптом</p>
             </div>
             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
                 <p class="to-buy__plash__center">Напишите нам: <a
