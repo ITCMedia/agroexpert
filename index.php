@@ -152,7 +152,7 @@
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-3">
                     <div class="zavod__info__item">
-                        <p><span>900</span>млн.руб</p>
+                        <p><span>900+</span>млн.руб</p>
                         <p>Годовой оборот<br/>предприятия</p>
                     </div>
                 </div>
@@ -258,7 +258,7 @@
         </div>
         <div class="row no-gutters us-advantages mt-10">
             <h2>Наши преимущества</h2>
-            <div class="card-deck infographic__block mt-7">
+            <div class="card-deck infographic__block mt-4">
                 <div class="card w-30 infographic-item down-shadow__block">
                     <i class="timer-icon"></i>
                     <p class="title">

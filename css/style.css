@@ -310,6 +310,7 @@ table {
 .mb-1 {
     margin-bottom: 10px !important;
 }
+
 .mb-h-2 {
     margin-bottom: 15px !important;
 }
@@ -641,9 +642,10 @@ table {
 
 .requisites-body hr {
     margin: 42px -45px 0;
-    color:  #ebe5df;
+    color: #ebe5df;
 }
-.requisites-body a{
+
+.requisites-body a {
     justify-content: center;
     text-decoration: none;
     text-align: center;
@@ -652,32 +654,35 @@ table {
     margin: 0;
 
 }
-.requisites-body p.greenlink{
+
+.requisites-body p.greenlink {
     margin: -2px;
     color: #52bc2e;
     font-size: 15px;
     padding: 0;
 
 }
-.buttonDownload, .buttonPrint{
+
+.buttonDownload, .buttonPrint {
     padding: 20px 33px;
     justify-content: center;
 
 }
-.buttonDownload{
+
+.buttonDownload {
     border-right: 1px solid #ebe5df;
 }
 
 .buttonDownload .buttondownload {
-    width:21px;
+    width: 21px;
     height: 21px;
     background: url("../images/btnpdf.png") center center no-repeat;
     margin-right: -7px;
 }
 
 .buttonPrint .buttonprint {
-    width:21px;
-    height:21px;
+    width: 21px;
+    height: 21px;
     background: url("../images/btnprint.png") center center no-repeat;
     margin-right: -7px;
 }
@@ -718,9 +723,11 @@ table {
     padding: 0 45px;
     margin-bottom: 40px;
 }
-.requisites .requisites-body{
+
+.requisites .requisites-body {
     margin-bottom: 0;
 }
+
 .requisites p,
 .right-information-block p {
     color: #212121;
@@ -1067,10 +1074,12 @@ input[type="color"]:focus,
     display: inline-flex;
     margin-top: 40px;
 }
+
 .form-row.submit {
     margin-top: 22px;
     margin-left: 0;
 }
+
 .auth-form__modal .registration-info-buttons__block {
     display: inline-block;
     vertical-align: bottom;
@@ -1249,12 +1258,24 @@ input[type="color"]:focus,
     border: none;
     height: 527px;
 }
+
+i.timer-icon i.headphones-icon{
+    margin-bottom: 38px;
+}
+
+i.fast-truck-icon{
+    margin-bottom: 39px;
+    margin-top: 16px;
+}
+
 i.heartbeat-icon {
     margin-bottom: 21px;
 }
+
 i.handgears-icon {
     margin-bottom: 6px;
 }
+
 i.statup-icon {
     margin-bottom: 11px;
 }
@@ -1421,7 +1442,7 @@ i.statup-icon {
     padding-bottom: 120px;
 }
 
-.feedback-form mb-h-3 > label{
+.feedback-form mb-h-3 > label {
     margin-bottom: 5px;
 }
 
@@ -1525,7 +1546,7 @@ i.statup-icon {
     background: url(../images/main-combaine-fon.png) no-repeat 130% -191px;
 }
 
-.main-page .container{
+.main-page .container {
     margin-top: 47px;
 }
 
@@ -1551,11 +1572,11 @@ i.statup-icon {
 
 }
 
-.main-page-left__block{
+.main-page-left__block {
     margin-bottom: 121px;
 }
 
-.main-page-left__block .col-6{
+.main-page-left__block .col-6 {
     padding-left: 35px;
 }
 
@@ -2211,7 +2232,7 @@ section.error-404 {
 }
 
 .zavod {
-    padding: 101px 0 110px 0;
+    padding: 101px 0 185px 0;
     background-image: url(../images/zavod_bg.png);
     background-repeat: no-repeat;
     background-position: center top;
@@ -2223,7 +2244,7 @@ section.error-404 {
 .zavod__info {
     text-align: center;
     color: #fff;
-    margin-bottom: 73px;
+    margin-bottom: 51px;
 }
 
 .zavod__info p:nth-child(1) {
@@ -2238,7 +2259,7 @@ section.error-404 {
 .zavod__info p:nth-child(2) {
     font-family: 'MullerBlack';
     font-size: 48px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .zavod__info p:nth-child(3) {
@@ -2252,15 +2273,15 @@ section.error-404 {
 }
 
 .zavod__info__item p:nth-child(1) {
-    font-size: 24px;
-    margin-bottom: 18px;
+    font-size: 20px;
+    margin-bottom: 3px;
     font-family: 'MullerBold';
 }
 
 .zavod__info__item p:nth-child(2) {
-    font-size: 18px;
+    font-size: 14px;
     font-family: 'MullerBold';
-    line-height: 24px;
+    line-height: 20px;
 }
 
 .zavod__info__item p:nth-child(1):hover {
@@ -2270,7 +2291,7 @@ section.error-404 {
 
 .zavod__info__item p:nth-child(1) span {
     display: block;
-    font-size: 74px;
+    font-size: 53px;
     line-height: 1;
 }
 
@@ -2289,7 +2310,7 @@ section.error-404 {
     background-image: url(../images/trg.png);
     background-repeat: no-repeat;
     background-position: center bottom;
-    margin-bottom: 58px;
+    margin-bottom: 65px;
 }
 
 .about__plash {
@@ -2325,11 +2346,11 @@ section.error-404 {
 }
 
 .about__adv__item {
-    padding-left: 66px;
+    padding-left: 108px;
     background-image: url(../images/grline.jpg);
     background-repeat: no-repeat;
     background-position: left 25px;
-    padding-right: 60px;
+    padding-right: 55px;
 }
 
 .us-advantages h2 {
@@ -2337,6 +2358,10 @@ section.error-404 {
     font-size: 48px;
     line-height: 60px;
     margin: auto;
+}
+
+.us-advantages  infographic__block{
+    height: 310px;
 }
 
 .about__adv__item p:nth-child(1) {
@@ -2365,7 +2390,7 @@ section.error-404 {
 }
 
 .partners {
-    padding: 82px 0 27px 0;
+    padding: 14px 0 27px 0;
 }
 
 .partners .container {
@@ -2626,7 +2651,7 @@ section.error-404 {
     background-repeat: no-repeat;
     background-position: left center;
     min-height: 30px;
-    margin-bottom: 36px;
+    margin-bottom: -20px;
     padding-left: 44px;
 }
 
@@ -3863,7 +3888,8 @@ input.search:hover {
 .form-row > .form-group.col-md-6 {
     margin-bottom: 0;
 }
-.feedback-form .col-md-6 .mb-h-3 > label{
+
+.feedback-form .col-md-6 .mb-h-3 > label {
     margin-bottom: 5px;
 }
 
@@ -5340,6 +5366,10 @@ table.collapse.show ~ .btn-readmore:after {
 
     .discount__item3 {
         background: none;
+    }
+
+    .discount__item3 img {
+        margin-top: -6px;
     }
 
     .discount {
