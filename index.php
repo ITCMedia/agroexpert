@@ -19,7 +19,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-6">
-                    <<a cclass="pre-title play" data-fancybox href = "https://www.youtube.com/watch?v=myt98f3vhWQ">>Комбикормовый завод<br>«Агро-эксперт»</a>
+                    <a class="pre-title play" data-fancybox href = "https://www.youtube.com/watch?v=myt98f3vhWQ">Комбикормовый завод<br>«Агро-эксперт»</a>
                     <h1 class="title">Производство продажа комбикормов</h1>
                     <p class="description">Для всех видов сельскохозяйственных <br> животных и птицы </p>
                     <div class="calculate__block">
@@ -324,7 +324,7 @@
                 </div>
             </div>
             <div class="row products__item">
-                <div class="col-xl-6 col-lg-6 col-md-6 order-md-first order-sm-first order-first">
+                <div class="col-xl-7 col-lg-7 col-md-7 order-md-first order-sm-first order-first">
                     <div class="products__item__info">
                         <p>Линейка кормов</p>
                         <p><a class="titles" href="">Эконом</a> <span>от <span>13,5</span> руб.</span></p>
@@ -335,15 +335,15 @@
                         <a class="greenlink" href="">Подробнее</a>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-6 order-md-second order-sm-second order-second">
+                <div class="col-xl-4 col-lg-4 col-md-4 offset-1  order-md-second order-sm-second order-second">
                     <img src="images/ekonom.png"/>
                 </div>
             </div>
             <div class="row products__item">
-                <div class="col-xl-6 col-lg-6 col-md-6 order-lg-first order-md-second order-sm-second order-second">
+                <div class="col-xl-4 col-lg-4 col-md-4 offset-1  order-lg-first order-md-second order-sm-second order-second">
                     <img src="images/balans.png"/>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-6 order-md-first order-sm-first order-first">
+                <div class="col-xl-7 col-lg-7 col-md-7 order-md-first order-sm-first order-first">
                     <div class="products__item__info">
                         <p>Линейка кормов</p>
                         <p><a class="titles" href="">Баланс</a> <span>от <span>12</span> руб.</span></p>
@@ -357,7 +357,7 @@
                 </div>
             </div>
             <div class="row products__item">
-                <div class="col-xl-6 col-lg-6 col-md-6 order-md-first order-sm-first order-first">
+                <div class="col-xl-7 col-lg-7 col-md-7 order-md-first order-sm-first order-first">
                     <div class="products__item__info">
                         <p>Линейка кормов</p>
                         <p><a class="titles" href="">Сытный</a> <span>от <span>12</span> руб.</span></p>
@@ -369,15 +369,15 @@
                         <a class="greenlink" href="">Подробнее</a>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-6 order-md-second  order-sm-second order-second">
+                <div class="col-xl-4 col-lg-4 col-md-4 offset-1 order-md-second  order-sm-second order-second">
                     <img src="images/sytniy.png"/>
                 </div>
             </div>
             <div class="row products__item">
-                <div class="col-xl-6 col-lg-6 col-md-6  order-lg-first order-md-second  order-sm-second order-second">
+                <div class="col-xl-4 col-lg-4 col-md-4 offset-1   order-lg-first order-md-second  order-sm-second order-second">
                     <img src="images/sytniy-pro.png"/>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-6 order-md-first order-sm-first order-first">
+                <div class="col-xl-7 col-lg-7 col-md-7 order-md-first order-sm-first order-first">
                     <div class="products__item__info">
                         <p>Линейка кормов</p>
                         <p><a class="titles" href="">Сытный pro</a><span>от <span>13</span> руб.</span></p>
