@@ -1255,7 +1255,7 @@ input[type="color"]:focus,
 }
 
 .us-advantages .infographic-item {
-    height: 311px;
+    height: 282px;
     margin: 0 26px;
 }
 
@@ -1573,8 +1573,8 @@ i.statup-icon {
     vertical-align: middle;
     margin-left: 20px;
     position: absolute;
-    left: 180px;
-    top: 0;
+    left: 174px;
+    top: 11;
 
 }
 
@@ -1592,13 +1592,13 @@ i.statup-icon {
     font-family: MullerLight;
     line-height: 23px;
     position: relative;
-
     margin-bottom: 17px;
 }
 
 .main-page-left__block h1.title {
     font-family: MullerBlack;
     font-size: 48px;
+    margin-top: 18px;
     line-height: 52px;
 }
 
@@ -2090,13 +2090,8 @@ section.error-404 {
 
 
 .play {
-    font-size: 16px;
-    color: #838383;
-    background-image: url(../images/play.png);
-    background-repeat: no-repeat;
-    background-position: right center;
     padding: 10px 88px 10px 0;
-    font-family: 'MullerLight';
+
 }
 
 .play:hover {
@@ -2519,8 +2514,8 @@ section.error-404 {
 
 .products__left p {
     font-family: 'MullerLight';
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 17px;
+    line-height: 23px;
 }
 
 .products__right {
