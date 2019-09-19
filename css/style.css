@@ -1665,7 +1665,7 @@ i.statup-icon {
 .calculate__block button.ration-btn:hover,
 .calculate__block button.slider__button__left:hover,
 .calculate__block button.to-buy__plash__button:hover,
-.calculate__block button.to-buy__plash:hover {
+.calculate__block button.to-buy__plash:hover , .slider__button__left:hover {
     border-color:#834f1c;
 }
 
@@ -2594,10 +2594,6 @@ section.error-404 {
     width: 110px;
     display: inline-block;
     margin-left: 10px;
-}
-
-.products__item__info p:nth-child(2):hover {
-    color: #52bc2e;
 }
 
 .products__item__info p:nth-child(2) span span {
