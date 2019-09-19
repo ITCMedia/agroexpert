@@ -1661,8 +1661,12 @@ i.statup-icon {
     background: url('../images/ration-ico.png');
 }
 
-.ration-btn:hover, slider__button__left:hover, to-buy__plash__button:hover, to-buy__plash:hover {
-    border-bottom-color:#834f1c;
+
+.calculate__block button.ration-btn:hover,
+.calculate__block button.slider__button__left:hover,
+.calculate__block button.to-buy__plash__button:hover,
+.calculate__block button.to-buy__plash:hover {
+    border-color:#834f1c;
 }
 
 .main-page-left__block .description {
