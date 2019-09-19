@@ -472,9 +472,9 @@
                 <p class="to-buy__plash__left"><span>Как купить</span><br/> оптом</p>
             </div>
             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                <p class="to-buy__plash__center greenlink">Напишите нам: <a
-                             href="mailto:info@agroexpert2007">info@agroexpert2007</a>, позвоните нам по тел.:<br/>
-                    <a href="tel:+74935147371">8 (49351) 47-3-71</a> или <a class="greenlink" href="">закажите через сайт</a>. Мы подготовим для вас индивидуальное коммерческое
+                <p class="to-buy__plash__center ">Напишите нам: <a
+                             class="greenlink" href="mailto:info@agroexpert2007">info@agroexpert2007</a>, позвоните нам по тел.:<br/>
+                    <a href="tel:+74935147371">8 (49351) 47-3-71</a> или <a class="greenlink" href="#">закажите через сайт</a>. Мы подготовим для вас индивидуальное коммерческое
                     предложение.</p>
             </div>
             <div class=" pl-5 col-xl-3 col-lg-3 col-md-3 col-sm-12">
@@ -483,7 +483,7 @@
         </div>
         <div class="row to-buy__plash">
             <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
-                <p class="to-buy__plash__left"><span>Где купить</span><br/> в розницу и мелким оптом</p>
+                <p class="to-buy__plash__left"><span>Где купить</span><br/> в розницу и<br/> мелким оптом</p>
             </div>
             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
                 <p class="to-buy__plash__center">Розничные покупатели могут купить комбикорм по цене производителя в <a

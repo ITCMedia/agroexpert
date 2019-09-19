@@ -2851,7 +2851,7 @@ section.error-404 {
 }
 
 .to-buy {
-    padding: 85px 0 190px;
+    padding: 85px 0 155px;
     background-image: url(../images/buy_bg.jpg);
     background-position: center top;
     background-repeat: no-repeat;
@@ -2919,6 +2919,10 @@ section.error-404 {
     line-height: 1.2;
 }
 
+.to-buy .row:nth-child(3) > div:first-child > p {
+    font-size: 20px;
+
+}
 .to-buy__plash__left span {
     font-size: 24px;
     font-family: 'MullerRegular';
@@ -2932,6 +2936,12 @@ section.error-404 {
 .to-buy__plash__center a[href^='mailto'] {
     color: #52bc2e;
 }
+
+.to-buy__plash__center a[href^='tel']:hover {
+    color: #834f1c;
+    text-decoration: none;
+}
+
 
 .to-buy__plash__center a[href^='#'] {
     color: #52bc2e;
