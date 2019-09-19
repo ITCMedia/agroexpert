@@ -2583,14 +2583,10 @@ section.error-404 {
     font-family: 'MullerExtraBold';
     font-size: 36px;
     margin-bottom: 30px;
-    cursor: pointer;
 }
 
 .products__item__info a.titles:hover {
-    text-transform: uppercase;
-    font-family: 'MullerExtraBold';
-    font-size: 36px;
-    margin-bottom: 30px;
+    text-decoration: none;
     cursor: pointer;
     color: #52bc2e;
 }
