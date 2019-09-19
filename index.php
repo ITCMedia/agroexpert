@@ -478,7 +478,7 @@
                     предложение.</p>
             </div>
             <div class=" pl-5 col-xl-3 col-lg-3 col-md-3 col-sm-12">
-                <button class="to-buy__plash__button" popup-target="usagr-pp">оформить заказ</button>
+                <button class="to-buy__plash__button" popup-target="usagr-pp">Оформить заказ</button>
             </div>
         </div>
         <div class="row to-buy__plash">

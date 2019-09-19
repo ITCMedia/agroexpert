@@ -2916,8 +2916,9 @@ section.error-404 {
 .to-buy__plash__left {
     font-family: 'MullerBold';
     font-size: 32px;
-    line-height: 1.2;
+    line-height: 1.1;
 }
+
 
 .to-buy .row:nth-child(3) > div:first-child > p {
     font-size: 20px;
@@ -2927,6 +2928,7 @@ section.error-404 {
     font-size: 24px;
     font-family: 'MullerRegular';
     color: #52bc2e;
+    line-height: 1.5;
 }
 
 .to-buy__plash__center p {
@@ -2938,13 +2940,13 @@ section.error-404 {
 }
 
 .to-buy__plash__center a[href^='tel']:hover {
-    color: #834f1c;
+    color: #52bc2e;
     text-decoration: none;
 }
 
 
 .to-buy__plash__center a[href^='#'] {
-    color: #52bc2e;
+    color: #834f1c;
 }
 
 .to-buy__plash__center a[href^='tel'] {
@@ -3146,6 +3148,10 @@ section.error-404 {
     margin-top: -29px;
 }
 
+.to-buy .to-buy__plash__button:hover {
+    border-color:#834f1c;
+}
+
 .bottom-menu {
     padding: 36px 0;
     position: relative;
@@ -3206,7 +3212,7 @@ section.error-404 {
 
 .greenlink:hover {
     text-decoration: none;
-    color: #834f1c;
+    color: #834f1c !important;
 }
 
 .bottom-menu__menu {
