@@ -336,12 +336,12 @@
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 order-md-second order-sm-second order-second">
-                    <img src="images/prod.png"/>
+                    <img src="images/ekonom.png"/>
                 </div>
             </div>
             <div class="row products__item">
                 <div class="col-xl-6 col-lg-6 col-md-6 order-lg-first order-md-second order-sm-second order-second">
-                    <img src="images/prod.png"/>
+                    <img src="images/balans.png"/>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 order-md-first order-sm-first order-first">
                     <div class="products__item__info">
@@ -370,12 +370,12 @@
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 order-md-second  order-sm-second order-second">
-                    <img src="images/prod.png"/>
+                    <img src="images/sytniy.png"/>
                 </div>
             </div>
             <div class="row products__item">
                 <div class="col-xl-6 col-lg-6 col-md-6  order-lg-first order-md-second  order-sm-second order-second">
-                    <img src="images/prod.png"/>
+                    <img src="images/sytniy-pro.png"/>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 order-md-first order-sm-first order-first">
                     <div class="products__item__info">
