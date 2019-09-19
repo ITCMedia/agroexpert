@@ -4247,8 +4247,9 @@ input.search:hover {
 .del__block {
     position: absolute;
     top: 10px;
-    right: -17px;
+    right: -23px;
     font-size: 16px;
+    letter-spacing: 0;
     font-family: "MullerRegular";
     text-transform: none;
 }
@@ -4411,7 +4412,7 @@ input.search:hover {
 
 }
 
-.product-list-content__block col-9{
+.product-list-content__block .col-9{
     padding-left: 0;
 }
 
@@ -4443,7 +4444,7 @@ input.search:hover {
 
 }
 .product-list >.row>.col-7 {
-    margin-left: -35px;
+    margin-left: -27px;
     margin-top: -5px;
 }
 
@@ -4453,12 +4454,16 @@ input.search:hover {
     position: relative;
     padding-right: 65px;
     line-height: 32px;
+    letter-spacing: 1px;
+
 }
 
 .product-description {
-    font-size: 18px;
-    line-height: 28px;
-    font-family: MullerMedium;
+    font-size: 14px;
+    line-height: 25px;
+    font-family: MullerRegular;
+    letter-spacing: 1px;
+    margin-top: 16px;
 }
 
 .product-description ul {
