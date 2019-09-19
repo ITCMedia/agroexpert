@@ -310,7 +310,6 @@ table {
 .mb-1 {
     margin-bottom: 10px !important;
 }
-
 .mb-h-2 {
     margin-bottom: 15px !important;
 }
@@ -642,10 +641,9 @@ table {
 
 .requisites-body hr {
     margin: 42px -45px 0;
-    color: #ebe5df;
+    color:  #ebe5df;
 }
-
-.requisites-body a {
+.requisites-body a{
     justify-content: center;
     text-decoration: none;
     text-align: center;
@@ -654,35 +652,32 @@ table {
     margin: 0;
 
 }
-
-.requisites-body p.greenlink {
+.requisites-body p.greenlink{
     margin: -2px;
     color: #52bc2e;
     font-size: 15px;
     padding: 0;
 
 }
-
-.buttonDownload, .buttonPrint {
+.buttonDownload, .buttonPrint{
     padding: 20px 33px;
     justify-content: center;
 
 }
-
-.buttonDownload {
+.buttonDownload{
     border-right: 1px solid #ebe5df;
 }
 
 .buttonDownload .buttondownload {
-    width: 21px;
+    width:21px;
     height: 21px;
     background: url("../images/btnpdf.png") center center no-repeat;
     margin-right: -7px;
 }
 
 .buttonPrint .buttonprint {
-    width: 21px;
-    height: 21px;
+    width:21px;
+    height:21px;
     background: url("../images/btnprint.png") center center no-repeat;
     margin-right: -7px;
 }
@@ -723,11 +718,9 @@ table {
     padding: 0 45px;
     margin-bottom: 40px;
 }
-
-.requisites .requisites-body {
+.requisites .requisites-body{
     margin-bottom: 0;
 }
-
 .requisites p,
 .right-information-block p {
     color: #212121;
@@ -1074,12 +1067,10 @@ input[type="color"]:focus,
     display: inline-flex;
     margin-top: 40px;
 }
-
 .form-row.submit {
     margin-top: 22px;
     margin-left: 0;
 }
-
 .auth-form__modal .registration-info-buttons__block {
     display: inline-block;
     vertical-align: bottom;
@@ -1323,6 +1314,7 @@ i.statup-icon {
 
 .infographic-item i {
     width: 100%;
+    margin-bottom: 10px;
 }
 
 .infographic-item .headphones-icon:before {
@@ -1450,7 +1442,7 @@ i.statup-icon {
     padding-bottom: 120px;
 }
 
-.feedback-form mb-h-3 > label {
+.feedback-form mb-h-3 > label{
     margin-bottom: 5px;
 }
 
@@ -1554,10 +1546,12 @@ i.statup-icon {
     background: url(../images/main-combaine-fon.png) no-repeat 130% -191px;
 }
 
-.main-page .container {
-    margin-top: 47px;
+.main-page .container{
+    margin-top: 46px;
 }
-
+.main-page .container row col-6{
+    margin-left: 17px;
+}
 .top-menu__menu {
     overflow: hidden;
     margin-top: 23px;
@@ -1613,6 +1607,7 @@ i.statup-icon {
     margin-right: 8px;
     border: 0;
     width: 148px;
+    transition: all 2s linear;
 }
 
 .recipe-btn {
@@ -1657,8 +1652,17 @@ i.statup-icon {
     background: url("../images/recipe-ico.png");
 }
 
+.recipe-btn:hover {
+    background-color: #0FDB0F;
+
+}
+
 .ration-btn:before {
     background: url('../images/ration-ico.png');
+}
+
+.ration-btn:hover, slider__button__left:hover, to-buy__plash__button:hover, to-buy__plash:hover {
+    border-bottom-color:#834f1c;
 }
 
 .main-page-left__block .description {
@@ -2292,20 +2296,22 @@ section.error-404 {
     line-height: 20px;
 }
 
-.zavod__info__item p:nth-child(1):hover {
-    line-height: 0.1;
-    margin-bottom: 33px;
-}
 
 .zavod__info__item p:nth-child(1) span {
     display: block;
     font-size: 53px;
     line-height: 1;
 }
+/*.zavod__info__item p:nth-child(1):hover {*/
+/*    line-height: 0.1;*/
+/*    margin-bottom: 33px;*/
+/*}*/
 
-.zavod__info__item p:nth-child(1):hover span {
-    font-size: 88px;
-}
+
+/*.zavod__info__item p:nth-child(1):hover span {*/
+/*    font-size: 88px;*/
+/*}*/
+
 
 .about__wrap {
     background-image: url(../images/zerno1.png);
@@ -5383,9 +5389,6 @@ table.collapse.show ~ .btn-readmore:after {
 
     .discount__item3 {
         background: none;
-    }
-
-    .discount__item3 img {
         margin-top: -6px;
     }
 
