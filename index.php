@@ -344,7 +344,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-4 offset-1  order-lg-first order-md-second order-sm-second order-second">
                     <img src="images/balans.png"/>
                 </div>
-                <div class="col-xl-7 col-lg-7 col-md-7 order-md-first order-sm-first order-first">
+                <div class="col-xl-7 col-lg-7 col-md-7 ml-mh order-md-first order-sm-first order-first">
                     <div class="products__item__info">
                         <p>Линейка кормов</p>
                         <p><a class="titles" href="">Баланс</a> <span>от <span>12</span> руб.</span></p>
@@ -356,7 +356,7 @@
                 </div>
             </div>
             <div class="row products__item">
-                <div class="col-xl-7 col-lg-7 col-md-7 ml-mh order-md-first order-sm-first order-first">
+                <div class="col-xl-7 col-lg-7 col-md-7  order-md-first order-sm-first order-first">
                     <div class="products__item__info">
                         <p>Линейка кормов</p>
                         <p><a class="titles" href="">Сытный</a> <span>от <span>12</span> руб.</span></p>
