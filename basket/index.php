@@ -36,7 +36,7 @@
         <div class="row">
             <h1>Корзина</h1>
         </div>
-        <div class="row">
+        <div class="row mt-h-2">
             <div class="col-md-12">
                 <div class="row">
                     <div class="col-9">
@@ -51,7 +51,7 @@
                                     <div class="product-title uppercase">
                                         Комбикорм для КРС «Баланс» КК-60
                                         <div class="del__block">
-                                            <a class="">Удалить</a>
+                                            <a href="">Удалить</a>
                                         </div>
                                     </div>
                                     <div class="product-description">
@@ -139,7 +139,7 @@
                                     <div class="product-title uppercase">
                                         Комбикорм для КРС «Баланс» КК-60
                                         <div class="del__block">
-                                            <a class="">Удалить</a>
+                                            <a href="">Удалить</a>
                                         </div>
                                     </div>
                                     <div class="product-description">
@@ -227,7 +227,7 @@
                                     <div class="product-title uppercase">
                                         Комбикорм для КРС «Баланс» КК-60
                                         <div class="del__block">
-                                            <a class="">Удалить</a>
+                                            <a href="">Удалить</a>
                                         </div>
                                     </div>
                                     <div class="product-description">
@@ -315,7 +315,7 @@
                                     <div class="product-title uppercase">
                                         Комбикорм для КРС «Баланс» КК-60
                                         <div class="del__block">
-                                            <a class="">Удалить</a>
+                                            <a href="">Удалить</a>
                                         </div>
                                     </div>
                                     <div class="product-description">

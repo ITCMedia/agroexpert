@@ -275,6 +275,10 @@ table {
     margin-top: 20px !important;
 }
 
+.mt-h-3 {
+    margin-top: 25px !important;
+}
+
 .mt-3 {
     margin-top: 30px !important;
 }
@@ -2574,7 +2578,7 @@ section.error-404 {
     margin-bottom: 20px;
 }
 
-.products__item__info p:nth-child(2) {
+.products__item__info a.titles {
     text-transform: uppercase;
     font-family: 'MullerExtraBold';
     font-size: 36px;
@@ -2607,13 +2611,19 @@ section.error-404 {
     line-height: 24px;
 }
 
-.products__item__info a {
+.products__item__info a:last-child {
     color: #52bc2e;
     background-image: url(../images/t.png);
     background-repeat: no-repeat;
     background-position: right center;
     padding-right: 16px;
     font-size: 16px;
+}
+
+.products__item__info p+a:hover{
+    background-image: url(../images/tb.png);
+    background-repeat: no-repeat;
+    background-position: right center;
 }
 
 .products__bottom p {
@@ -4236,15 +4246,18 @@ input.search:hover {
 
 .del__block {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 10px;
+    right: -17px;
     font-size: 16px;
     font-family: "MullerRegular";
     text-transform: none;
 }
 
-.del__block a {
+.del__block a:hover {
     cursor: pointer;
+    text-decoration: none;
+    color: #834f1c;
+
 }
 
 .pills-personnel .media-body a {
@@ -4394,8 +4407,12 @@ input.search:hover {
 }
 
 /*************/
-.product-list-content__block .img__block {
+.product-list-content__block .img__block{
 
+}
+
+.product-list-content__block col-9{
+    padding-left: 0;
 }
 
 .product-view__title {
@@ -4421,6 +4438,13 @@ input.search:hover {
     box-shadow: 0px 40px 25px -30px rgba(180, 150, 121, 0.7);
     padding: 5px;
     border-radius: 5px;
+    width: 200px;
+    height: 279px;
+
+}
+.product-list >.row>.col-7 {
+    margin-left: -35px;
+    margin-top: -5px;
 }
 
 .product-list-content__block .product-title {
@@ -4428,6 +4452,7 @@ input.search:hover {
     font-family: "MullerBold";
     position: relative;
     padding-right: 65px;
+    line-height: 32px;
 }
 
 .product-description {
