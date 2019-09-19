@@ -1578,7 +1578,7 @@ i.statup-icon {
 
 }
 
-.main-page-left__block play:hover.pre-title:after {
+.main-page-left__block .pre-title:hover:after {
     background: url(../images/vidhover.png);
 }
 
