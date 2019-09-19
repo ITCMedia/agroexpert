@@ -1607,7 +1607,7 @@ i.statup-icon {
     margin-right: 8px;
     border: 0;
     width: 148px;
-    transition: all 2s linear;
+    transition: all 0.5s;
 }
 
 .recipe-btn {
@@ -3472,6 +3472,10 @@ section.error-404 {
     border: 1px solid #ddcfc0;
     background-color: #fff;
     color: #834f1c;
+}
+
+.lider__button__left:hover, to-buy__plash__button:hover,ration-btn:hover{
+    border-color: #834f1c;
 }
 
 .slider__button__right {
