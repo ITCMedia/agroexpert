@@ -12,13 +12,14 @@
 </head>
 <body class="main-page">
 <? require(__DIR__ . '/header.php'); ?>
+
 <div class="top__wrap parallax-container" data-parallax="scroll" data-bleed="10" data-speed="0.2"
      data-image-src="./images/hbg.png" data-natural-width="1440" data-natural-height="1492">
     <section class="main-page-left__block">
         <div class="container">
             <div class="row">
                 <div class="col-6">
-                    <p class="pre-title">Комбикормовый завод<br>«Агро-эксперт»</p>
+                    <<a cclass="pre-title play" data-fancybox href = "https://www.youtube.com/watch?v=myt98f3vhWQ">>Комбикормовый завод<br>«Агро-эксперт»</a>
                     <h1 class="title">Производство продажа комбикормов</h1>
                     <p class="description">Для всех видов сельскохозяйственных <br> животных и птицы </p>
                     <div class="calculate__block">
@@ -326,7 +327,7 @@
                 <div class="col-xl-6 col-lg-6 col-md-6 order-md-first order-sm-first order-first">
                     <div class="products__item__info">
                         <p>Линейка кормов</p>
-                        <p><a class="greenlink" href="">Эконом</a> <span>от <span>13,5</span> руб.</span></p>
+                        <p><a class="titles" href="">Эконом</a> <span>от <span>13,5</span> руб.</span></p>
                         <p>Недорогой универсальный комбикорм на замену зерносмеси, зерна и отрубей. Состав небогатый, но
                             сбалансированный и доступный по цене. Популярные виды кормов в этой линейке: "КРС эконом"
                             (КК-65), "Свинья эконом (СК-8), "Несушка эконом” (ПК 1-2) и “Кролик эконом” (КК-90/2). Корм
@@ -345,7 +346,7 @@
                 <div class="col-xl-6 col-lg-6 col-md-6 order-md-first order-sm-first order-first">
                     <div class="products__item__info">
                         <p>Линейка кормов</p>
-                        <p><a class="greenlink" href="">Баланс</a> <span>от <span>12</span> руб.</span></p>
+                        <p><a class="titles" href="">Баланс</a> <span>от <span>12</span> руб.</span></p>
                         <p>Максимальный вкус мяса без химии (строго по ГОСТ). Комбикорм для подсобных хозяйств, у
                             которых нет жестких сроков, чтобы получить вкусное и плотное мясо птицы или повысить
                             продуктивность КРС и ускорить набор веса у свиней. Комбикорм “Сытный” часто покупают фермы и
@@ -359,7 +360,7 @@
                 <div class="col-xl-6 col-lg-6 col-md-6 order-md-first order-sm-first order-first">
                     <div class="products__item__info">
                         <p>Линейка кормов</p>
-                        <p><a class="greenlink" href="">Сытный</a> <span>от <span>12</span> руб.</span></p>
+                        <p><a class="titles" href="">Сытный</a> <span>от <span>12</span> руб.</span></p>
                         <p>Максимальный вкус мяса без химии (строго по ГОСТ). Комбикорм для подсобных хозяйств, у
                             которых нет жестких сроков, чтобы получить вкусное и плотное мясо птицы или повысить
                             продуктивность КРС и ускорить набор веса у свиней. Комбикорм “Сытный” часто покупают фермы и
@@ -379,7 +380,7 @@
                 <div class="col-xl-6 col-lg-6 col-md-6 order-md-first order-sm-first order-first">
                     <div class="products__item__info">
                         <p>Линейка кормов</p>
-                        <p><a class="greenlink" href="">Сытный pro</a><span>от <span>13</span> руб.</span></p>
+                        <p><a class="titles" href="">Сытный pro</a><span>от <span>13</span> руб.</span></p>
                         <p>Максимальный вкус мяса без химии (строго по ГОСТ). Комбикорм для подсобных хозяйств, у
                             которых нет жестких сроков, чтобы получить вкусное и плотное мясо птицы или повысить
                             продуктивность КРС и ускорить набор веса у свиней. Комбикорм “Сытный” часто покупают фермы и

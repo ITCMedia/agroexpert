@@ -2256,7 +2256,7 @@ section.error-404 {
     background-image: url(../images/zavod_bg.png);
     background-repeat: no-repeat;
     background-position: center top;
-    background-size: cover;
+    background-size: 100% 102%;
     position: relative;
     margin-top: -100px;
 }
