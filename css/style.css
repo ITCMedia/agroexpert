@@ -2578,6 +2578,14 @@ section.error-404 {
     margin-bottom: 20px;
 }
 
+.products__item__info a.titles {
+    text-transform: uppercase;
+    font-family: 'MullerExtraBold';
+    font-size: 36px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
 .products__item__info a.titles:hover {
     text-transform: uppercase;
     font-family: 'MullerExtraBold';
@@ -2586,7 +2594,6 @@ section.error-404 {
     cursor: pointer;
     color: #52bc2e;
 }
-
 .products__item__info p:nth-child(2) > span {
     font-family: 'MullerRegular';
     font-size: 16px;
