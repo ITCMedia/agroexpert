@@ -2578,12 +2578,13 @@ section.error-404 {
     margin-bottom: 20px;
 }
 
-.products__item__info a.titles {
+.products__item__info a.titles:hover {
     text-transform: uppercase;
     font-family: 'MullerExtraBold';
     font-size: 36px;
     margin-bottom: 30px;
     cursor: pointer;
+    color: #52bc2e;
 }
 
 .products__item__info p:nth-child(2) > span {
@@ -2624,6 +2625,8 @@ section.error-404 {
     background-image: url(../images/tb.png);
     background-repeat: no-repeat;
     background-position: right center;
+    color: #834f1c;
+
 }
 
 .products__bottom p {
