@@ -486,7 +486,7 @@
                 <p class="to-buy__plash__left"><span>Где купить</span><br/> в розницу и<br/> мелким оптом</p>
             </div>
             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                <p class="to-buy__plash__center">Розничные покупатели могут купить комбикорм по цене производителя в <a class="greenlink"
+                <p class="to-buy__plash__center">Розничные покупатели могут купить комбикорм по цене производителя в <a
                             href="#">фирменных магазинах</a> и на заводе.
                     Телефон горячей линии: <a href="tel:+78002503795">8 (800) 250 37 95</a></p>
             </div>

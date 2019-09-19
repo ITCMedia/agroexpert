@@ -1578,6 +1578,10 @@ i.statup-icon {
 
 }
 
+.main-page-left__block play:hover.pre-title:after {
+    background: url(../images/vidhover.png);
+}
+
 .main-page-left__block {
     margin-bottom: 121px;
 }
