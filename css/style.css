@@ -2549,7 +2549,7 @@ section.error-404 {
 }
 
 .ml-mh{
-    margin-left: -64px;
+    margin-left: -91px;
 }
 
 .products__item {
@@ -2858,9 +2858,11 @@ section.error-404 {
     background-size: cover;
 }
 .to-buy .container{
-    padding: 0 37px;
+    padding: 0 55px;
 }
-
+.to-buy__head{
+    padding: 0;
+}
 .to-buy__head p {
     text-transform: uppercase;
     font-size: 11px;
@@ -2893,7 +2895,7 @@ section.error-404 {
 }
 
 .to-buy__plash {
-    padding: 17px 27px;
+    padding: 25px 29px;
     background-color: #fff;
     border: 1px solid #ebe5df;
     margin-top: 32px;
@@ -2902,6 +2904,13 @@ section.error-404 {
     background-image: url(../images/angle.png);
     background-repeat: no-repeat;
     background-position: 215px center;
+}
+
+.to-buy__plash__center {
+    padding-left: 29px;
+    padding-top: 4px;
+    font-size: 14px;
+    line-height: 24px;
 }
 
 .to-buy__plash__left {

@@ -376,7 +376,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-4 offset-1   order-lg-first order-md-second  order-sm-second order-second">
                     <img src="images/sytniy-pro.png"/>
                 </div>
-                <div class="col-xl-7 col-lg-7 col-md-7 order-md-first order-sm-first order-first">
+                <div class="col-xl-7 col-lg-7 col-md-7 ml-mh order-md-first order-sm-first order-first">
                     <div class="products__item__info">
                         <p>Линейка кормов</p>
                         <p><a class="titles" href="">Сытный pro</a><span>от <span>13</span> руб.</span></p>
@@ -456,9 +456,9 @@
 <section class="to-buy">
     <div class="container">
         <div class="row">
-            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+            <div class="to-buy__head  col-xl-6 col-lg-6 col-md-6 col-sm-6">
                 <div class="to-buy__head">
-                    <p>Точки продаж</p>
+                    <p>Купить оптом, мелким оптом и в розницу</p>
                     <h2>Где купить</h2>
                 </div>
             </div>
@@ -472,26 +472,26 @@
                 <p class="to-buy__plash__left"><span>Как купить</span><br/> оптом</p>
             </div>
             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                <p class="to-buy__plash__center">Напишите нам: <a
-                            href="mailto:info@agroexpert2007">info@agroexpert2007</a> или позвоните по тел.:<br/>
-                    <a href="tel:+74935147371">8 (49351) 47-3-71</a>. Мы подготовим для вас индивидуальное коммерческое
-                    предложение в течение 1 дня</p>
+                <p class="to-buy__plash__center greenlink">Напишите нам: <a
+                             href="mailto:info@agroexpert2007">info@agroexpert2007</a>, позвоните нам по тел.:<br/>
+                    <a href="tel:+74935147371">8 (49351) 47-3-71</a> или <a class="greenlink" href="">закажите через сайт</a>. Мы подготовим для вас индивидуальное коммерческое
+                    предложение.</p>
             </div>
-            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
-                <button class="to-buy__plash__button" popup-target="usagr-pp">Написать нам</button>
+            <div class=" pl-5 col-xl-3 col-lg-3 col-md-3 col-sm-12">
+                <button class="to-buy__plash__button" popup-target="usagr-pp">оформить заказ</button>
             </div>
         </div>
         <div class="row to-buy__plash">
             <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
-                <p class="to-buy__plash__left"><span>Где купить</span><br/> в розницу</p>
+                <p class="to-buy__plash__left"><span>Где купить</span><br/> в розницу и мелким оптом</p>
             </div>
             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
                 <p class="to-buy__plash__center">Розничные покупатели могут купить комбикорм по цене производителя в <a
                             href="#">фирменных магазинах</a> и на заводе.
                     Телефон горячей линии: <a href="tel:+78002503795">8 (800) 250 37 95</a></p>
             </div>
-            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
-                <button class="to-buy__plash__button">Все магазины</button>
+            <div class="pl-5 col-xl-3 col-lg-3 col-md-3 col-sm-12">
+                <button class="to-buy__plash__button" popup-target="usagr-pp">Все магазины</button>
             </div>
         </div>
     </div>
