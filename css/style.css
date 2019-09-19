@@ -2946,7 +2946,8 @@ section.error-404 {
 
 
 .to-buy__plash__center a[href^='#'] {
-    color: #834f1c;
+    color: #52bc2e;
+    text-decoration: none;
 }
 
 .to-buy__plash__center a[href^='tel'] {
