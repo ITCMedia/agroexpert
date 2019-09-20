@@ -3160,10 +3160,13 @@ background: linear-gradient(to top, rgba(251,249,247,0.5), rgba(255, 255, 255, 0
     position: absolute;
     top: 50%;
     margin-top: -29px;
+    text-align: center;
 }
 
 .to-buy .to-buy__plash__button:hover {
     border-color:#834f1c;
+    color: #834f1c;
+    text-decoration: none;
 }
 
 .bottom-menu {

@@ -478,7 +478,7 @@
                     предложение.</p>
             </div>
             <div class=" pl-5 col-xl-3 col-lg-3 col-md-3 col-sm-12">
-                <a class="to-buy__plash__button" >Оформить заказ</a>
+                <a href="#" class="to-buy__plash__button" >Оформить заказ</a>
             </div>
         </div>
         <div class="row to-buy__plash">
@@ -491,7 +491,7 @@
                     Телефон горячей линии: <a href="tel:+78002503795">8 (800) 250 37 95</a></p>
             </div>
             <div class="pl-5 col-xl-3 col-lg-3 col-md-3 col-sm-12">
-                <a class="to-buy__plash__button" >Все магазины</a>
+                <a href="#" class="to-buy__plash__button" >Все магазины</a>
             </div>
         </div>
     </div>
