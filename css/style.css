@@ -1252,6 +1252,7 @@ input[type="color"]:focus,
     padding: 40px 35px;
     border: none;
     height: 527px;
+    transition:0.2s all ;
 }
 .infographic-item:hover {
    transform: scale(1.1 , 1.1);
