@@ -2574,9 +2574,11 @@ background: linear-gradient(to top, rgba(251,249,247,0.5), rgba(255, 255, 255, 0
 }
 
 .products__item img {
-    margin-top: 87px;
-    width: 80%;
+    margin-top: 90px;
+    margin-left: -22px;
+    width: 76%;
     transition: 0.2s all linear;
+
 
 }
 
@@ -2601,9 +2603,14 @@ background: linear-gradient(to top, rgba(251,249,247,0.5), rgba(255, 255, 255, 0
     background-repeat: no-repeat;
     box-sizing: content-box;
     background-position: left center;
-    background-size: 39% 89%;
-    padding-left: 68px;
-    margin-top: -9px;
+    background-size: 39% 82%;
+    margin-left: -16px;
+    margin-top: 16px;
+}
+
+.products__item:nth-child(3) > div > img{
+    width: 69%;
+
 }
 
 .products__item:nth-child(even) {
