@@ -1255,20 +1255,26 @@ input[type="color"]:focus,
 }
 
 .us-advantages .infographic-item {
-    height: 282px;
+    height: 310px;
     margin: 0 26px;
 }
 
 
 
-i.timer-icon, i.headphones-icon {
-    margin-bottom: 38px;
-    margin-left: -11px;
+.infographic-item i.timer-icon{
+    margin-bottom: 33px;
+    margin-top: -2px;
 }
 
-i.fast-truck-icon {
-    margin-bottom: 39px;
-    margin-top: 16px;
+.infographic-item  i.headphones-icon{
+    margin-bottom: 30px;
+    margin-left: -11px;
+    margin-top: -4px;
+}
+
+.infographic-item  i.fast-truck-icon {
+    margin-bottom: 41px;
+    margin-top: 7px;
 }
 
 i.heartbeat-icon {
@@ -3502,7 +3508,7 @@ section.error-404 {
 .slider__button {
     overflow: hidden;
     width: 412px;
-    margin: 71px auto 0 auto;
+    margin: 62px auto 0 auto;
     padding-bottom: 26px;
     padding-left: 7px;
 }

@@ -260,7 +260,7 @@
         </div>
         <div class="row no-gutters us-advantages mt-10">
             <h2>Наши преимущества</h2>
-            <div class="card-deck infographic__block mt-7">
+            <div class="card-deck infographic__block mt-5">
                 <div class="card w-30 infographic-item down-shadow__block">
                     <i class="timer-icon"></i>
                     <p class="title">
@@ -478,7 +478,7 @@
                     предложение.</p>
             </div>
             <div class=" pl-5 col-xl-3 col-lg-3 col-md-3 col-sm-12">
-                <button class="to-buy__plash__button" popup-target="usagr-pp">Оформить заказ</button>
+                <button class="to-buy__plash__button" >Оформить заказ</button>
             </div>
         </div>
         <div class="row to-buy__plash">
@@ -487,11 +487,11 @@
             </div>
             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
                 <p class="to-buy__plash__center">Розничные покупатели могут купить комбикорм по цене производителя в <a
-                            href="#">фирменных магазинах</a> и на заводе.
+                            class="greenlink" href="#">фирменных магазинах</a> и на заводе.
                     Телефон горячей линии: <a href="tel:+78002503795">8 (800) 250 37 95</a></p>
             </div>
             <div class="pl-5 col-xl-3 col-lg-3 col-md-3 col-sm-12">
-                <button class="to-buy__plash__button" popup-target="usagr-pp">Все магазины</button>
+                <button class="to-buy__plash__button" >Все магазины</button>
             </div>
         </div>
     </div>
