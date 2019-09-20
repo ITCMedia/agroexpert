@@ -1257,6 +1257,7 @@ input[type="color"]:focus,
 .us-advantages .infographic-item {
     height: 310px;
     margin: 0 26px;
+    background: linear-gradient(to bottom, #fbf9f7, rgba(255, 255, 255, 0));
 }
 
 
@@ -1264,6 +1265,7 @@ input[type="color"]:focus,
 .infographic-item i.timer-icon{
     margin-bottom: 33px;
     margin-top: -2px;
+    margin-left: -10px;
 }
 
 .infographic-item  i.headphones-icon{
