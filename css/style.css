@@ -2586,11 +2586,34 @@ background: linear-gradient(to top, rgba(251,249,247,0.5), rgba(255, 255, 255, 0
 .products-wrapper .container .row:nth-child(2){
    margin-top: 32px;
 }
-
-.products__item > div{
+.products__item:nth-child(odd) {
     background-image: url(../images/bgkolos.png);
     background-repeat: no-repeat;
+    box-sizing: content-box;
     background-position: left center;
+    background-size: 39% 89%;
+    padding-left: 68px;
+    margin-top: -9px;
+}
+
+.products__item:nth-child(even) {
+    background-image: url(../images/bgkolos.png);
+    background-repeat: no-repeat;
+    box-sizing: content-box;
+    background-position: left center;
+    background-size: 39% 89%;
+    padding-left: 68px;
+    margin-top: -9px;
+}
+
+.products__item:nth-child(even) {
+    background-image: url(../images/bgkolos.png);
+    background-repeat: no-repeat;
+    box-sizing: content-box;
+    background-position: right center;
+    background-size: 39% 89%;
+    margin-left: -104px;
+    margin-top: -15px;
 }
 
 .products__item__info {
