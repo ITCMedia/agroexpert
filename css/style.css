@@ -1283,10 +1283,9 @@ input[type="color"]:focus,
     margin-top: 7px;
 }
 
-i.heartbeat-icon {
+.infographic-item i.heartbeat-icon {
     margin-bottom: 21px;
 }
-
 i.handgears-icon {
     margin-bottom: 6px;
 }
@@ -2595,8 +2594,7 @@ background: linear-gradient(to top, rgba(251,249,247,0.5), rgba(255, 255, 255, 0
     background-position: left center;
     background-size: 39% 80%;
     margin-left: -16px;
-    /* padding-left: 2px; */
-    margin-top: 16px;
+    margin-top: -13px;
 }
 
 .products__item:nth-child(even) {
@@ -2605,15 +2603,17 @@ background: linear-gradient(to top, rgba(251,249,247,0.5), rgba(255, 255, 255, 0
     box-sizing: content-box;
     background-position: right center;
     background-size: 39% 80%;
-    margin-left: -85px;
-    margin-top: -15px;
+    margin-left: -17px;
+    margin-top: -37px;
 }
 
 .products__item:nth-child(3) > div > img{
     width: 69%;
 
 }
-
+.products .row.products__item:nth-child(5) {
+    margin-top: -70px;
+}
 .products__item:nth-child(even) {
     background-image: url(../images/bgkolos.png);
     background-repeat: no-repeat;
@@ -2703,7 +2703,7 @@ background: linear-gradient(to top, rgba(251,249,247,0.5), rgba(255, 255, 255, 0
     color: #be937c;
     letter-spacing: 4px;
     text-align: center;
-    margin-top: 60px;
+    margin-top: 76px;
 }
 
 .products__bottom p a {
