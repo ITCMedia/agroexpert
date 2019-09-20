@@ -2258,7 +2258,7 @@ section.error-404 {
 
 .zavod {
     padding: 101px 0 209px 0;
-    background-color: white;
+    /*background-color: white;*/
     background-image: url(../images/zavod_bg.png);
     background-repeat: no-repeat;
     background-position: center top;
@@ -2348,10 +2348,9 @@ section.error-404 {
     background-repeat: no-repeat;
     background-position: center top;
     position: relative;
-    -webkit-box-shadow: 0px 18px 18px 0px rgba(239, 229, 221, 1);
-    -moz-box-shadow: 0px 18px 18px 0px rgba(239, 229, 221, 1);
-    box-shadow: 0px 18px 18px 0px rgba(239, 229, 221, 1);
+    box-shadow: 12px 24px 10px rgba(239, 229, 221, .3);
     margin-top: -90px;
+    background-size: cover;
 }
 
 .about__plash p {
@@ -2377,7 +2376,7 @@ section.error-404 {
     padding-left: 108px;
     background-image: url(../images/grline.jpg);
     background-repeat: no-repeat;
-    background-position: left 25px;
+    background-position: 38px 25px;
     padding-right: 55px;
 }
 
