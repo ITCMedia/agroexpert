@@ -2593,19 +2593,20 @@ background: linear-gradient(to top, rgba(251,249,247,0.5), rgba(255, 255, 255, 0
     background-repeat: no-repeat;
     box-sizing: content-box;
     background-position: left center;
-    background-size: 39% 89%;
-    padding-left: 68px;
-    margin-top: -9px;
+    background-size: 39% 80%;
+    margin-left: -16px;
+    /* padding-left: 2px; */
+    margin-top: 16px;
 }
 
 .products__item:nth-child(even) {
     background-image: url(../images/bgkolos.png);
     background-repeat: no-repeat;
     box-sizing: content-box;
-    background-position: left center;
-    background-size: 39% 82%;
-    margin-left: -16px;
-    margin-top: 16px;
+    background-position: right center;
+    background-size: 39% 80%;
+    margin-left: -85px;
+    margin-top: -15px;
 }
 
 .products__item:nth-child(3) > div > img{
