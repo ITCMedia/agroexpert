@@ -1275,7 +1275,6 @@ input[type="color"]:focus,
 
 .infographic-item  i.headphones-icon{
     margin-bottom: 30px;
-    margin-left: -11px;
     margin-top: -4px;
 }
 
@@ -2572,7 +2571,12 @@ background: linear-gradient(to top, rgba(251,249,247,0.5), rgba(255, 255, 255, 0
 .products__item img {
     margin-top: 87px;
     width: 253px;
+    transition: 0.2s all linear;
 
+}
+
+.products__item img:hover {
+    transform: scale(1.1);
 }
 .products-wrapper .container .row:nth-child(2){
    margin-top: 32px;
