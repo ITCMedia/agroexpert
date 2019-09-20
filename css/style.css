@@ -1253,6 +1253,10 @@ input[type="color"]:focus,
     border: none;
     height: 527px;
 }
+.infographic-item:hover {
+   transform: scale(1.1 , 1.1);
+}
+
 
 .us-advantages .infographic-item {
     height: 310px;
