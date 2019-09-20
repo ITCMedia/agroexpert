@@ -2614,16 +2614,6 @@ background: linear-gradient(to top, rgba(251,249,247,0.5), rgba(255, 255, 255, 0
 .products .row.products__item:nth-child(5) {
     margin-top: -70px;
 }
-.products__item:nth-child(even) {
-    background-image: url(../images/bgkolos.png);
-    background-repeat: no-repeat;
-    box-sizing: content-box;
-    background-position: right center;
-    background-size: 39% 89%;
-    margin-left: -104px;
-    margin-top: -15px;
-}
-
 .products__item__info {
     padding-left: 65px;
     background-image: url(../images/grline.jpg);
