@@ -1579,21 +1579,24 @@ i.statup-icon {
 .main-page-left__block .pre-title:after {
     content: '';
     background: url(../images/video-ico.png);
-    width: 47px;
-    height: 36px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
+    height: 40px;
     display: inline-block;
     vertical-align: middle;
     margin-left: 20px;
     position: absolute;
     left: 174px;
     top: 11px;
-    transition: 0.2s all linear;
+    transition: 0.2s background-image ease-out;
 
 }
 
 .main-page-left__block .pre-title:hover:after {
-    background: url(../images/vidhover.png);
-    background-position: -1px center;
+    background-image: url(../images/vidhover.png);
+    background-position: center center;
+    background-size: 50px 40px;
 }
 
 .main-page-left__block {
@@ -2572,7 +2575,7 @@ background: linear-gradient(to top, rgba(251,249,247,0.5), rgba(255, 255, 255, 0
 
 .products__item img {
     margin-top: 87px;
-    width: 253px;
+    width: 80%;
     transition: 0.2s all linear;
 
 }
@@ -2643,7 +2646,6 @@ background: linear-gradient(to top, rgba(251,249,247,0.5), rgba(255, 255, 255, 0
 
 .products__item__info a:last-child {
     color: #52bc2e;
-    background-image: url(../images/t.png);
     background-repeat: no-repeat;
     background-position: right center;
     padding-right: 16px;
