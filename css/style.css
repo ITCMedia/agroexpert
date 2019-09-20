@@ -1587,11 +1587,13 @@ i.statup-icon {
     position: absolute;
     left: 174px;
     top: 11px;
+    transition: 0.2s all linear;
 
 }
 
 .main-page-left__block .pre-title:hover:after {
     background: url(../images/vidhover.png);
+    background-position: -1px center;
 }
 
 .main-page-left__block {
