@@ -2587,6 +2587,12 @@ background: linear-gradient(to top, rgba(251,249,247,0.5), rgba(255, 255, 255, 0
    margin-top: 32px;
 }
 
+.products__item > div{
+    background-image: url(../images/bgkolos.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
 .products__item__info {
     padding-left: 65px;
     background-image: url(../images/grline.jpg);
