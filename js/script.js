@@ -1,3 +1,5 @@
+console.log(1);
+
 function isEmailValid(emailAdress) {
     var EMAIL_REGEXP = new RegExp('^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$', 'i');
     return EMAIL_REGEXP.test(emailAdress)

@@ -44,7 +44,7 @@
                             <div class="row no-gutters">
                                 <div class="col-4">
                                     <div class="img__block">
-                                        <img src="/dev/images/product-1.jpg">
+                                        <img src="images/product-1.jpg">
                                     </div>
                                 </div>
                                 <div class="col-7">
@@ -132,7 +132,7 @@
                             <div class="row no-gutters">
                                 <div class="col-4">
                                     <div class="img__block">
-                                        <img src="/dev/images/product-2.jpg">
+                                        <img src="images/product-2.jpg">
                                     </div>
                                 </div>
                                 <div class="col-7">
@@ -220,7 +220,7 @@
                             <div class="row no-gutters">
                                 <div class="col-4">
                                     <div class="img__block">
-                                        <img src="/dev/images/product-1.jpg">
+                                        <img src="images/product-1.jpg">
                                     </div>
                                 </div>
                                 <div class="col-7">
@@ -308,7 +308,7 @@
                             <div class="row no-gutters">
                                 <div class="col-4">
                                     <div class="img__block">
-                                        <img src="/dev/images/product-1.jpg">
+                                        <img src="images/product-1.jpg">
                                     </div>
                                 </div>
                                 <div class="col-7">

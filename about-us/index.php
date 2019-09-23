@@ -245,49 +245,49 @@
                     <div class="slide-item col-12">
                         <div class="row no-gutters">
                             <div class="col-8 img-col">
-                                <img width="330" src="/dev/images/about-us-photo-1.png">
+                                <img width="330" src="images/about-us-photo-1.png">
                             </div>
                             <div class="col-4 no-gutters">
-                                <div class="col-12"><img width="165" src="/dev/images/about-us-photo-2.png"></div>
-                                <div class="col-12"><img width="165" src="/dev/images/about-us-photo-3.png"></div>
+                                <div class="col-12"><img width="165" src="images/about-us-photo-2.png"></div>
+                                <div class="col-12"><img width="165" src="images/about-us-photo-3.png"></div>
                             </div>
                         </div>
                         <div class="row bottom no-gutters">
-                            <div class="col-4 img-col"><img width="165" src="/dev/images/about-us-photo-4.png"></div>
-                            <div class="col-4 img-col"><img width="165"src="/dev/images/about-us-photo-1.png"></div>
-                            <div class="col-4"><img width="165" src="/dev/images/about-us-photo-2.png"></div>
+                            <div class="col-4 img-col"><img width="165" src="images/about-us-photo-4.png"></div>
+                            <div class="col-4 img-col"><img width="165"src="images/about-us-photo-1.png"></div>
+                            <div class="col-4"><img width="165" src="images/about-us-photo-2.png"></div>
                         </div>
                     </div>
                     <div class="slide-item col-12">
                         <div class="row no-gutters">
                             <div class="col-8 img-col">
-                                <img width="330" src="/dev/images/about-us-photo-1.png">
+                                <img width="330" src="images/about-us-photo-1.png">
                             </div>
                             <div class="col-4 no-gutters">
-                                <div class="col-12"><img width="165" src="/dev/images/about-us-photo-2.png"></div>
-                                <div class="col-12"><img width="165" src="/dev/images/about-us-photo-3.png"></div>
+                                <div class="col-12"><img width="165" src="images/about-us-photo-2.png"></div>
+                                <div class="col-12"><img width="165" src="images/about-us-photo-3.png"></div>
                             </div>
                         </div>
                         <div class="row bottom no-gutters">
-                            <div class="col-4 img-col"><img width="165" src="/dev/images/about-us-photo-4.png"></div>
-                            <div class="col-4 img-col"><img width="165"src="/dev/images/about-us-photo-1.png"></div>
-                            <div class="col-4"><img width="165" src="/dev/images/about-us-photo-2.png"></div>
+                            <div class="col-4 img-col"><img width="165" src="images/about-us-photo-4.png"></div>
+                            <div class="col-4 img-col"><img width="165"src="images/about-us-photo-1.png"></div>
+                            <div class="col-4"><img width="165" src="images/about-us-photo-2.png"></div>
                         </div>
                     </div>
                     <div class="slide-item col-12">
                         <div class="row no-gutters">
                             <div class="col-8 img-col">
-                                <img width="330" src="/dev/images/about-us-photo-1.png">
+                                <img width="330" src="images/about-us-photo-1.png">
                             </div>
                             <div class="col-4 no-gutters">
-                                <div class="col-12"><img width="165" src="/dev/images/about-us-photo-2.png"></div>
-                                <div class="col-12"><img width="165" src="/dev/images/about-us-photo-3.png"></div>
+                                <div class="col-12"><img width="165" src="images/about-us-photo-2.png"></div>
+                                <div class="col-12"><img width="165" src="images/about-us-photo-3.png"></div>
                             </div>
                         </div>
                         <div class="row bottom no-gutters">
-                            <div class="col-4 img-col"><img width="165" src="/dev/images/about-us-photo-4.png"></div>
-                            <div class="col-4 img-col"><img width="165"src="/dev/images/about-us-photo-1.png"></div>
-                            <div class="col-4"><img width="165" src="/dev/images/about-us-photo-2.png"></div>
+                            <div class="col-4 img-col"><img width="165" src="images/about-us-photo-4.png"></div>
+                            <div class="col-4 img-col"><img width="165"src="images/about-us-photo-1.png"></div>
+                            <div class="col-4"><img width="165" src="images/about-us-photo-2.png"></div>
                         </div>
                     </div>
                 </div>

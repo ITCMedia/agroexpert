@@ -57,18 +57,18 @@
                 <div id="carouselExampleControls" class="carousel slide" data-pause="true" data-wrap="false">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <a class="grouped_product_elements" rel="product-img-group" href="/dev/images/product-view-1.png">
-                                <img class="d-block" src="/dev/images/product-view-1.png" alt="First slide">
+                            <a class="grouped_product_elements" rel="product-img-group" href="images/product-view-1.png">
+                                <img class="d-block" src="images/product-view-1.png" alt="First slide">
                             </a>
                         </div>
                         <div class="carousel-item">
-                            <a class="grouped_product_elements" rel="product-img-group" href="/dev/images/product-view-2.png">
-                                <img class="d-block" src="/dev/images/product-view-2.png" alt="Second slide">
+                            <a class="grouped_product_elements" rel="product-img-group" href="images/product-view-2.png">
+                                <img class="d-block" src="images/product-view-2.png" alt="Second slide">
                             </a>
                         </div>
                         <div class="carousel-item">
-                            <a class="grouped_product_elements" rel="product-img-group" href="/dev/images/product-1.png">
-                                <img class="d-block" src="/dev/images/product-1.jpg" alt="Third slide">
+                            <a class="grouped_product_elements" rel="product-img-group" href="images/product-1.png">
+                                <img class="d-block" src="images/product-1.jpg" alt="Third slide">
                             </a>
                         </div>
                     </div>
@@ -277,7 +277,7 @@
                             <i class="fas fa-heart"></i>
                         </div>
                     </div>
-                    <img src="/dev/images/prod.png">
+                    <img src="images/prod.png">
                 </div>
                 <div class="product-section__name">для коров</div>
                 <div class="product__name">Сытный™ PRO КРС Удой Плюс - КК-60</div>
@@ -310,7 +310,7 @@
                             <i class="fas fa-heart"></i>
                         </div>
                     </div>
-                    <img src="/dev/images/prod.png">
+                    <img src="images/prod.png">
                 </div>
                 <div class="product-section__name">для коров</div>
                 <div class="product__name">Сытный™ PRO КРС Удой Плюс - КК-60</div>
@@ -343,7 +343,7 @@
                             <i class="fas fa-heart"></i>
                         </div>
                     </div>
-                    <img src="/dev/images/prod.png">
+                    <img src="images/prod.png">
                 </div>
                 <div class="product-section__name">для коров</div>
                 <div class="product__name">Сытный™ PRO КРС Удой Плюс - КК-60</div>
@@ -376,7 +376,7 @@
                             <i class="fas fa-heart"></i>
                         </div>
                     </div>
-                    <img src="/dev/images/prod.png">
+                    <img src="images/prod.png">
                 </div>
                 <div class="product-section__name">для коров</div>
                 <div class="product__name">Сытный™ PRO КРС Удой Плюс - КК-60</div>
@@ -409,7 +409,7 @@
                             <i class="fas fa-heart"></i>
                         </div>
                     </div>
-                    <img src="/dev/images/prod.png">
+                    <img src="images/prod.png">
                 </div>
                 <div class="product-section__name">для коров</div>
                 <div class="product__name">Сытный™ PRO КРС Удой Плюс - КК-60</div>
@@ -457,7 +457,7 @@
                         <i class="fas fa-heart"></i>
                     </div>
                 </div>
-                <img src="/dev/images/prod.png">
+                <img src="images/prod.png">
             </div>
             <div class="product-section__name">для коров</div>
             <div class="product__name">Сытный™ PRO КРС Удой Плюс - КК-60</div>
@@ -490,7 +490,7 @@
                             <i class="fas fa-heart"></i>
                         </div>
                     </div>
-                    <img src="/dev/images/prod.png">
+                    <img src="images/prod.png">
                 </div>
                 <div class="product-section__name">для коров</div>
                 <div class="product__name">Сытный™ PRO КРС Удой Плюс - КК-60</div>
@@ -523,7 +523,7 @@
                             <i class="fas fa-heart"></i>
                         </div>
                     </div>
-                    <img src="/dev/images/prod.png">
+                    <img src="images/prod.png">
                 </div>
                 <div class="product-section__name">для коров</div>
                 <div class="product__name">Сытный™ PRO КРС Удой Плюс - КК-60</div>
@@ -556,7 +556,7 @@
                             <i class="fas fa-heart"></i>
                         </div>
                     </div>
-                    <img src="/dev/images/prod.png">
+                    <img src="images/prod.png">
                 </div>
                 <div class="product-section__name">для коров</div>
                 <div class="product__name">Сытный™ PRO КРС Удой Плюс - КК-60</div>
@@ -589,7 +589,7 @@
                             <i class="fas fa-heart"></i>
                         </div>
                     </div>
-                    <img src="/dev/images/prod.png">
+                    <img src="images/prod.png">
                 </div>
                 <div class="product-section__name">для коров</div>
                 <div class="product__name">Сытный™ PRO КРС Удой Плюс - КК-60</div>
