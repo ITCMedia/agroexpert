@@ -314,6 +314,7 @@ table {
 .mb-1 {
     margin-bottom: 10px !important;
 }
+
 .mb-h-2 {
     margin-bottom: 15px !important;
 }
@@ -645,9 +646,10 @@ table {
 
 .requisites-body hr {
     margin: 42px -45px 0;
-    color:  #ebe5df;
+    color: #ebe5df;
 }
-.requisites-body a{
+
+.requisites-body a {
     justify-content: center;
     text-decoration: none;
     text-align: center;
@@ -656,32 +658,35 @@ table {
     margin: 0;
 
 }
-.requisites-body p.greenlink{
+
+.requisites-body p.greenlink {
     margin: -2px;
     color: #52bc2e;
     font-size: 15px;
     padding: 0;
 
 }
-.buttonDownload, .buttonPrint{
+
+.buttonDownload, .buttonPrint {
     padding: 20px 33px;
     justify-content: center;
 
 }
-.buttonDownload{
+
+.buttonDownload {
     border-right: 1px solid #ebe5df;
 }
 
 .buttonDownload .buttondownload {
-    width:21px;
+    width: 21px;
     height: 21px;
     background: url("../images/btnpdf.png") center center no-repeat;
     margin-right: -7px;
 }
 
 .buttonPrint .buttonprint {
-    width:21px;
-    height:21px;
+    width: 21px;
+    height: 21px;
     background: url("../images/btnprint.png") center center no-repeat;
     margin-right: -7px;
 }
@@ -722,9 +727,11 @@ table {
     padding: 0 45px;
     margin-bottom: 40px;
 }
-.requisites .requisites-body{
+
+.requisites .requisites-body {
     margin-bottom: 0;
 }
+
 .requisites p,
 .right-information-block p {
     color: #212121;
@@ -1071,10 +1078,12 @@ input[type="color"]:focus,
     display: inline-flex;
     margin-top: 40px;
 }
+
 .form-row.submit {
     margin-top: 22px;
     margin-left: 0;
 }
+
 .auth-form__modal .registration-info-buttons__block {
     display: inline-block;
     vertical-align: bottom;
@@ -1252,10 +1261,11 @@ input[type="color"]:focus,
     padding: 40px 35px;
     border: none;
     height: 527px;
-    transition:0.2s all ;
+    transition: 0.2s all;
 }
+
 .infographic-item:hover {
-   transform: scale(1.1 , 1.1);
+    transform: scale(1.1, 1.1);
 }
 
 
@@ -1266,19 +1276,18 @@ input[type="color"]:focus,
 }
 
 
-
-.infographic-item i.timer-icon{
+.infographic-item i.timer-icon {
     margin-bottom: 33px;
     margin-top: -2px;
     margin-left: -10px;
 }
 
-.infographic-item  i.headphones-icon{
+.infographic-item i.headphones-icon {
     margin-bottom: 30px;
     margin-top: -4px;
 }
 
-.infographic-item  i.fast-truck-icon {
+.infographic-item i.fast-truck-icon {
     margin-bottom: 41px;
     margin-top: 7px;
 }
@@ -1286,6 +1295,7 @@ input[type="color"]:focus,
 .infographic-item i.heartbeat-icon {
     margin-bottom: 21px;
 }
+
 i.handgears-icon {
     margin-bottom: 6px;
 }
@@ -1457,7 +1467,7 @@ i.statup-icon {
     padding-bottom: 120px;
 }
 
-.feedback-form mb-h-3 > label{
+.feedback-form mb-h-3 > label {
     margin-bottom: 5px;
 }
 
@@ -1561,12 +1571,14 @@ i.statup-icon {
     background: url(../images/main-combaine-fon.png) no-repeat 130% -191px;
 }
 
-.main-page .container{
+.main-page .container {
     margin-top: 46px;
 }
-.main-page .container row col-6{
+
+.main-page .container row col-6 {
     margin-left: 17px;
 }
+
 .top-menu__menu {
     overflow: hidden;
     margin-top: 23px;
@@ -1689,8 +1701,8 @@ i.statup-icon {
 .calculate__block button.ration-btn:hover,
 .calculate__block button.slider__button__left:hover,
 .calculate__block button.to-buy__plash__button:hover,
-.calculate__block button.to-buy__plash:hover , .slider__button__left:hover {
-    border-color:#834f1c;
+.calculate__block button.to-buy__plash:hover, .slider__button__left:hover {
+    border-color: #834f1c;
 }
 
 .main-page-left__block .description {
@@ -2205,7 +2217,7 @@ section.error-404 {
 
 .advantages {
     padding-bottom: 186px;
-background: linear-gradient(to top, rgba(251,249,247,0.5), rgba(255, 255, 255, 0)), url(../images/kolosok.png) no-repeat center 300px
+    background: linear-gradient(to top, rgba(251, 249, 247, 0.5), rgba(255, 255, 255, 0)), url(../images/kolosok.png) no-repeat center 300px
 }
 
 .advantages__head {
@@ -2323,6 +2335,7 @@ background: linear-gradient(to top, rgba(251,249,247,0.5), rgba(255, 255, 255, 0
     font-size: 53px;
     line-height: 1;
 }
+
 /*.zavod__info__item p:nth-child(1):hover {*/
 /*    line-height: 0.1;*/
 /*    margin-bottom: 33px;*/
@@ -2442,7 +2455,7 @@ background: linear-gradient(to top, rgba(251,249,247,0.5), rgba(255, 255, 255, 0
     margin-top: 50px;
 }
 
-.products-wrapper .container{
+.products-wrapper .container {
     padding-left: 34px;
 }
 
@@ -2564,7 +2577,7 @@ background: linear-gradient(to top, rgba(251,249,247,0.5), rgba(255, 255, 255, 0
     font-size: 15px;
 }
 
-.ml-mh{
+.ml-mh {
     margin-left: -91px;
 }
 
@@ -2584,9 +2597,11 @@ background: linear-gradient(to top, rgba(251,249,247,0.5), rgba(255, 255, 255, 0
 .products__item img:hover {
     transform: scale(1.1);
 }
-.products-wrapper .container .row:nth-child(2){
-   margin-top: 32px;
+
+.products-wrapper .container .row:nth-child(2) {
+    margin-top: 32px;
 }
+
 .products__item:nth-child(odd) {
     background-image: url(../images/bgkolos.png);
     background-repeat: no-repeat;
@@ -2607,13 +2622,26 @@ background: linear-gradient(to top, rgba(251,249,247,0.5), rgba(255, 255, 255, 0
     margin-top: -35px;
 }
 
-.products__item:nth-child(3) > div > img{
+.accordionprod {
+    color: #52bc2e;
+    font-family: "MullerBold";
+    font-size: 22px;
+}
+
+.accordionprod:after {
+    font-family: "Font Awesome 5 Free";
+    content: "›";
+}
+
+.products__item:nth-child(3) > div > img {
     width: 69%;
 
 }
+
 .products .row.products__item:nth-child(5) {
     margin-top: -70px;
 }
+
 .products__item__info {
     padding-left: 65px;
     background-image: url(../images/grline.jpg);
@@ -2645,6 +2673,7 @@ background: linear-gradient(to top, rgba(251,249,247,0.5), rgba(255, 255, 255, 0
     cursor: pointer;
     color: #52bc2e;
 }
+
 .products__item__info p:nth-child(2) > span {
     font-family: 'MullerRegular';
     font-size: 16px;
@@ -2679,7 +2708,7 @@ background: linear-gradient(to top, rgba(251,249,247,0.5), rgba(255, 255, 255, 0
     font-size: 16px;
 }
 
-.products__item__info p+a:hover{
+.products__item__info p + a:hover {
     background-image: url(../images/tb.png);
     background-repeat: no-repeat;
     background-position: right center;
@@ -2905,12 +2934,15 @@ background: linear-gradient(to top, rgba(251,249,247,0.5), rgba(255, 255, 255, 0
     background-repeat: no-repeat;
     background-size: cover;
 }
-.to-buy .container{
+
+.to-buy .container {
     padding: 0 55px;
 }
-.to-buy__head{
+
+.to-buy__head {
     padding: 0;
 }
+
 .to-buy__head p {
     text-transform: uppercase;
     font-size: 11px;
@@ -2972,6 +3004,7 @@ background: linear-gradient(to top, rgba(251,249,247,0.5), rgba(255, 255, 255, 0
     font-size: 20px;
 
 }
+
 .to-buy__plash__left span {
     font-size: 24px;
     font-family: 'MullerRegular';
@@ -3199,7 +3232,7 @@ background: linear-gradient(to top, rgba(251,249,247,0.5), rgba(255, 255, 255, 0
 }
 
 .to-buy .to-buy__plash__button:hover {
-    border-color:#834f1c;
+    border-color: #834f1c;
     color: #834f1c;
     text-decoration: none;
 }
@@ -3574,7 +3607,7 @@ background: linear-gradient(to top, rgba(251,249,247,0.5), rgba(255, 255, 255, 0
     color: #834f1c;
 }
 
-.lider__button__left:hover, to-buy__plash__button:hover,ration-btn:hover{
+.lider__button__left:hover, to-buy__plash__button:hover, ration-btn:hover {
     border-color: #834f1c;
 }
 
@@ -4498,11 +4531,11 @@ input.search:hover {
 }
 
 /*************/
-.product-list-content__block .img__block{
+.product-list-content__block .img__block {
 
 }
 
-.product-list-content__block .col-9{
+.product-list-content__block .col-9 {
     padding-left: 0;
 }
 
@@ -4533,7 +4566,8 @@ input.search:hover {
     height: 279px;
 
 }
-.product-list >.row>.col-7 {
+
+.product-list > .row > .col-7 {
     margin-left: -27px;
     margin-top: -5px;
 }
@@ -5346,6 +5380,9 @@ table.collapse.show ~ .btn-readmore:after {
 }
 
 @media (max-width: 991px) {
+    .to-buy__plash__center {
+        padding-left: 0px;
+    }
     .parallax-mirror {
         top: 0px !important;
     }
@@ -5436,6 +5473,10 @@ table.collapse.show ~ .btn-readmore:after {
 }
 
 @media (max-width: 800px) {
+    .main-page {
+        background: none;
+    }
+
     .discount__form {
         width: 620px;
         padding: 50px 60px;
@@ -5584,6 +5625,9 @@ table.collapse.show ~ .btn-readmore:after {
 @media (max-width: 576px) {
     .zavod {
         margin-top: 0;
+        background-position: center -60px;
+        padding: 72px 0 220px 0;
+        background-size: 500% 100%;
     }
 
     .discount__item {
@@ -5674,6 +5718,14 @@ table.collapse.show ~ .btn-readmore:after {
         display: none;
     }
 
+    .to-buy__plash__left {
+        text-align: center;
+    }
+
+    .pl-5, .px-5 {
+        padding-left: 0 !important;
+    }
+
     .to-buy__head {
         text-align: center;
     }
@@ -5687,11 +5739,31 @@ table.collapse.show ~ .btn-readmore:after {
     .to-buy__plash {
         padding: 17px 10px;
     }
+
+    .card-deck .card {
+        margin-bottom: 60px;
+    }
 }
 
 @media (max-width: 480px) {
-    .products__item img {
+    .calculate__block button {
         width: 100%;
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .products__item img {
+        width: 80%;
+    }
+
+    .products__item > div {
+        margin-left: 0;
+    }
+
+    .row.products__item {
+        background-position: center bottom;
+        background-size: 100%;
+        margin-left: -15px;
     }
 
     .products__item__info {
@@ -5726,6 +5798,7 @@ table.collapse.show ~ .btn-readmore:after {
     .products__item__info {
         padding-left: 0;
         background-image: unset;
+        margin-left: -15px;
     }
 
     .zavod__info p:nth-child(2) {
@@ -5739,18 +5812,56 @@ table.collapse.show ~ .btn-readmore:after {
     .advantages__head h2 {
         font-size: 32px;
     }
-}
 
-@media (max-width: 420px) {
     .to-buy__plash__left {
+        padding: 0 27px;
         font-size: 24px;
+    }
+
+    .to-buy__plash__center {
+        padding-left: 0;
+        text-align: center;
     }
 }
 
 @media (max-width: 360px) {
+
+    .main-page-left__block h1.title {
+        font-size: 43px;
+        line-height: 47px;
+    }
+
+    .main-page-left__block {
+        margin-bottom: 50px;
+    }
+
+    .to-bottom {
+        top: -15px;
+    }
+
+
+    .infographic-item .title {
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    .infographic-item .description {
+        font-size: 12px;
+        line-height: 21px;
+    }
+
+    .us-advantages h2 {
+        font-size: 26px;
+        line-height: normal;
+    }
+
     .to-buy__info {
         padding-left: 50px;
         width: 250px;
+    }
+
+    .products__right {
+        background-position: left center;
     }
 
     .products__left h2 {

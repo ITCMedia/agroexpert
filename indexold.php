@@ -18,9 +18,8 @@
     <section class="main-page-left__block">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-6">
-                    <a class="pre-title play" data-fancybox href="https://www.youtube.com/watch?v=myt98f3vhWQ">Комбикормовый
-                        завод<br>«Агро-эксперт»</a>
+                <div class="col-6">
+                    <p class="pre-title">Комбикормовый завод<br>«Агро-эксперт»</p>
                     <h1 class="title">Производство продажа комбикормов</h1>
                     <p class="description">Для всех видов сельскохозяйственных <br> животных и птицы </p>
                     <div class="calculate__block">
@@ -86,7 +85,7 @@
                                 продукции
                             </p>
                             <div class="description">
-                                Если Вы заинтересованы в стабильности Вашего производственного процесса без рывков и
+                                Если Вы заинтересованы в стабильности Вашего производственного процессабез рывков и
                                 провалов, как по качеству продукции, так и по интенсивности поставок, обращайтесь к нам.
                                 Современные IT-технологии в производстве и отделе продаж, внедренные на нашем
                                 предприятии,
@@ -260,7 +259,7 @@
         </div>
         <div class="row no-gutters us-advantages mt-10">
             <h2>Наши преимущества</h2>
-            <div class="card-deck infographic__block mt-5">
+            <div class="card-deck infographic__block mt-7">
                 <div class="card w-30 infographic-item down-shadow__block">
                     <i class="timer-icon"></i>
                     <p class="title">
@@ -314,8 +313,6 @@
                         <p>Комбикорм бренда «КОРМЛИНА» разработан на основе достижений современной физиологии и биологии
                             животных без использования небелковыхф соединений, антибиотиков и других химических
                             добавок.</p>
-                        <hr>
-                        <a class="greenlink accordionprod" href="#">Развернуть </a>
                     </div>
                 </div>
                 <div class="col-xl-5 col-lg-5 col-md-5">
@@ -327,67 +324,69 @@
                 </div>
             </div>
             <div class="row products__item">
-                <div class="col-xl-7 col-lg-7 col-md-7 order-md-first order-sm-first order-first">
+                <div class="col-xl-6 col-lg-6 col-md-6 order-md-first order-sm-first order-first">
                     <div class="products__item__info">
                         <p>Линейка кормов</p>
-                        <p><a class="titles" href="">Эконом</a> <span>от <span>13,5</span> руб.</span></p>
+                        <p><a class="greenlink titles" href="">Эконом</a> <span>от <span>13,5</span> руб.</span></p>
                         <p>Недорогой универсальный комбикорм на замену зерносмеси, зерна и отрубей. Состав небогатый, но
                             сбалансированный и доступный по цене. Популярные виды кормов в этой линейке: "КРС эконом"
                             (КК-65), "Свинья эконом (СК-8), "Несушка эконом” (ПК 1-2) и “Кролик эконом” (КК-90/2). Корм
                             для кроликов иногда покупают, чтобы “почистить” кроликов от химии перед забоем.</p>
-                        <a class="greenlink" href="">Подробнее ›</a>
+                        <a class="greenlink" href="">Подробнее</a>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-4 col-md-4 offset-1  order-md-second order-sm-second order-second">
-                    <img src="images/ekonom.png"/>
+                <div class="col-xl-6 col-lg-6 col-md-6 order-md-second order-sm-second order-second">
+                    <img src="images/prod.png"/>
                 </div>
             </div>
             <div class="row products__item">
-                <div class="col-xl-4 col-lg-4 col-md-4 offset-1  order-lg-first order-md-second order-sm-second order-second">
-                    <img src="images/balans.png"/>
+                <div class="col-xl-6 col-lg-6 col-md-6 order-lg-first order-md-second order-sm-second order-second">
+                    <img src="images/prod.png"/>
                 </div>
-                <div class="col-xl-7 col-lg-7 col-md-7 ml-mh order-md-first order-sm-first order-first">
+                <div class="col-xl-6 col-lg-6 col-md-6 order-md-first order-sm-first order-first">
                     <div class="products__item__info">
                         <p>Линейка кормов</p>
-                        <p><a class="titles" href="">Баланс</a> <span>от <span>12</span> руб.</span></p>
-                        <p>Это самая ходовая и удачная линейка с точки зрения соотношения цены комбикорма к качеству.
-                            Комбикорм показывает хорошее усвоение и обеспечивает оптимальную отдачу по продуктивности.
-                            Линейка самая сбалансированная по составу и цене, отсюда и название – “Баланс”.</p>
-                        <a class="greenlink" href="">Подробнее ›</a>
-                    </div>
-                </div>
-            </div>
-            <div class="row products__item">
-                <div class="col-xl-7 col-lg-7 col-md-7  order-md-first order-sm-first order-first">
-                    <div class="products__item__info">
-                        <p>Линейка кормов</p>
-                        <p><a class="titles" href="">Сытный</a> <span>от <span>12</span> руб.</span></p>
+                        <p><a class="greenlink titles" href="">Баланс</a> <span>от <span>12</span> руб.</span></p>
                         <p>Максимальный вкус мяса без химии (строго по ГОСТ). Комбикорм для подсобных хозяйств, у
                             которых нет жестких сроков, чтобы получить вкусное и плотное мясо птицы или повысить
                             продуктивность КРС и ускорить набор веса у свиней. Комбикорм “Сытный” часто покупают фермы и
                             хозяйства, которые хотят вырастить в промышленных условиях птицу, свиней и КРС с домашним
                             вкусом мяса.</p>
-                        <a class="greenlink" href="">Подробнее ›</a>
+                        <a class="greenlink" href="">Подробнее</a>
                     </div>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-4 offset-1 order-md-second  order-sm-second order-second">
-                    <img src="images/sytniy.png"/>
                 </div>
             </div>
             <div class="row products__item">
-                <div class="col-xl-4 col-lg-4 col-md-4 offset-1   order-lg-first order-md-second  order-sm-second order-second">
-                    <img src="images/sytniy-pro.png"/>
-                </div>
-                <div class="col-xl-7 col-lg-7 col-md-7 ml-mh order-md-first order-sm-first order-first">
+                <div class="col-xl-6 col-lg-6 col-md-6 order-md-first order-sm-first order-first">
                     <div class="products__item__info">
                         <p>Линейка кормов</p>
-                        <p><a class="titles" href="">Сытный pro</a><span>от <span>13</span> руб.</span></p>
-                        <p>МКомбикорм для ферм и хозяйств, которым нужен результат за определенное время. Самый
-                            интенсивный и результативный корм в линейке, обеспечивающий полноценное питание животных и
-                            серьезно ускоряющий продуктивность. Комбикорм “Сытный PRO” активно покупают с 2015 года.
-                            Уверены, что мы сможем составить конкуренцию мировым брендам интенсивных профессиональных
-                            кормов по цене, которая значительно ниже импортных аналогов.</p>
-                        <a class="greenlink" href="">Подробнее ›</a>
+                        <p><a class="greenlink titles" href="">Сытный</a> <span>от <span>12</span> руб.</span></p>
+                        <p>Максимальный вкус мяса без химии (строго по ГОСТ). Комбикорм для подсобных хозяйств, у
+                            которых нет жестких сроков, чтобы получить вкусное и плотное мясо птицы или повысить
+                            продуктивность КРС и ускорить набор веса у свиней. Комбикорм “Сытный” часто покупают фермы и
+                            хозяйства, которые хотят вырастить в промышленных условиях птицу, свиней и КРС с домашним
+                            вкусом мяса.</p>
+                        <a class="greenlink" href="">Подробнее</a>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 order-md-second  order-sm-second order-second">
+                    <img src="images/prod.png"/>
+                </div>
+            </div>
+            <div class="row products__item">
+                <div class="col-xl-6 col-lg-6 col-md-6  order-lg-first order-md-second  order-sm-second order-second">
+                    <img src="images/prod.png"/>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 order-md-first order-sm-first order-first">
+                    <div class="products__item__info">
+                        <p>Линейка кормов</p>
+                        <p><a class="greenlink titles" href="">Сытный pro</a><span>от <span>13</span> руб.</span></p>
+                        <p>Максимальный вкус мяса без химии (строго по ГОСТ). Комбикорм для подсобных хозяйств, у
+                            которых нет жестких сроков, чтобы получить вкусное и плотное мясо птицы или повысить
+                            продуктивность КРС и ускорить набор веса у свиней. Комбикорм “Сытный” часто покупают фермы и
+                            хозяйства, которые хотят вырастить в промышленных условиях птицу, свиней и КРС с домашним
+                            вкусом мяса.</p>
+                        <a class="greenlink" href="">Подробнее</a>
                     </div>
                 </div>
             </div>
@@ -443,8 +442,7 @@
                         <input type="text" class="phone" placeholder="+7"/>
                         <button id="sendDiscount">Отправить заявку</button>
                         <div class="clear"></div>
-                        <p class="discount__form__checkbox" stat="check">Cогласен на обработку <a class="greenlink"
-                                                                                                  href="">персональных
+                        <p class="discount__form__checkbox" stat="check">Cогласен на обработку <a class="greenlink" href="">персональных
                                 данных</a> и с условиями <a class="greenlink" href="">оферты</a></p>
                         <p class="form-error"></p>
                     </form>
@@ -458,9 +456,9 @@
 <section class="to-buy">
     <div class="container">
         <div class="row">
-            <div class="to-buy__head  col-xl-6 col-lg-6 col-md-6 col-sm-6">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
                 <div class="to-buy__head">
-                    <p>Купить оптом, мелким оптом и в розницу</p>
+                    <p>Точки продаж</p>
                     <h2>Где купить</h2>
                 </div>
             </div>
@@ -474,26 +472,26 @@
                 <p class="to-buy__plash__left"><span>Как купить</span><br/> оптом</p>
             </div>
             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                <p class="to-buy__plash__center ">Напишите нам: <a
-                             class="greenlink" href="mailto:info@agroexpert2007">info@agroexpert2007</a>, позвоните нам по тел.:<br/>
-                    <a href="tel:+74935147371">8 (49351) 47-3-71</a> или <a class="greenlink" href="#">закажите через сайт</a>. Мы подготовим для вас индивидуальное коммерческое
-                    предложение.</p>
+                <p class="to-buy__plash__center">Напишите нам: <a
+                            href="mailto:info@agroexpert2007">info@agroexpert2007</a> или позвоните по тел.:<br/>
+                    <a href="tel:+74935147371">8 (49351) 47-3-71</a>. Мы подготовим для вас индивидуальное коммерческое
+                    предложение в течение 1 дня</p>
             </div>
-            <div class=" pl-5 col-xl-3 col-lg-3 col-md-3 col-sm-12">
-                <a href="#" class="to-buy__plash__button" >Оформить заказ</a>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+                <button class="to-buy__plash__button" popup-target="usagr-pp">Написать нам</button>
             </div>
         </div>
         <div class="row to-buy__plash">
             <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
-                <p class="to-buy__plash__left"><span>Где купить</span><br/> в розницу и<br/> мелким оптом</p>
+                <p class="to-buy__plash__left"><span>Где купить</span><br/> в розницу</p>
             </div>
             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
                 <p class="to-buy__plash__center">Розничные покупатели могут купить комбикорм по цене производителя в <a
-                            class="greenlink" href="#">фирменных магазинах</a> и на заводе.
+                            href="#">фирменных магазинах</a> и на заводе.
                     Телефон горячей линии: <a href="tel:+78002503795">8 (800) 250 37 95</a></p>
             </div>
-            <div class="pl-5 col-xl-3 col-lg-3 col-md-3 col-sm-12">
-                <a href="#" class="to-buy__plash__button" >Все магазины</a>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+                <button class="to-buy__plash__button">Все магазины</button>
             </div>
         </div>
     </div>
