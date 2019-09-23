@@ -2348,9 +2348,15 @@ section.error-404 {
 
 
 .about__wrap {
+    background-color: #fff;
     background-image: url(../images/zerno1.png);
     background-repeat: no-repeat;
     background-position: left bottom;
+    margin-top: -90px;
+}
+
+.end-plus:after {
+    content: '+';
 }
 
 .about__plash__wrap {
@@ -2369,7 +2375,6 @@ section.error-404 {
     background-position: center top;
     position: relative;
     box-shadow: 12px 24px 10px rgba(239, 229, 221, .3);
-    margin-top: -90px;
     background-size: cover;
 }
 
@@ -2588,7 +2593,8 @@ section.error-404 {
 .products__item img {
     margin-top: 90px;
     margin-left: -22px;
-    width: 76%;
+    width: 220px;
+    max-width: 100%;
     transition: 0.2s all linear;
 
 
@@ -3238,15 +3244,18 @@ section.error-404 {
 }
 
 .bottom-menu {
-    padding: 36px 0;
+    padding: 45px 0 36px;
     position: relative;
     background-color: #f9f7f4;
     border-top: 2px solid #ddd2c5;
 }
 
+.bottom-menu .container {
+    margin-top: 0;
+}
+
 .bottom-menu img {
-    width: 100%;
-    margin-left: -10px;
+    margin-bottom: 3px;
 }
 
 
@@ -3259,7 +3268,7 @@ section.error-404 {
 }
 
 .bottom-menu .row > div:first-child > p {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .bottom-menu__button {
@@ -5889,4 +5898,8 @@ table.collapse.show ~ .btn-readmore:after {
         width: 48px;
         height: 48px;
     }
+}
+
+.footer .container {
+    margin-top: 0;
 }

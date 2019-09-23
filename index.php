@@ -19,8 +19,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-6">
-                    <a class="pre-title play" data-fancybox href="https://www.youtube.com/watch?v=myt98f3vhWQ">Комбикормовый
-                        завод<br>«Агро-эксперт»</a>
+                    <a class="pre-title play" data-fancybox href="https://www.youtube.com/watch?v=myt98f3vhWQ">
+                        Комбикормовый завод<br>«Агро-эксперт»</a>
                     <h1 class="title">Производство продажа комбикормов</h1>
                     <p class="description">Для всех видов сельскохозяйственных <br> животных и птицы </p>
                     <div class="calculate__block">
@@ -142,25 +142,25 @@
             <div class="row">
                 <div class="col-xl-3 col-lg-3 col-md-3">
                     <div class="zavod__info__item">
-                        <p><span>130+</span></p>
+                        <p><span class="end-plus js-animate-counter" data-from="25">130</span></p>
                         <p>Сотрудников<br/>предприятия</p>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-3">
                     <div class="zavod__info__item">
-                        <p><span>400</span>тонн в сутки</p>
+                        <p><span class="js-animate-counter" data-from="100">400</span>тонн в сутки</p>
                         <p>Производственная<br/>мощность</p>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-3">
                     <div class="zavod__info__item">
-                        <p><span>900</span>млн.руб</p>
+                        <p><span class="js-animate-counter end-plus" data-from="600">900</span>млн.руб</p>
                         <p>Годовой оборот<br/>предприятия</p>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-3">
                     <div class="zavod__info__item">
-                        <p><span>1000+</span></p>
+                        <p><span class="end-plus js-animate-counter" data-from="700">1000</span></p>
                         <p>База рецептов<br/>комбикормов</p>
                     </div>
                 </div>
@@ -313,9 +313,19 @@
                         <h2>Комбикорма</h2>
                         <p>Комбикорм бренда «КОРМЛИНА» разработан на основе достижений современной физиологии и биологии
                             животных без использования небелковыхф соединений, антибиотиков и других химических
-                            добавок.</p>
+                            добавок.
+                        </p>
+                        <div class="js-spoiler-text">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus adipisci aperiam aut fugit laboriosam maiores, minus, nisi odit optio pariatur placeat quaerat qui repellendus sed temporibus tenetur voluptate voluptates.
+                            </p>
+
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus adipisci aperiam aut fugit laboriosam maiores, minus, nisi odit optio pariatur placeat quaerat qui repellendus sed temporibus tenetur voluptate voluptates.
+                            </p>
+                        </div>
                         <hr>
-                        <a class="greenlink accordionprod" href="#">Развернуть </a>
+                        <a class="greenlink accordionprod js-spoiler-btn" href="#">Развернуть </a>
                     </div>
                 </div>
                 <div class="col-xl-5 col-lg-5 col-md-5">
@@ -339,12 +349,14 @@
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-4 offset-1  order-md-second order-sm-second order-second">
-                    <img src="images/ekonom.png"/>
+                    <div class="js-parallax">
+                        <img data-depth="0.6" src="images/ekonom.png"/>
+                    </div>
                 </div>
             </div>
             <div class="row products__item">
                 <div class="col-xl-4 col-lg-4 col-md-4 offset-1  order-lg-first order-md-second order-sm-second order-second">
-                    <img src="images/balans.png"/>
+                    <div class="js-parallax"><img data-depth="0.6" src="images/balans.png"/></div>
                 </div>
                 <div class="col-xl-7 col-lg-7 col-md-7 ml-mh order-md-first order-sm-first order-first">
                     <div class="products__item__info">
@@ -371,12 +383,12 @@
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-4 offset-1 order-md-second  order-sm-second order-second">
-                    <img src="images/sytniy.png"/>
+                    <div class="js-parallax"><img data-depth="0.6" src="images/sytniy.png"/></div>
                 </div>
             </div>
             <div class="row products__item">
                 <div class="col-xl-4 col-lg-4 col-md-4 offset-1   order-lg-first order-md-second  order-sm-second order-second">
-                    <img src="images/sytniy-pro.png"/>
+                    <div class="js-parallax"><img data-depth="0.6" src="images/sytniy-pro.png"/></div>
                 </div>
                 <div class="col-xl-7 col-lg-7 col-md-7 ml-mh order-md-first order-sm-first order-first">
                     <div class="products__item__info">
@@ -475,12 +487,14 @@
             </div>
             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
                 <p class="to-buy__plash__center ">Напишите нам: <a
-                             class="greenlink" href="mailto:info@agroexpert2007">info@agroexpert2007</a>, позвоните нам по тел.:<br/>
-                    <a href="tel:+74935147371">8 (49351) 47-3-71</a> или <a class="greenlink" href="#">закажите через сайт</a>. Мы подготовим для вас индивидуальное коммерческое
+                            class="greenlink" href="mailto:info@agroexpert2007">info@agroexpert2007</a>, позвоните нам
+                    по тел.:<br/>
+                    <a href="tel:+74935147371">8 (49351) 47-3-71</a> или <a class="greenlink" href="#">закажите через
+                        сайт</a>. Мы подготовим для вас индивидуальное коммерческое
                     предложение.</p>
             </div>
             <div class=" pl-5 col-xl-3 col-lg-3 col-md-3 col-sm-12">
-                <a href="#" class="to-buy__plash__button" >Оформить заказ</a>
+                <a href="#" class="to-buy__plash__button">Оформить заказ</a>
             </div>
         </div>
         <div class="row to-buy__plash">
@@ -493,7 +507,7 @@
                     Телефон горячей линии: <a href="tel:+78002503795">8 (800) 250 37 95</a></p>
             </div>
             <div class="pl-5 col-xl-3 col-lg-3 col-md-3 col-sm-12">
-                <a href="#" class="to-buy__plash__button" >Все магазины</a>
+                <a href="#" class="to-buy__plash__button">Все магазины</a>
             </div>
         </div>
     </div>

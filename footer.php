@@ -3,8 +3,9 @@
     <div class="container">
         <div class="row">
             <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
-                <object height="65" width="100%"data="images/logo-575.svg" type="image/svg+xml"></object>
-                <p>Шуйский комбикормовый завод. Производство и продажа комбикормов по всей России. Все права защищены. </p>
+
+                <img src="images/logo.png" alt="KORMLINA" width="197">
+                <p>Шуйский комбикормовый завод. Производство и продажа <br> комбикормов по всей России. <br> Все права защищены. </p>
                 <button class="bottom-menu__button no-collor_btn" popup-target="usagr-pp">Связаться с нами</button>
             </div>
             <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
@@ -119,6 +120,7 @@
 <script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
 <script type="text/javascript" src="js/bootstrap/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/parallax.min.js"></script>
+<script type="text/javascript" src="js/parallaxjs.js"></script>
 <script type="text/javascript" src="js/maskedinput.js"></script>
 <script type="text/javascript" src="plugins/owl-carousel/owl.carousel.min.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
