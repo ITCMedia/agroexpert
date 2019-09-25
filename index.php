@@ -265,30 +265,36 @@
             <div class="card-deck infographic__block mt-5">
                 <div class="card w-30 infographic-item down-shadow__block">
                     <i class="timer-icon"></i>
-                    <p class="title">
-                        1-5<br>дней
-                    </p>
-                    <div class="description">
-                        Срок выполнения заказа
+                    <div class="card-body">
+                        <p class="title">
+                            1-5<br>дней
+                        </p>
+                        <div class="description">
+                            Срок выполнения заказа
+                        </div>
                     </div>
                 </div>
                 <div class="card w-30 infographic-item down-shadow__block">
                     <i class="headphones-icon"></i>
-                    <p class="title">
-                        Бесплатные безлимитные
-                        консультации
-                    </p>
-                    <div class="description">
-                        по кормлению и содержанию от зоотехников завода
+                    <div class="card-body">
+                        <p class="title">
+                            Бесплатные безлимитные
+                            консультации
+                        </p>
+                        <div class="description">
+                            по кормлению и содержанию от зоотехников завода
+                        </div>
                     </div>
                 </div>
                 <div class="card w-30 infographic-item down-shadow__block">
                     <i class="fast-truck-icon"></i>
-                    <p class="title">
-                        Доставка<br>комбикорма
-                    </p>
-                    <div class="description">
-                        до вашего склада — наша забота
+                    <div class="card-body">
+                        <p class="title">
+                            Доставка<br>комбикорма
+                        </p>
+                        <div class="description">
+                            до вашего склада — наша забота
+                        </div>
                     </div>
                 </div>
             </div>
