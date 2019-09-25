@@ -1690,6 +1690,7 @@ i.statup-icon {
 
 .recipe-btn:before {
     background: url(../images/bbg1.png);
+    background-repeat: no-repeat;
     content: '';
     display: inline-block;
     width: 32px;
@@ -2987,7 +2988,7 @@ section.error-404 {
     border: 1px solid #ebe5df;
     border-radius: 4px;
     font-size: 24px;
-    color: #ddd2c5;
+    color: #834f1c;
     font-family: 'MullerLight';
     padding: 0px 21px;
     cursor: pointer;
