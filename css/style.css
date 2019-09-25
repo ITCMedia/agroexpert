@@ -1588,6 +1588,9 @@ i.statup-icon {
 .main-page .container {
     margin-top: 46px;
 }
+.about .about__wrap .container{
+    padding-top: 10px;
+}
 
 .main-page .container row col-6 {
     margin-left: 17px;
@@ -2452,9 +2455,11 @@ section.error-404 {
 
 
 .about__wrap {
+    /*
     background-color: #fff;
     background-image: url(../images/zerno1.png);
     background-repeat: no-repeat;
+    */
     background-position: left bottom;
     margin-top: -90px;
 }

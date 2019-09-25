@@ -13,8 +13,8 @@
 <body class="main-page">
 <? require(__DIR__ . '/header.php'); ?>
 
-<div class="top__wrap parallax-container" data-parallax="scroll" data-bleed="10" data-speed="0.2"
-     data-image-src="./images/hbg.png" data-natural-width="1440" data-natural-height="1492">
+<div class="top__wrap parallax-container" data-parallax="scroll" data-bleed="-10" data-speed="0.2"
+     data-image-src="./images/hbg.png" data-natural-width="1440" data-natural-height="1542">
     <section class="main-page-left__block">
         <div class="container">
             <div class="row">
@@ -172,7 +172,7 @@
     </section>
 </div>
 <section class="about">
-    <div class="about__wrap">
+    <div class="about__wrap" class="top__wrap parallax-container" data-parallax="scroll" data-bleed="10" data-speed="0.2" data-image-src="./images/zbg.png" data-natural-width="1440" data-natural-height="1492">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
