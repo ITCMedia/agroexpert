@@ -3423,6 +3423,7 @@ section.error-404 {
 
 .bottom-menu img {
     margin-bottom: 3px;
+    width: inherit;
 }
 
 
@@ -7038,8 +7039,12 @@ table.collapse.show ~ .btn-readmore:after {
     .to-buy__plash__button{
         margin: 0 -50px;
     }
-    .no-gutters .infographic-item .title{
-        min-height: 170px;
+    .products__item:nth-child(odd), .products__item:nth-child(even){
+        background-position: right top;
+        background-size: 50%;
+    }
+    .products__item:nth-child(odd) .order-first{
+        margin-left: 0px;
     }
     .us-advantages .infographic-item .title{
         min-height: 70px;
@@ -7063,6 +7068,10 @@ table.collapse.show ~ .btn-readmore:after {
 }
 
 @media (max-width: 800px) {
+    .zavod {
+        background-position: initial;
+        background-size: cover;
+    }
     .discount__form form {
         padding: 0;
     }
