@@ -13,7 +13,7 @@
 <body class="main-page">
 <? require(__DIR__ . '/header.php'); ?>
 
-<div class="top__wrap parallax-container" data-parallax="scroll" data-bleed="-10" data-speed="0.2"
+<div class="top__wrap parallax-container" data-parallax="scroll" data-bleed="-50" data-speed="0.2"
      data-image-src="./images/hbg.png" data-natural-width="1440" data-natural-height="1542">
     <section class="main-page-left__block">
         <div class="container">

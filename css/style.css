@@ -1538,7 +1538,7 @@ i.statup-icon {
 }
 
 .header {
-    padding: 40px 0 20px;
+    padding: 0px 0 20px;/*40px 0 20px*/
 }
 
 .home .top-menu {
