@@ -2396,6 +2396,7 @@ section.error-404 {
     background-size: 100% 102%;
     position: relative;
     margin-top: -100px;
+    box-shadow: 150px 150px 150px rgba(255, 255, 255, 0.5), 150px 150px 150px rgba(255, 255, 255, 0.5);
 }
 
 .zavod__info {
@@ -7069,7 +7070,7 @@ table.collapse.show ~ .btn-readmore:after {
 
 @media (max-width: 800px) {
     .zavod {
-        background-position: initial;
+        background-position: center;
         background-size: cover;
     }
     .discount__form form {
