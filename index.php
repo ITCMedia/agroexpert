@@ -502,7 +502,7 @@
                     предложение.</p>
             </div>
             <div class=" pl-5 col-xl-3 col-lg-3 col-md-3 col-sm-12">
-                <a href="#" class="to-buy__plash__button">Оформить заказ</a>
+                <a href="" class="to-buy__plash__button" popup-target="usagr-pp">Оформить заказ</a>
             </div>
         </div>
         <div class="row to-buy__plash">
@@ -520,7 +520,18 @@
         </div>
     </div>
 </section>
-
+<div class="popup usagr-pp">
+    <a class="close1" href="#"></a>
+    <div class="head">Заказ обратного звонка</div>
+    <fo rm method="POST" active="">
+        <input type="text" id="name" placeholder="Имя">
+        <input type="text" id="phone" class="phone" placeholder="Телефон">
+        <input type="text" id="email" placeholder="E-mail">
+        <p class="popup__form__checkbox" stat="check">Cогласен на обработку <a href="">персональных данных</a> и с условиями <a href="">оферты</a></p>
+        <p class="form-error2"></p>
+        <button class="sendForm">Отправить заявку</button>
+        </form>
+</div>
 <? require(__DIR__ . '/footer.php'); ?>
 </body>
 </html>
