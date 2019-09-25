@@ -6,9 +6,9 @@
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="./css/font-awesome/css/all.min.css" rel="stylesheet">
+    <link href="/css/font-awesome/css/all.min.css" rel="stylesheet">
 
-    <link href="css/style.css" rel="stylesheet"/>
+    <link href="/css/style.css" rel="stylesheet"/>
 </head>
 <body class="main-page">
 <? require(__DIR__ . '/header.php'); ?>
@@ -25,8 +25,10 @@
                     <p class="description">Для всех видов сельскохозяйственных <br> животных и птицы </p>
                     <div class="calculate__block">
                         <p class="title">Программа расчета рецептуры комбиорма</p>
-                        <button class="recipe-btn">Рецепт</button>
-                        <button class="ration-btn">Рацион</button>
+                        <a class="recipe-btn" target="_blank"
+                           href="https://sekhanov.github.io/agro-angular-quality-calc/">Рецепт</a>
+                        <a class="ration-btn" target="_blank"
+                           href="https://sekhanov.github.io/agro-angular-daily-feed-calc/">Рацион</a>
                     </div>
                     <ul>
                         <li><span>Убедитесь в правильности выбора рациона кормления.</span></li>
@@ -213,22 +215,22 @@
         <div class="row">
             <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
                 <div class="discount__item discount__item1">
-                    <img src="images/l1.png"/>
+                    <img src="/images/l1.png"/>
                 </div>
             </div>
             <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
                 <div class="discount__item discount__item2">
-                    <img src="images/l2.png"/>
+                    <img src="/images/l2.png"/>
                 </div>
             </div>
             <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
                 <div class="discount__item discount__item3">
-                    <img src="images/l3.png"/>
+                    <img src="/images/l3.png"/>
                 </div>
             </div>
             <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
                 <div class="discount__item discount__item4">
-                    <img src="images/l4.png"/>
+                    <img src="/images/l4.png"/>
                 </div>
             </div>
         </div>
@@ -242,19 +244,19 @@
                 <div id="slider" class="owl-carousel">
                     <div class="item">
                         <div class="slider-shad"></div>
-                        <img src="images/slide.png"/></div>
+                        <img src="/images/slide.png"/></div>
                     <div class="item">
                         <div class="slider-shad"></div>
-                        <img src="images/slide.png"/></div>
+                        <img src="/images/slide.png"/></div>
                     <div class="item">
                         <div class="slider-shad"></div>
-                        <img src="images/slide.png"/></div>
+                        <img src="/images/slide.png"/></div>
                     <div class="item">
                         <div class="slider-shad"></div>
-                        <img src="images/slide.png"/></div>
+                        <img src="/images/slide.png"/></div>
                     <div class="item">
                         <div class="slider-shad"></div>
-                        <img src="images/slide.png"/></div>
+                        <img src="/images/slide.png"/></div>
                 </div>
             </div>
         </div>

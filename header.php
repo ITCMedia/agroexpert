@@ -117,10 +117,10 @@
                         <a class="top-menu__user__basket" href=""><span>5</span></a>
                         <a class="top-menu__user__input" href="javascript:void(0)" data-toggle="modal" data-target="#oneclickAuthModal">Войти</a>
                         <div class="clear"></div>
-                        <p class="search__block">
-                            <i class="fas fa-search"></i>
+                        <form method = "GET" class="search__block">
+                            <input type="submit" value = ""/>
                             <input class="search top-menu__search" value="" placeholder="Поиск"/>
-                        </p>
+                        </form>
                     </div>
                 </div>
             </div>

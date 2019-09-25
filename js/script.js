@@ -108,17 +108,25 @@ $('.popup__form__checkbox').click(function () {
     }
 })
 
+$('.discount__form form input').focus(function () {
+    $(this).removeClass('input-error')
+})
+
 $('#sendDiscount').click(function () {
     var phone = $('.discount__form form input').val()
     var stat  = $('.discount__form__checkbox').attr('stat')
     var flag  = 0
     var error = ''
 
+    $('.discount__form form input').attr('placeholder', '+7')
     $('.discount__form form input').css({"border": "1px solid #ebe5df"})
     $('.discount__form__checkbox').css({"border": "none"})
 
     if (phone == "") {
-        $('.discount__form form input').css({"border": "1px solid red"})
+
+        $('.discount__form form input').addClass('input-error')
+
+        $('.discount__form form input').attr('placeholder', 'Вы не ввели номер телефона')
         error += 'Введите номер телефона! '
         flag = 1
     }
@@ -134,10 +142,14 @@ $('#sendDiscount').click(function () {
         $('.discount__form form input').val('')
         alert('Спасибо за заявку! В ближайшее время мы Вам перезвоним')
     } else {
-        $('.form-error').text(error)
+        //$('.form-error').text(error)
     }
 
     return false;
+})
+
+$('.float-menu__form form input').focus(function () {
+    $(this).removeClass('input-error')
 })
 
 $('#sendDiscount1').click(function () {
@@ -150,7 +162,8 @@ $('#sendDiscount1').click(function () {
     $('.float-menu__form__checkbox').css({"border": "none"})
 
     if (phone == "") {
-        $('.float-menu__form form input').css({"border": "1px solid red"})
+        $('.float-menu__form form input').addClass('input-error')
+        $('.float-menu__form form input').attr('placeholder', 'Вы не ввели номер телефона')
         error += 'Введите номер телефона! '
         flag = 1
     }
@@ -166,7 +179,43 @@ $('#sendDiscount1').click(function () {
         $('.float-menu__form form input').val('')
         alert('Спасибо за заявку! В ближайшее время мы Вам перезвоним')
     } else {
-        $('.form-error1').text(error)
+        // $('.form-error1').text(error)
+    }
+
+    return false;
+})
+
+$('#sendDiscount2').click(function () {
+    var phone = $('.discount__form2 form input').val()
+    var stat  = $('.discount__form2 .discount__form__checkbox').attr('stat')
+    var flag  = 0
+    var error = ''
+
+    $('.discount__form2 form input').attr('placeholder', '+7')
+    $('.discount__form2 form input').css({"border": "1px solid #ebe5df"})
+    $('.discount__form2 .discount__form__checkbox').css({"border": "none"})
+
+    if (phone == "") {
+
+        $('.discount__form2 form input').addClass('input-error')
+
+        $('.discount__form2 form input').attr('placeholder', 'Вы не ввели номер телефона')
+        error += 'Введите номер телефона! '
+        flag = 1
+    }
+
+    if (stat == 'uncheck') {
+        $('.discount__form2 .discount__form__checkbox').css({"border": "1px solid red"})
+        error += 'Вы должны согласится с политикой обработки персональных данных!'
+        flag = 1
+    }
+
+    if (flag == 0) {
+        $('.form-error').text('')
+        $('.discount__form2 form input').val('')
+        alert('Спасибо за заявку! В ближайшее время мы Вам перезвоним')
+    } else {
+        //$('.form-error').text(error)
     }
 
     return false;
@@ -222,7 +271,7 @@ $('.sendForm').click(function () {
         })
         alert('Спасибо за заявку! В ближайшее время мы Вам перезвоним')
     } else {
-        $('.form-error2').text(error)
+        //$('.form-error2').text(error)
     }
 
     return false;
@@ -309,4 +358,140 @@ $(document).ready(function () {
     $(window).resize(function () {
         centerElements();
     });
-});
+})
+
+/*-----------------NEWS------------------------------*/
+$('.view-all-tags').click(function () {
+    if ($(this).hasClass('active-tag')) {
+        $('.right-tags').css({"max-height": "50px"})
+        $(this).text('Показать все')
+        $(this).removeClass('active-tag')
+    } else {
+        $('.right-tags').css({"max-height": "unset"})
+        $(this).text('Скрыть')
+        $(this).addClass('active-tag')
+    }
+
+
+})
+
+$(document).ready(function () {
+    $('#slider-new').owlCarousel({
+        loop           : true,
+        margin         : 88,
+        nav            : true,
+        dots           : true,
+        navText        : ['', ''],
+        autoplay       : true,
+        autoplayTimeout: 5000,
+        responsive     : {
+            0  : {
+                items: 1
+            },
+            320: {
+                items: 1
+            },
+            576: {
+                items: 1
+            },
+            767: {
+                items: 1
+            }
+        }
+    })
+
+    $('#slider-r').owlCarousel({
+        loop           : true,
+        margin         : 128,
+        nav            : true,
+        dots           : true,
+        navText        : ['', ''],
+        autoplay       : false,
+        autoplayTimeout: 5000,
+        responsive     : {
+            0  : {
+                items: 1
+            },
+            320: {
+                items: 1
+            },
+            576: {
+                items: 1
+            },
+            767: {
+                items: 1
+            }
+        }
+    })
+})
+
+
+$('.radio-label').click(function () {
+    $('.radio-label').removeClass('active')
+    $(this).addClass('active')
+})
+
+$(function () {
+    $("a[href^='#']").click(function () {
+        var _href = $(this).attr("href")
+        $("html, body").animate({scrollTop: $(_href).offset().top + "px"}, 1000)
+        return false
+    })
+})
+
+$('.order-discount').mousemove(function (e) {
+    var amountMovedX = (e.pageX * -1 / 12) + 150
+    var amountMovedY = (e.pageY * -1 / 12) + 150
+    $(this).css('background-position', amountMovedX + 'px ' + amountMovedY + 'px')
+})
+
+$('.form-control').focus(function () {
+    $(this).removeClass('input-error')
+})
+
+$('.send__order__mess').click(function () {
+    var email = $('#inputEmail4').val()
+    var phone = $('#inputPassword4').val()
+    var text  = $('#validationTextarea').val()
+    var pol   = $('#customCheck1').prop("checked")
+    var flag  = 0
+
+    $('.custom-checkbox').css({'border': 'none'})
+    $('.form-control').removeClass('input-error')
+
+    if (email == "") {
+        $('#inputEmail4').addClass('input-error')
+        $('#inputEmail4').attr('placeholder', 'Введите свой E-mail')
+        flag = 1
+    }
+
+    if (email != "" && !isEmailValid(email)) {
+        $('#inputEmail4').addClass('input-error')
+        $('#inputEmail4').attr('placeholder', 'Введите правильный E-mail')
+        flag = 1
+    }
+
+    if (phone == "") {
+        $('#inputPassword4').addClass('input-error')
+        $('#inputPassword4').attr('placeholder', 'Введите свой телефон')
+        flag = 1
+    }
+
+    if (text == "") {
+        $('#validationTextarea').addClass('input-error')
+        $('#validationTextarea').attr('placeholder', 'Пожалуйста заполните данное поле')
+        flag = 1
+    }
+
+    if (pol == false) {
+        $('.custom-checkbox').css({'border': '1px solid #ff9494'})
+        flag = 1
+    }
+
+    if (flag == 0) {
+        alert('Сообщение успешно отправлено!')
+        $('#inputEmail4').val('')
+        $('#inputPassword4').val('')
+        $('#validationTextarea').val('')
+    }
+})
