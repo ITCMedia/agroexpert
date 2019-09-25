@@ -1606,6 +1606,7 @@ i.statup-icon {
     background: url(../images/video-ico.png);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 50px 40px;
     width: 50px;
     height: 40px;
     display: inline-block;
