@@ -5697,8 +5697,9 @@ table.collapse.show ~ .btn-readmore:after {
 
 @media (max-width: 800px) {
     .main-page {
-        background: none;
-    }
+        background: url(../images/main-combaine-fon.png) no-repeat 300% -191px;
+        background-size: 85%;
+     }
 
     .discount__form {
         width: 620px;
@@ -5727,7 +5728,7 @@ table.collapse.show ~ .btn-readmore:after {
 
     .to-buy__plash__button {
         position: static;
-        margin-top: 0;
+        margin: 15px auto;
     }
 
     .discount {
@@ -5765,10 +5766,6 @@ table.collapse.show ~ .btn-readmore:after {
 
     .products-wrapper {
         background: none;
-    }
-
-    .to-buy__plash__button {
-        margin-top: 15px;
     }
 
     .footer p {
@@ -5829,6 +5826,9 @@ table.collapse.show ~ .btn-readmore:after {
 }
 
 @media (max-width: 650px) {
+    .main-page {
+        background: none;
+    }
     .discount__form {
         width: 100%;
         padding: 50px 38px;
@@ -5861,6 +5861,10 @@ table.collapse.show ~ .btn-readmore:after {
 @media (max-width: 576px) {
     .order-table td, .order-table th {
         font-size: 12px;
+    }
+
+    .products__item__info{
+        margin-left: 0px;
     }
 
     .zavod {
@@ -5936,7 +5940,7 @@ table.collapse.show ~ .btn-readmore:after {
     }
 
     .products {
-        padding-top: 150px;
+        padding-top: 50px;/*150*/
         padding-bottom: 27px;
         background-color: #fbf9f7;
         margin-top: 0;
@@ -5986,6 +5990,15 @@ table.collapse.show ~ .btn-readmore:after {
 }
 
 @media (max-width: 480px) {
+    .top-menu__user__input{
+        width: 31px;
+        padding: 11px 0 8px 40px;
+        background-position: 10px center;
+    }
+    .about__adv__item{
+        padding-left: 70px;
+        background-position: 10px 25px;
+    }
     .calculate__block button {
         width: 100%;
         font-size: 24px;
@@ -6078,6 +6091,10 @@ table.collapse.show ~ .btn-readmore:after {
 
     .to-bottom {
         top: -15px;
+    }
+
+    .infographic-item .description{
+        margin-top: 0px;
     }
 
 
@@ -7018,6 +7035,18 @@ table.collapse.show ~ .btn-readmore:after {
 }
 
 @media (max-width: 915px) {
+    .to-buy__plash__button{
+        margin: 0 -50px;
+    }
+    .no-gutters .infographic-item .title{
+        min-height: 170px;
+    }
+    .us-advantages .infographic-item .title{
+        min-height: 70px;
+    }
+    .infographic-item, .us-advantages .infographic-item{
+        height: auto;
+    }
     .news-right {
         padding-left: 0;
     }
@@ -7040,6 +7069,9 @@ table.collapse.show ~ .btn-readmore:after {
 }
 
 @media (max-width: 767px) {
+    .to-buy__plash__button{
+        margin: 15px auto;
+    }
     .order-discount1 {
         background-size: 85%;
         padding-top: 115px;
