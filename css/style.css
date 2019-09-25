@@ -1738,6 +1738,8 @@ i.statup-icon {
 
 .recipe-btn:before {
     background: url("../images/recipe-ico.png");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .recipe-btn:hover {
