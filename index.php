@@ -327,7 +327,7 @@
                             </p>
                         </div>
                         <hr>
-                        <a class="greenlink accordionprod js-spoiler-btn" href="#">Развернуть </a>
+                        <a class="greenlink js-spoiler-btn" href>Развернуть</a>
                     </div>
                 </div>
                 <div class="col-xl-5 col-lg-5 col-md-5">

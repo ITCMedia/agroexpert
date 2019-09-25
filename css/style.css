@@ -2695,6 +2695,13 @@ section.error-404 {
     color: #52bc2e;
     font-size: 15px;
 }
+.products__left .greenlink{
+    color: #52bc2e;
+    font-size: 16px;
+}
+.products__left .greenlink:after{
+    content: " ›";
+}
 
 .ml-mh {
     margin-left: -91px;
