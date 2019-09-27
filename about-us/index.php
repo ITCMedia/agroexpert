@@ -34,10 +34,10 @@
     </div>
 </section>
 
-<section class="content tab-section__block">
+<section class="tab-section__block">
     <div class="container">
         <div class="row no-gutters">
-            <h1>О нас</h1>
+            <h1 class="page-h1">О компании</h1>
         </div>
         <div class="row no-gutters">
             <ul class="nav inner-nav">
@@ -51,22 +51,19 @@
                     <a class="nav-link" href="#">Производство</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Производство</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link" href="#">Документация</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Отзывы <span>35</span></a>
+                    <a class="nav-link" href="#">Отзывы <span class="nav-link__count">35</span></a>
                 </li>
             </ul>
         </div>
     </div>
 </section>
 
-<section class="content about-us-main__block">
+<section class="about-us-main__block">
     <div class="container about-info__block">
-        <div class="row no-gutters mt-6 mb-10">
+        <div class="row no-gutters mb-9">
             <div class="col-4">
                 <div class="preview-text__block">
                     ООО «Агро-Эксперт» – это
@@ -76,22 +73,27 @@
                     и сельскохозяйственной птицы:
                     кур, уток, индюков, перепелов
                 </div>
-                <div class="btt__block mt-2">
+                <div class="btt__block">
                     <button class="no-collor_btn">О производстве</button>
                 </div>
             </div>
-            <div class="col-8">
+            <div class="col-1"></div>
+            <div class="col-7">
                 <div class="text__block">
-                    <p>Новое комбикормовое производство запущено в 2009 году, уровень автоматизации и техническое оснащение которого позволяет выпускать продукцию высокого
-                        качества. Процесс контроля качества выпускаемой продукции регламентирован и осуществляется производственно-технической лабораторией, аккредитованной по
-                        группам химического и технического анализа. Производство работает круглосуточно. Бизнес-процессы заказов в производство планируются и реализуются
-                        современными СRM-системами.
+                    <p>
+                        Новое комбикормовое производство запущено в 2009 году, уровень автоматизации и техническое
+                        оснащение которого позволяет выпускать <b>продукцию высокого качества</b>. Процесс контроля качества
+                        выпускаемой продукции регламентирован и осуществляется производственно-технической лабораторией,
+                        аккредитованной по группам химического и технического анализа. Производство работает
+                        круглосуточно. <b>Бизнес-процессы</b> заказов в <b>производство планируются и реализуются
+                            современными
+                            СRM-системами.</b>
                     </p>
-                    <p>В 2017 году зарегистрированы ТМ «Сытный» и ТМ «Сытный ПРО».
-                        С 2019 года разработаны и выведены на рынок корма ТМ «КОРМЛИНА».
+                    <p>В 2017 году зарегистрированы <b>ТМ «Сытный»</b> и ТМ <b>«Сытный ПРО»</b>.
+                        С 2019 года разработаны и выведены на рынок корма <b>ТМ «КОРМЛИНА».</b>
                         В производстве используется только качественное сырье. Часть зерна
                         выращивается по техническому заданию нашей производственной лаборатории сельскохозяйственными производителями, практикующими безопасное земледелие по
-                        системе «Био». В комбикормах «КОРМЛИНА» нет антибиотиков и другой химии, оказывающей негативное влияние на организм животного и здоровье человека,
+                        системе <b>«Био»</b>. В комбикормах «КОРМЛИНА» <b>нет антибиотиков и другой химии</b>, оказывающей негативное влияние на организм животного и здоровье человека,
                         потребляющего продукты животноводства. Среди наших клиентов животноводческие, птицеводческие комплексы и фермы, небольшие частные хозяйства, предприниматели
                         и личные подсобные хозяйства.
                     </p>
@@ -157,7 +159,7 @@
     </div>
 </section>
 
-<section class="content main-directions__block">
+<section class="main-directions__block">
     <div class="container about-info__block mt-10">
         <div class="row no-gutters">
             <div class="col-4">
@@ -169,17 +171,18 @@
                     <button class="no-collor_btn">Подобрать корм</button>
                 </div>
             </div>
-            <div class="col-8">
+            <div class="col-8 pt-3">
                 <div class="row no-gutters">
                     <div class="result-list">
                         <div class="result-item row no-gutters">
                             <div class="col-1"></div>
                             <div class="col-11">
-                                <div class="about-info-result__title">Более 40 видов кормов</div>
+                                <div class="about-info-result__title">
+                                    Более 40 видов кормов
+                                </div>
+                                <div class="about-info-result__title-desc">для всех видов сельскохозяйственных животных и птицы:</div>
+
                                 <div class="about-info-result__description">
-                                    <p>
-                                        для всех видов сельскохозяйственных животных и птицы:
-                                    </p>
                                     <ul>
                                         <li><span>Коров</span></li>
                                         <li><span>Телят</span></li>
@@ -228,7 +231,7 @@
     </div>
 </section>
 
-<section class="content company-foto_block">
+<section class="company-foto_block">
     <div class="container">
         <div class="row no-gutters">
             <div class="tabs mt-10">
@@ -245,49 +248,49 @@
                     <div class="slide-item col-12">
                         <div class="row no-gutters">
                             <div class="col-8 img-col">
-                                <img width="330" src="images/about-us-photo-1.png">
+                                <img width="330" src="/images/about-us-photo-1.png">
                             </div>
                             <div class="col-4 no-gutters">
-                                <div class="col-12"><img width="165" src="images/about-us-photo-2.png"></div>
-                                <div class="col-12"><img width="165" src="images/about-us-photo-3.png"></div>
+                                <div class="col-12"><img width="165" src="/images/about-us-photo-2.png"></div>
+                                <div class="col-12"><img width="165" src="/images/about-us-photo-3.png"></div>
                             </div>
                         </div>
                         <div class="row bottom no-gutters">
-                            <div class="col-4 img-col"><img width="165" src="images/about-us-photo-4.png"></div>
-                            <div class="col-4 img-col"><img width="165"src="images/about-us-photo-1.png"></div>
-                            <div class="col-4"><img width="165" src="images/about-us-photo-2.png"></div>
+                            <div class="col-4 img-col"><img width="165" src="/images/about-us-photo-4.png"></div>
+                            <div class="col-4 img-col"><img width="165"src="/images/about-us-photo-1.png"></div>
+                            <div class="col-4"><img width="165" src="/images/about-us-photo-2.png"></div>
                         </div>
                     </div>
                     <div class="slide-item col-12">
                         <div class="row no-gutters">
                             <div class="col-8 img-col">
-                                <img width="330" src="images/about-us-photo-1.png">
+                                <img width="330" src="/images/about-us-photo-1.png">
                             </div>
                             <div class="col-4 no-gutters">
-                                <div class="col-12"><img width="165" src="images/about-us-photo-2.png"></div>
-                                <div class="col-12"><img width="165" src="images/about-us-photo-3.png"></div>
+                                <div class="col-12"><img width="165" src="/images/about-us-photo-2.png"></div>
+                                <div class="col-12"><img width="165" src="/images/about-us-photo-3.png"></div>
                             </div>
                         </div>
                         <div class="row bottom no-gutters">
-                            <div class="col-4 img-col"><img width="165" src="images/about-us-photo-4.png"></div>
-                            <div class="col-4 img-col"><img width="165"src="images/about-us-photo-1.png"></div>
-                            <div class="col-4"><img width="165" src="images/about-us-photo-2.png"></div>
+                            <div class="col-4 img-col"><img width="165" src="/images/about-us-photo-4.png"></div>
+                            <div class="col-4 img-col"><img width="165"src="/images/about-us-photo-1.png"></div>
+                            <div class="col-4"><img width="165" src="/images/about-us-photo-2.png"></div>
                         </div>
                     </div>
                     <div class="slide-item col-12">
                         <div class="row no-gutters">
                             <div class="col-8 img-col">
-                                <img width="330" src="images/about-us-photo-1.png">
+                                <img width="330" src="/images/about-us-photo-1.png">
                             </div>
                             <div class="col-4 no-gutters">
-                                <div class="col-12"><img width="165" src="images/about-us-photo-2.png"></div>
-                                <div class="col-12"><img width="165" src="images/about-us-photo-3.png"></div>
+                                <div class="col-12"><img width="165" src="/images/about-us-photo-2.png"></div>
+                                <div class="col-12"><img width="165" src="/images/about-us-photo-3.png"></div>
                             </div>
                         </div>
                         <div class="row bottom no-gutters">
-                            <div class="col-4 img-col"><img width="165" src="images/about-us-photo-4.png"></div>
-                            <div class="col-4 img-col"><img width="165"src="images/about-us-photo-1.png"></div>
-                            <div class="col-4"><img width="165" src="images/about-us-photo-2.png"></div>
+                            <div class="col-4 img-col"><img width="165" src="/images/about-us-photo-4.png"></div>
+                            <div class="col-4 img-col"><img width="165"src="/images/about-us-photo-1.png"></div>
+                            <div class="col-4"><img width="165" src="/images/about-us-photo-2.png"></div>
                         </div>
                     </div>
                 </div>
@@ -310,7 +313,7 @@
                         <div class="result-item row no-gutters">
                             <div class="col-1"></div>
                             <div class="col-11">
-                                <div class="about-info-result__title"><span>400</span> тонн/сутку</div>
+                                <div class="about-info-result__title"><span>400</span> тонн/сутки</div>
                                 <div class="about-info-result__description">
                                     <p>
                                         Мощность производства комбикорма
@@ -370,7 +373,7 @@
     </div>
 </section>
 
-<section class="content diller-map__block">
+<section class="diller-map__block">
     <div class="container">
         <div class="row no-gutters">
             <div class="col-4">

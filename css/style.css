@@ -227,6 +227,14 @@ table {
     border-spacing: 0;
 }
 
+.card {
+    border:none !important;
+}
+
+.page-h1 {
+    margin-bottom: 30px;
+}
+
 .content.lk {
     padding-bottom: 145px;
 }
@@ -1240,17 +1248,23 @@ input[type="color"]:focus,
 }
 
 .no-collor_btn {
-    width: 161px;
+    width: 198px;
+    max-width: 100%;
     border: 1px solid #ddcfc0;
-    padding: 12px 0;
+    padding: 17px 0;
+    letter-spacing: 0.04em;
     background: none;
     border-radius: 4px;
     color: #834f1c;
     cursor: pointer;
 }
 
+.about-info__block {
+    padding-top: 71px;
+    padding-bottom: 72px;
+}
 .about-info__block .text__block p {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .about-info__block .text__block {
@@ -1276,6 +1290,7 @@ input[type="color"]:focus,
     font-size: 16px;
     padding-left: 30px;
     position: relative;
+    letter-spacing: -0.023em;
 }
 
 .info__footer-block span {
@@ -1287,7 +1302,6 @@ input[type="color"]:focus,
     background: #ffffff;
     padding: 40px 35px;
     border: none;
-    height: 527px;
     transition: 0.2s all;
 }
 
@@ -1434,10 +1448,16 @@ i.statup-icon {
 .inner-nav .nav-link {
     color: #834f1c;
     font-size: 14px;
-    line-height: 52px;
+    line-height: normal;
     font-family: MullerBold;
     text-transform: uppercase;
-    padding: 0 1rem;
+    padding: 0;
+    padding-bottom: 14px;
+    letter-spacing: 0.05em;
+}
+
+.inner-nav .nav-item:not(:last-child) {
+    margin-right: 60px;
 }
 
 .about-info__block .preview-text__block {
@@ -1445,6 +1465,7 @@ i.statup-icon {
     line-height: 28px;
     font-size: 20px;
     padding-right: 10px;
+    margin-bottom: 22px;
 }
 
 .inner-nav .nav-link.active {
@@ -1896,7 +1917,7 @@ i.statup-icon {
 .result-item .col-1:before {
     content: '';
     background: #52bc2e;
-    width: 60%;
+    width: 45px;
     font-family: MullerLight;
     line-height: 0;
     height: 2px;
@@ -2063,12 +2084,17 @@ section.error-404 {
 .about-info-result__title {
     font-family: MullerMedium;
     font-size: 22px;
-    line-height: 26px;
+    line-height: 1.3;
+    margin-bottom: 5px;
+}
+
+.about-info-result__title-desc{
+    margin-bottom: 30px;
+    letter-spacing: 0.034em;
 }
 
 .about-info-result__description {
-    font: 16px MullerRegular;
-    line-height: 28px;
+    font-size: 18px;
 }
 
 .about-info-result__description ul {
@@ -2077,11 +2103,13 @@ section.error-404 {
     column-count: 3;
     height: auto;
     margin-left: 20px;
+    margin-bottom: 33px;
 }
 
 .about-info-result__description li {
     page-break-inside: avoid;
     break-inside: avoid;
+    margin-bottom: 21px;
 }
 
 .about-info-result__description li span {
@@ -4011,13 +4039,13 @@ input.search:hover {
 }
 
 .float-menu .container {
-    max-width: 1324px;
+    max-width: 1128px;
 }
 
 .float-menu__logo {
     position: absolute;
-    width: 235px;
-    height: 76px;
+    width: 197px;
+    height: 63px;
     background-image: url(../images/logo-min.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -4044,18 +4072,20 @@ input.search:hover {
 .float-menu__wrap {
     margin-top: 182px;
     border-bottom: 1px solid #ece5de;
-    padding: 0 57px 50px 57px;
+    padding-bottom: 47px;
 }
 
 .float-menu__head {
     text-transform: uppercase;
     font-size: 13px;
     font-family: 'MullerMedium';
+    letter-spacing: 0.065em;
 }
 
 .float-menu__list {
     overflow: hidden;
-    margin-top: 30px;
+    margin-top: 23px;
+    letter-spacing: 0.085em;
 }
 
 .float-menu__list li {
@@ -4093,12 +4123,11 @@ input.search:hover {
 }
 
 .float-menu__bottom {
-    padding: 0 57px;
-    margin-top: 67px;
+    margin-top: 65px;
 }
 
 .float-menu__bottom__list li {
-    margin-bottom: 29px;
+    margin-bottom: 28px;
 }
 
 .float-menu__bottom__list li:last-child {
@@ -4118,6 +4147,7 @@ input.search:hover {
 .float-menu__form__phone {
     font-size: 36px;
     font-family: 'MullerBold';
+    line-height: 1.16;
 }
 
 .float-menu__form__phone:hover {
@@ -4128,12 +4158,12 @@ input.search:hover {
 .float-menu__form__remark {
     font-size: 13px;
     color: #bcb4ab;
-    margin-bottom: 32px;
+    margin-bottom: 29px;
 }
 
 .float-menu__form form input {
     float: left;
-    width: 274px;
+    width: 263px;
     border: 1px solid #ebe5df;
     border-radius: 4px;
     font-size: 24px;
@@ -4150,7 +4180,7 @@ input.search:hover {
     width: 198px;
     background-color: #52bc2e;
     border: none;
-    border-radius: 4px;
+    border-radius: 6px;
     color: #fff;
     font-size: 16px;
     font-family: 'MullerMedium';
@@ -4158,6 +4188,7 @@ input.search:hover {
     cursor: pointer;
     transition: 0.5s all;
     box-shadow: 0px 4px 14px rgba(0, 188, 0, .5);
+    line-height: 1.4;
 }
 
 .float-menu__form form button:hover {
@@ -4167,7 +4198,7 @@ input.search:hover {
 .float-menu__form__checkbox {
     font-size: 13px;
     color: #bcb4ab;
-    margin-top: 25px;
+    margin-top: 19px;
     padding: 7px 0 4px 30px;
     background-repeat: no-repeat;
     background-position: left 3px;
@@ -4192,8 +4223,8 @@ input.search:hover {
 }
 
 .float-menu__social {
-    padding: 0 57px;
-    margin-top: 110px;
+    padding: 0;
+    margin-top: 107px;
 }
 
 .social {
@@ -4203,7 +4234,7 @@ input.search:hover {
 .social li {
     float: left;
     margin-right: 44px;
-    margin-bottom: 7px;
+    margin-bottom: 4px;
 }
 
 .social li:last-child {
@@ -5424,6 +5455,14 @@ table.collapse.show ~ .btn-readmore:after {
     -webkit-box-shadow: 0px 0 60px 1px rgba(180, 150, 121, 0.7);
     -moz-box-shadow: 0px 0 60px 1px rgba(180, 150, 121, 0.7);
     box-shadow: 0px 0 60px 1px rgba(180, 150, 121, 0.7);
+}
+
+.nav-link__count {
+    font-size: 11px;
+    color: #00C01A;
+    display: inline-block;
+    transform: translate(0, -80%);
+    line-height: normal;
 }
 
 .region-tab .nav-tabs .nav-link {
