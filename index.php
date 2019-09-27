@@ -302,8 +302,8 @@
         <div class="row">
             <div class="col-xl-12">
                 <div class="slider__button">
-                    <button class="slider__button__left">Узнать о заводе</button>
-                    <button class="slider__button__right">Стать дилером</button>
+                    <button onclick="window.location.reload();" class="slider__button__left">Узнать о заводе</button>
+                    <button class="slider__button__right" popup-target="usagr-pp">Стать дилером</button>
                 </div>
             </div>
         </div>
@@ -502,7 +502,7 @@
                     предложение.</p>
             </div>
             <div class=" pl-5 col-xl-3 col-lg-3 col-md-3 col-sm-12">
-                <a href="" class="to-buy__plash__button" popup-target="usagr-pp">Оформить заказ</a>
+                <a href="" class="to-buy__plash__button">Оформить заказ</a>
             </div>
         </div>
         <div class="row to-buy__plash">
@@ -515,7 +515,7 @@
                     Телефон горячей линии: <a href="tel:+78002503795">8 (800) 250 37 95</a></p>
             </div>
             <div class="pl-5 col-xl-3 col-lg-3 col-md-3 col-sm-12">
-                <a href="#" class="to-buy__plash__button">Все магазины</a>
+                <a href class="to-buy__plash__button">Все магазины</a>
             </div>
         </div>
     </div>

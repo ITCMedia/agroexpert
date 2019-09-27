@@ -1229,6 +1229,13 @@ input[type="color"]:focus,
     -webkit-box-shadow: 0px 15px 15px -10px rgba(82, 188, 46, 0.9);
     -moz-box-shadow: 0px 15px 15px -10px rgba(82, 188, 46, 0.9);
     box-shadow: 0px 15px 15px -10px rgba(82, 188, 46, 0.9);
+
+    display: block;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    padding: 0 17px;
+    cursor: pointer;
 }
 
 .content.tab-section__block {

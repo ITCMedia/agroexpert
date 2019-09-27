@@ -169,7 +169,7 @@
                                         </div>
                                         <div class="row">
                                             <div class="col-6">
-                                                <button type="button" class="btn btn-success custom-success">Откликнуться на вакансию</button>
+                                                <button class="custom-success">Откликнуться на вакансию</button>
                                             </div>
                                             <div class="col-6">
                                                 <div class="vakansii-phone-text">
@@ -260,7 +260,7 @@
                         </div>
                         <div class="form-group col-md-6">
                             <label for="inputPassword4">Телефон:</label>
-                            <input type="text" class="form-control" id="inputPassword4" placeholder="+7">
+                            <input type="text" class="form-control phone" id="inputPassword4" placeholder="+7">
                             <div class="invalid-feedback">
                                 Пожалуйста заполните данное поле.
                             </div>
