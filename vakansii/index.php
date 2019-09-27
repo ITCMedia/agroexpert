@@ -64,16 +64,16 @@
                                 <div class="card-description">
                                     до 120 000 руб. в месяц
                                 </div>
-                            </div>
-                            <div id="collapse-1" class="fa collapse" aria-labelledby="heading-1" data-parent="#accordionVakansii">
-                                <div class="card-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
-                                    skateboard
-                                    dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee
-                                    nulla
-                                    assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
-                                    butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
-                                    labore sustainable VHS.
+                                <div id="collapse-1" class="fa collapse" aria-labelledby="heading-1" data-parent="#accordionVakansii">
+                                    <div class="card-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
+                                        skateboard
+                                        dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee
+                                        nulla
+                                        assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
+                                        butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+                                        labore sustainable VHS.
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -89,24 +89,23 @@
                                 <div class="card-description">
                                     то 50 000 руб. в месяц
                                 </div>
-                            </div>
-                            <div id="collapse-2" class="collapse" aria-labelledby="heading-2" data-parent="#accordionVakansii">
-                                <div class="card-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
-                                    skateboard
-                                    dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee
-                                    nulla
-                                    assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
-                                    butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
-                                    labore sustainable VHS.
+                                <div id="collapse-2" class="collapse" aria-labelledby="heading-2" data-parent="#accordionVakansii">
+                                    <div class="card-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
+                                        skateboard
+                                        dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee
+                                        nulla
+                                        assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
+                                        butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+                                        labore sustainable VHS.
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-header" id="heading-3">
                                 <h5 class="mb-0">
-                                    <button class="fa btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse-3" aria-expanded="false"
-                                            aria-controls="collapse3">
+                                    <button class="fa btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse-3" aria-expanded="false" aria-controls="collapse3">
                                         <i>3</i>
                                         Менеджер по работе с розничными клиентами
                                     </button>
@@ -114,16 +113,16 @@
                                 <div class="card-description">
                                     20 000 - 25 000 руб. в месяц
                                 </div>
-                            </div>
-                            <div id="collapse-3" class="collapse" aria-labelledby="heading-3" data-parent="#accordionVakansii">
-                                <div class="card-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
-                                    skateboard
-                                    dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee
-                                    nulla
-                                    assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
-                                    butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
-                                    labore sustainable VHS.
+                                <div id="collapse-3" class="collapse" aria-labelledby="heading-3" data-parent="#accordionVakansii">
+                                    <div class="card-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
+                                        skateboard
+                                        dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee
+                                        nulla
+                                        assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
+                                        butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+                                        labore sustainable VHS.
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -139,49 +138,50 @@
                                 <div class="card-description">
                                     з/п по результатам собеседования
                                 </div>
-                            </div>
-                            <div id="collapse-4" class="collapse show" aria-labelledby="heading-4" data-parent="#accordionVakansii">
-                                <div class="card-body">
-                                    <div class="row">
-                                        <p>Ожидания от кандидата:</p>
-                                        <ul>
-                                            <li>быть гостеприимным хозяином в торговом зале, бережно и мудро обращающимся с клиентами, персоналом и самим торговым залом;</li>
-                                            <li>обеспечивать выполнение плана продаж;</li>
-                                            <li>повышать качество сервиса;</li>
-                                            <li>формировать команду, привлекать, проводить отбор и адаптацию сотрудников, выстраивать систему обучения;</li>
-                                        </ul>
-                                        <p>Что для нас важно:</p>
-                                        <ul>
-                                            <li>опыт управления розничным магазином и штатом сотрудников от 30 человек;</li>
-                                            <li>успешный опыт внедрения системы обучения и наставничества;</li>
-                                            <li>опыт проведения тренингов или лекций;</li>
-                                            <li>способность создать эффективную команду;</li>
-                                            <li>готовность давать и принимать обратную связь, уметь мотивировать команду и вдохновлять на потрясающие результаты;</li>
-                                        </ul>
-                                        <p>Что даст работа в Агро-эксперт:</p>
-                                        <ul>
-                                            <li>достойное вознаграждение, соответствующее опыту и компетенциям, вкуснейшие завтраки, обеды и ужины в кафе с фермерскими
-                                                продуктами;
-                                            </li>
-                                            <li>открытым специально для сотрудников;</li>
-                                            <li>дополнительный отпуск для профессионального развития;</li>
-                                            <li>корпоративные мероприятия (1 раз в год выезд на горнолыжные склоны);</li>
-                                            <li>корпоративное обучение;</li>
-                                        </ul>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <button type="button" class="btn btn-success custom-success">Откликнуться на вакансию</button>
+                                <div id="collapse-4" class="collapse show" aria-labelledby="heading-4" data-parent="#accordionVakansii">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <p>Ожидания от кандидата:</p>
+                                            <ul>
+                                                <li>быть гостеприимным хозяином в торговом зале, бережно и мудро обращающимся с клиентами, персоналом и самим торговым залом;</li>
+                                                <li>обеспечивать выполнение плана продаж;</li>
+                                                <li>повышать качество сервиса;</li>
+                                                <li>формировать команду, привлекать, проводить отбор и адаптацию сотрудников, выстраивать систему обучения;</li>
+                                            </ul>
+                                            <p>Что для нас важно:</p>
+                                            <ul>
+                                                <li>опыт управления розничным магазином и штатом сотрудников от 30 человек;</li>
+                                                <li>успешный опыт внедрения системы обучения и наставничества;</li>
+                                                <li>опыт проведения тренингов или лекций;</li>
+                                                <li>способность создать эффективную команду;</li>
+                                                <li>готовность давать и принимать обратную связь, уметь мотивировать команду и вдохновлять на потрясающие результаты;</li>
+                                            </ul>
+                                            <p>Что даст работа в Агро-эксперт:</p>
+                                            <ul>
+                                                <li>достойное вознаграждение, соответствующее опыту и компетенциям, вкуснейшие завтраки, обеды и ужины в кафе с фермерскими
+                                                    продуктами;
+                                                </li>
+                                                <li>открытым специально для сотрудников;</li>
+                                                <li>дополнительный отпуск для профессионального развития;</li>
+                                                <li>корпоративные мероприятия (1 раз в год выезд на горнолыжные склоны);</li>
+                                                <li>корпоративное обучение;</li>
+                                            </ul>
                                         </div>
-                                        <div class="col-6">
-                                            <div class="vakansii-phone-text">
-                                                <p>Или позвоните по телефону:</p>
-                                                <p><a htef="tel:+7493514771:">+7 (49351) 4-73-71</a> с 8:00 до 17:30</p>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <button type="button" class="btn btn-success custom-success">Откликнуться на вакансию</button>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="vakansii-phone-text">
+                                                    <p>Или позвоните по телефону:</p>
+                                                    <p><a htef="tel:+7493514771:">+7 (49351) 4-73-71</a> с 8:00 до 17:30</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+
                         </div>
                         <div class="card">
                             <div class="card-header" id="heading-5">
@@ -195,16 +195,16 @@
                                 <div class="card-description">
                                     45 000 руб. в месяц
                                 </div>
-                            </div>
-                            <div id="collapse-5" class="collapse" aria-labelledby="heading-5" data-parent="#accordionVakansii">
-                                <div class="card-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
-                                    skateboard
-                                    dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee
-                                    nulla
-                                    assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
-                                    butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
-                                    labore sustainable VHS.
+                                <div id="collapse-5" class="collapse" aria-labelledby="heading-5" data-parent="#accordionVakansii">
+                                    <div class="card-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
+                                        skateboard
+                                        dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee
+                                        nulla
+                                        assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
+                                        butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+                                        labore sustainable VHS.
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -215,7 +215,7 @@
                         <div class="requisites-body">
                             <p>Отдел кадров:</p>
                             <p>E-mail:</p>
-                            <a href="email:ob@agroexpert2007.ru">ob@agroexpert2007.ru</a>
+                            <a class="greenlink" href="email:ob@agroexpert2007.ru">ob@agroexpert2007.ru</a>
                             Константинопольская
                             Эльвира Николаевна
                             <p>Телефон:</p>
@@ -225,7 +225,7 @@
                             </p>
                         </div>
                         <div class="bottom-button">
-                            <a href="#">Все контакты завода</a>
+                            <a class="greenlink" href="#">Все контакты завода</a>
                         </div>
                     </div>
                     <div class="informer-vakansii-block">
@@ -276,9 +276,9 @@
                         <span>Можно прикрепить до 3-х файлов</span>
                     </div>
                     <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="customCheck1">
+                        <input type="checkbox" class="custom-control-input" id="customCheck1" checked>
                         <label class="custom-control-label" for="customCheck1">
-                            Согласен на обработку <a href="#">персональных данных</a> и с условиями <a href="#">оферты</a>
+                            Согласен на обработку <a class="greenlink" href="#">персональных данных</a> и с условиями <a class="greenlink" href="#">оферты</a>
                         </label>
                     </div>
                     <div class="form-row submit">

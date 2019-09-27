@@ -438,13 +438,22 @@ $(function () {
         return false
     })
 })
-
+/*
 $('.order-discount').mousemove(function (e) {
-    var amountMovedX = (e.pageX * -1 / 12) + 150
-    var amountMovedY = (e.pageY * -1 / 12) + 150
-    $(this).css('background-position', amountMovedX + 'px ' + amountMovedY + 'px')
-})
 
+    var offset = $(this).offset();
+    //console.log(-(e.pageX-fromTop)/12 + $(this).width()/12);
+    //console.log($(this).width()/2);
+    //console.log($(this).height()/2);
+    //var amountMovedX = (e.pageX * -1 / 12) + 150;
+    //var amountMovedY = (e.pageY * -1 / 12) + 150;
+    var amountMovedX = (-(e.pageX-offset.left)/10) + $(this).width()/5;
+    var amountMovedY = (-(e.pageY-offset.top)/12) + $(this).height()/4;//150;
+    $(this).css('background-position', amountMovedX + 'px ' + amountMovedY + 'px');
+    //$(this).css('background-size', "100%");
+    $(this).animate({'background-position-x': amountMovedX, 'background-position-y': amountMovedY},{duration: 50, queue: false, easing: 'linear'});
+})
+*/
 $('.form-control').focus(function () {
     $(this).removeClass('input-error')
 })

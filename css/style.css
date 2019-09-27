@@ -4390,6 +4390,7 @@ input.search:hover {
     line-height: 36px;
     padding: 0 0 0 20px;
     border: 0;
+    text-decoration: none;
 }
 
 .card-description {
@@ -4465,18 +4466,28 @@ input.search:hover {
 .card .collapse {
     padding: 0 2rem;
 }
+.vakansii .card .collapse{
+    padding: 0px;
+}
 
 .vakansii .card .mb-0 button[aria-expanded="true"] {
-    color: #212121;
+    color: #8d5f36;/*#212121*/
 }
 
 .vakansii .card .mb-0 button i {
     font-size: 14px;
     font-family: "MullerMedium";
 }
+.vakansii .card .mb-0 button:hover{
+    color: #8d5f36;
+}
+.vakansii .card .mb-0 button:hover i{
+    border-color: #8d5f36;
+}
 
 .vakansii .card .mb-0 button[aria-expanded="true"] i {
-    color: #212121;
+    /*color: #212121;*/
+    color: #8d5f36;
     border-color: #8d5f36;
 }
 
@@ -5943,9 +5954,9 @@ table.collapse.show ~ .btn-readmore:after {
 
     .products {
         padding-top: 50px;/*150*/
-        padding-bottom: 27px;
+        padding-bottom: 50px;
         background-color: #fbf9f7;
-        margin-top: 0;
+        margin-top: 50px;/*0px*/
     }
 
     .partners {
@@ -6091,8 +6102,19 @@ table.collapse.show ~ .btn-readmore:after {
         margin-bottom: 50px;
     }
 
-    .to-bottom {
+    .to-bottom{
         top: -15px;
+    }
+
+    .zavod .to-bottom:nth-child(1) {
+        top: 0px;/*-15px*/
+    }
+
+    .to-bottom:nth-child(1) {
+        top: -30px;/*-15px*/
+    }
+    .to-bottom:nth-child(2) {
+        top: -30px;/*-15px*/
     }
 
     .infographic-item .description{
@@ -7069,10 +7091,11 @@ table.collapse.show ~ .btn-readmore:after {
 }
 
 @media (max-width: 800px) {
+    /*
     .zavod {
         background-position: center;
         background-size: cover;
-    }
+    }*/
     .discount__form form {
         padding: 0;
     }

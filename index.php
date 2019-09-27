@@ -451,7 +451,7 @@
     </div>
 </section-->
 
-<section class="discount discount-two">
+<section class="discount order-discount">
     <div class="container">
         <div class="row">
             <div class="col-xl-12">
@@ -472,13 +472,13 @@
             </div>
         </div>
     </div>
-    <a class="to-bottom to-bottom__discount" href="#footer"></a>
+    <a class="to-bottom to-bottom__discount" href="#wherebuy"></a>
 </section>
 
 <section class="to-buy">
     <div class="container">
         <div class="row">
-            <div class="to-buy__head  col-xl-6 col-lg-6 col-md-6 col-sm-6">
+            <div id="wherebuy" class="to-buy__head  col-xl-6 col-lg-6 col-md-6 col-sm-6">
                 <div class="to-buy__head">
                     <p>Купить оптом, мелким оптом и в розницу</p>
                     <h2>Где купить</h2>
@@ -523,15 +523,16 @@
 <div class="popup usagr-pp">
     <a class="close1" href="#"></a>
     <div class="head">Заказ обратного звонка</div>
-    <fo rm method="POST" active="">
+    <form method="POST" active="">
         <input type="text" id="name" placeholder="Имя">
         <input type="text" id="phone" class="phone" placeholder="Телефон">
         <input type="text" id="email" placeholder="E-mail">
-        <p class="popup__form__checkbox" stat="check">Cогласен на обработку <a href="">персональных данных</a> и с условиями <a href="">оферты</a></p>
+        <p class="popup__form__checkbox" stat="check">Cогласен на обработку <a href="" class="greenlink">персональных данных</a> и с условиями <a href="" class="greenlink">оферты</a></p>
         <p class="form-error2"></p>
         <button class="sendForm">Отправить заявку</button>
         </form>
 </div>
+
 <? require(__DIR__ . '/footer.php'); ?>
 </body>
 </html>
