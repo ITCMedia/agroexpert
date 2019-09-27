@@ -229,7 +229,7 @@
                         </div>
                     </div>
                     <div class="informer-vakansii-block">
-                        <i class="fa fa-info-circle" aria-hidden="true"></i> Официальное трудоустройство
+                         Официальное трудоустройство
                         в соответствии с трудовым кодексом РФ.
                     </div>
                 </div>
@@ -260,7 +260,7 @@
                         </div>
                         <div class="form-group col-md-6">
                             <label for="inputPassword4">Телефон:</label>
-                            <input type="text" class="form-control is-invalid" id="inputPassword4" placeholder="+7">
+                            <input type="text" class="form-control" id="inputPassword4" placeholder="+7">
                             <div class="invalid-feedback">
                                 Пожалуйста заполните данное поле.
                             </div>
@@ -282,7 +282,7 @@
                         </label>
                     </div>
                     <div class="form-row submit">
-                        <button type="submit" class="btn btn-success">Отправить заявку</button>
+                        <button type="submit" class="btn btn-success send__order__mess">Отправить заявку</button>
                     </div>
                 </form>
             </div>

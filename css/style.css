@@ -499,6 +499,15 @@ table {
     padding: 30px 0 0 30px;
     max-width: 270px;
     margin: 0 0 0 auto;
+    position: relative;
+}
+
+.informer-vakansii-block:before{
+    content: url(../images/i.png);
+    clip: rect(0px 20px 20px 0);
+    position: absolute;
+    top: 30px;
+    left: 0px;
 }
 
 .user-info.right-information-block .body p {
@@ -647,6 +656,10 @@ table {
 .requisites-body hr {
     margin: 42px -45px 0;
     color: #ebe5df;
+}
+
+.requisites-body .greenlink{
+    margin-top: -10px;
 }
 
 .requisites-body a {

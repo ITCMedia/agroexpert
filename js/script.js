@@ -474,7 +474,7 @@ $('.send__order__mess').click(function () {
         flag = 1
     }
 
-    if (email != "" && !isEmailValid(email)) {
+    if (email !== "" && !isEmailValid(email)) {
         $('#inputEmail4').addClass('input-error')
         $('#inputEmail4').attr('placeholder', 'Введите правильный E-mail')
         flag = 1
@@ -502,5 +502,5 @@ $('.send__order__mess').click(function () {
         $('#inputEmail4').val('')
         $('#inputPassword4').val('')
         $('#validationTextarea').val('')
-    }
+    } else {return false;}
 })
