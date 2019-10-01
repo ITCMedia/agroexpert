@@ -67,7 +67,7 @@
                             </a>
                         </div>
                         <div class="carousel-item">
-                            <a class="grouped_product_elements" rel="product-img-group" href="images/product-1.png">
+                            <a class="grouped_product_elements" rel="product-img-group" href="/images/product-1.png">
                                 <img class="d-block" src="/images/product-1.jpg" alt="Third slide">
                             </a>
                         </div>
