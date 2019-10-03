@@ -18,7 +18,7 @@
     font-style: normal;
     font-weight: 500;
     font-display: swap;
-    src: local('Montserrat Medium'), local('Montserrat-Medium'), url('../fonts/MontserratMedium.woff2') format('woff2');
+    src: local('Montserrat Medium'), local(.float-menu'Montserrat-Medium'), url('../fonts/MontserratMedium.woff2') format('woff2');
     unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 
@@ -481,6 +481,7 @@ table {
     border-radius: 50%;
     display: inline-block;
     vertical-align: middle;
+    margin-right: 8px;
 }
 
 .contact-data {
@@ -542,7 +543,7 @@ table {
 
 .row .user-info-block.edit .row div .invalid-feedback {
     line-height: 1;
-    margin-top: 2.45rem;
+    margin-top: 10px;
 }
 
 .row .user-info-block.edit .row div {
@@ -566,12 +567,20 @@ table {
 }
 
 .user-info-block .row div:not(.invalid-feedback) {
-    line-height: 45px;
+    line-height: 1.5;
 }
 
+.user-info-block .row div.col-md-5{
+    padding-top: 26px;
+}
+
+.user-info-block .row div.col-md-7{
+    padding-top: 13px;
+}
+/*
 .user-info-block .row div:not(.invalid-feedback) {
     line-height: 75px;
-}
+}*/
 
 .user-info-block.edit .sendForm {
     height: 55px;
@@ -613,8 +622,12 @@ table {
 
 .profile-buttons div a span {
     display: inline-block;
-    border-bottom: 1px dotted #52bc2e;
+    /*border-bottom: 1px dotted #52bc2e;*/
     line-height: 16px;
+}
+
+.profile-buttons div a:hover span{
+    border: none;
 }
 
 .profile-buttons div a i {
@@ -809,6 +822,7 @@ table {
 
 .invalid-feedback {
     position: absolute;
+    z-index :1;
 }
 
 .vakansii-form {
@@ -947,12 +961,13 @@ table {
     line-height: 56px;
     text-decoration: none;
     display: block;
-    border: 1px solid #834f1c;
+    border: 1px solid #ddcfc0;
     border-radius: 5px;
+    transition: 0.5s all;
 }
 
 .order-history-butt a:hover {
-    font-size: 120%;
+    border-color: #834f1c;
 }
 
 .custom-file:focus span {
@@ -1319,8 +1334,9 @@ input[type="color"]:focus,
 
 .us-advantages .infographic-item {
     height: 310px;
-    margin: 0 26px;
+    margin: 0 16px;
     background: linear-gradient(to bottom, #fbf9f7, rgba(255, 255, 255, 0));
+
 }
 
 
@@ -1502,13 +1518,13 @@ i.statup-icon {
 
 .contact-map {
     padding-bottom: 98px;
-    background: rgba(255, 255, 255, 1);
-    background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(252, 251, 248, 1) 40%, rgba(252, 251, 248, 1) 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(0%, rgba(255, 255, 255, 1)), color-stop(40%, rgba(252, 251, 248, 1)), color-stop(100%, rgba(252, 251, 248, 1)));
-    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(252, 251, 248, 1) 40%, rgba(252, 251, 248, 1) 100%);
-    background: -o-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(252, 251, 248, 1) 40%, rgba(252, 251, 248, 1) 100%);
-    background: -ms-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(252, 251, 248, 1) 40%, rgba(252, 251, 248, 1) 100%);
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(252, 251, 248, 1) 40%, rgba(252, 251, 248, 1) 100%);
+    /* background: rgba(252, 251, 248, 1);*/
+    /* background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(252, 251, 248, 1) 40%, rgba(252, 251, 248, 1) 100%);
+     background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(0%, rgba(255, 255, 255, 1)), color-stop(40%, rgba(252, 251, 248, 1)), color-stop(100%, rgba(252, 251, 248, 1)));
+     background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(252, 251, 248, 1) 40%, rgba(252, 251, 248, 1) 100%);
+     background: -o-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(252, 251, 248, 1) 40%, rgba(252, 251, 248, 1) 100%);
+     background: -ms-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(252, 251, 248, 1) 40%, rgba(252, 251, 248, 1) 100%);
+     background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(252, 251, 248, 1) 40%, rgba(252, 251, 248, 1) 100%);*/
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#fcfbf8', GradientType=0);
 }
 
@@ -1520,6 +1536,8 @@ i.statup-icon {
 
 .feedback-form {
     padding-bottom: 120px;
+    margin-top: -366px;
+    padding-top: 314px;
 }
 
 .feedback-form mb-h-3 > label {
@@ -1919,6 +1937,11 @@ i.statup-icon {
 
 .result-item {
     margin-bottom: 60px;
+    margin-bottom: 60px;
+    background-image: url(../images/linebtm.jpg);
+    background-repeat: no-repeat;
+    padding-left: 64px;
+    background-position: left 22px;
 }
 
 .result-item .col-1:before {
@@ -2790,7 +2813,7 @@ section.error-404 {
     background-position: left center;
     background-size: 39% 80%;
     margin-left: -16px;
-    margin-top: -13px;
+    margin-top: 0px;
 }
 
 .products__item:nth-child(even) {
@@ -2800,7 +2823,7 @@ section.error-404 {
     background-position: right center;
     background-size: 39% 80%;
     margin-left: -17px;
-    margin-top: -35px;
+    margin-top: 0px;
 }
 
 .accordionprod {
@@ -3021,6 +3044,7 @@ section.error-404 {
 .discount__form__head {
     font-size: 28px;
     font-family: 'MullerBold';
+    text-align: center;
 }
 
 .discount__form__subhead {
@@ -4025,7 +4049,6 @@ input.search:hover {
 
 .sendForm:hover {
     background-color: #0FDB0F;
-    font-size: 140%;
 }
 
 .float-menu {
@@ -4034,7 +4057,7 @@ input.search:hover {
     height: 100%;
     max-width: 100vw;
     max-height: 100vh;
-    z-index: 20;
+    z-index: 995;
     background-color: #fbf9f7;
     background-image: url(../images/kbk.png);
     background-repeat: no-repeat;
@@ -4384,7 +4407,7 @@ input.search:hover {
 .vakansii .card-header {
     background: unset;
     border: 0;
-    padding: 0 2rem;
+    padding: 0 !important;
 }
 
 .diller-map__block .pre-tilte {
@@ -4436,16 +4459,20 @@ input.search:hover {
 
 .vakansii .card .mb-0 button {
     color: #52bc2e;
-    font-family: "MullerBold";
+    /* font-family: "MullerBold";*/
     font-size: 22px;
     line-height: 36px;
-    padding: 0 0 0 20px;
+    padding: 0 0 0 47px;
     border: 0;
     text-decoration: none;
 }
 
+.vakansii .card .mb-0 button span{
+    font-family: "MullerBold";
+}
+
 .card-description {
-    padding: 0 0 0 20px;
+    padding: 0 0 0 47px;
 }
 
 .vakansii .card-body {
@@ -4453,7 +4480,7 @@ input.search:hover {
     font-size: 16px;
     line-height: 24px;
     font-weight: normal;
-    padding: 20px 2rem;
+    padding: 20px 3rem;
 }
 
 .main-page .card-body {
@@ -4463,7 +4490,7 @@ input.search:hover {
 
 .vakansii .card-body p {
     font-size: 18px;
-    font-family: "MullerBold";
+    /*font-family: "MullerBold";*/
     line-height: 36px;
     color: #212121;
 }
@@ -4511,7 +4538,7 @@ input.search:hover {
 
 .vakansii .card .mb-0 button:after,
 .vakansii .card .mb-0 .collapsed button:after {
-    font-family: "Font Awesome 5 Free";
+    /*font-family: "Font Awesome 5 Free";*/
 }
 
 .card .collapse {
@@ -5621,61 +5648,18 @@ table.collapse.show ~ .btn-readmore:after {
     text-decoration: none !important;
     color: #834f1c !important;
 }
-/* Каталог - Start */
-.cor-buyers__content .buyers_title{
-    font-size: 22px;
-    color: #834f1c;
-    text-align: left;
-    font-weight: bold;
+
+.auth__text__err{
+    display: none;
 }
-.product_catalog{
-    background: #fbf9f7;
+
+.map{
+    height: 580px;
 }
-.product_catalog .like{
-    font-size: 19px;
-    cursor: pointer;
-    color: #dbcdbd;
+
+.pills-personnel .media-body{
+    margin-left: 10px;
 }
-.product_catalog .product-discount{
-    margin: 30px 0 -30px 0;
-    padding: 0 30px;
-}
-.product_catalog .custom-success{
-    width: 75%;
-}
-.product_catalog .product-cart{
-    background: #fff;
-    float: left;
-}
-.product_catalog .oneclick-bye__block p {
-    vertical-align: unset;
-    position: unset;
-    margin-top: 14px;
-}
-.product_catalog .custom-success {
-    height: 55px;
-    max-width: 265px;
-    background: #fbf9f7;
-    border-color: #fbf9f7;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-    display: block;
-    border: none;
-    border-radius: 4px;
-    color: #834f1c;
-    padding: 0 17px;
-    cursor: pointer;
-}
-.product_catalog .custom-success:hover {
-    background: #52bc2e;
-    border-color: #52bc2e;
-    color: #fff;
-    -webkit-box-shadow: 0px 15px 15px -10px rgba(82, 188, 46, 0.9);
-    -moz-box-shadow: 0px 15px 15px -10px rgba(82, 188, 46, 0.9);
-    box-shadow: 0px 15px 15px -10px rgba(82, 188, 46, 0.9);
-}
-/* Каталог - End */
 
 @media (max-width: 1344px) {
     .top-menu__menu {
@@ -5826,7 +5810,7 @@ table.collapse.show ~ .btn-readmore:after {
     .main-page {
         background: url(../images/main-combaine-fon.png) no-repeat 300% -191px;
         background-size: 85%;
-     }
+    }
 
     .discount__form {
         width: 620px;
@@ -7151,6 +7135,70 @@ table.collapse.show ~ .btn-readmore:after {
 .send__order__mess:hover {
     color: #fff;
     background-color: #0FDB0F;
+}
+
+
+#slider-gen .owl-stage-outer{
+    overflow: hidden;
+}
+
+#slider-gen .owl-stage-outer .item img{
+    width: 100%;
+    border-radius: 6px;
+    display: block;
+}
+
+#slider-gen .owl-stage-outer .item .img-col{
+    padding: 4px;
+}
+
+.slider-gen__prev{
+    width: 52px;
+    height: 52px;
+    display: block;
+    border: none;
+    background-color: unset;
+    background-image: url(../images/prev.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -26px;
+    z-index: 10;
+    left: -70px;
+}
+
+
+.slider-gen__prev:hover{
+    background-image: url(../images/prev1.png);
+    background-size: cover;
+}
+
+.slider-gen__next{
+    width: 52px;
+    height: 52px;
+    display: block;
+    border: none;
+    background-color: unset;
+    background-image: url(../images/next.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -26px;
+    z-index: 10;
+    right: -70px;
+}
+
+.slider-gen__next:hover{
+    background-image: url(../images/next1.png);
+    background-size: cover;
+}
+
+#slider-gen .owl-dots {
+    display: block;
 }
 
 @media (max-width: 1360px) {
