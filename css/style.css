@@ -5582,6 +5582,61 @@ table.collapse.show ~ .btn-readmore:after {
     text-decoration: none !important;
     color: #834f1c !important;
 }
+/* Каталог - Start */
+.cor-buyers__content .buyers_title{
+    font-size: 22px;
+    color: #834f1c;
+    text-align: left;
+    font-weight: bold;
+}
+.product_catalog{
+    background: #fbf9f7;
+}
+.product_catalog .like{
+    font-size: 19px;
+    cursor: pointer;
+    color: #dbcdbd;
+}
+.product_catalog .product-discount{
+    margin: 30px 0 -30px 0;
+    padding: 0 30px;
+}
+.product_catalog .custom-success{
+    width: 75%;
+}
+.product_catalog .product-cart{
+    background: #fff;
+    float: left;
+}
+.product_catalog .oneclick-bye__block p {
+    vertical-align: unset;
+    position: unset;
+    margin-top: 14px;
+}
+.product_catalog .custom-success {
+    height: 55px;
+    max-width: 265px;
+    background: #fbf9f7;
+    border-color: #fbf9f7;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    display: block;
+    border: none;
+    border-radius: 4px;
+    color: #834f1c;
+    padding: 0 17px;
+    cursor: pointer;
+}
+.product_catalog .custom-success:hover {
+    background: #52bc2e;
+    border-color: #52bc2e;
+    color: #fff;
+    -webkit-box-shadow: 0px 15px 15px -10px rgba(82, 188, 46, 0.9);
+    -moz-box-shadow: 0px 15px 15px -10px rgba(82, 188, 46, 0.9);
+    box-shadow: 0px 15px 15px -10px rgba(82, 188, 46, 0.9);
+}
+/* Каталог - End */
 
 @media (max-width: 1344px) {
     .top-menu__menu {

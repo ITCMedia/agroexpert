@@ -282,7 +282,7 @@
                         </label>
                     </div>
                     <div class="form-row submit">
-                        <button type="submit" class="btn btn-success send__order__mess">Отправить заявку</button>
+                        <button  type="submit" class="btn btn-success send__order__mess">Отправить заявку</button>
                     </div>
                 </form>
             </div>
