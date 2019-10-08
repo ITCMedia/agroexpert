@@ -58,7 +58,7 @@
                                 <h5 class="mb-0">
                                     <button class="fa btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-1" aria-expanded="false" aria-controls="collapse-1">
                                         <i>1</i>
-                                        Менеджер по оптовым продажам
+                                        <span>Менеджер по оптовым продажам</span>
                                     </button>
                                 </h5>
                                 <div class="card-description">
@@ -83,7 +83,7 @@
                                     <button class="fa btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse-2" aria-expanded="false"
                                             aria-controls="collapse-2">
                                         <i>2</i>
-                                        PR-менеджер
+                                        <span>PR-менеджер</span>
                                     </button>
                                 </h5>
                                 <div class="card-description">
@@ -107,7 +107,7 @@
                                 <h5 class="mb-0">
                                     <button class="fa btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse-3" aria-expanded="false" aria-controls="collapse3">
                                         <i>3</i>
-                                        Менеджер по работе с розничными клиентами
+                                        <span>Менеджер по работе с розничными клиентами</span>
                                     </button>
                                 </h5>
                                 <div class="card-description">
@@ -132,7 +132,7 @@
                                     <button class="fa btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse-4" aria-expanded="true"
                                             aria-controls="collapse-4">
                                         <i>4</i>
-                                        Директор представительства в Санкт-Петербурге
+                                        <span>Директор представительства в Санкт-Петербурге</span>
                                     </button>
                                 </h5>
                                 <div class="card-description">
@@ -189,7 +189,7 @@
                                     <button class="fa btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse-5" aria-expanded="false"
                                             aria-controls="collapseThree">
                                         <i>5</i>
-                                        Электромеханик
+                                        <span>Электромеханик</span>
                                     </button>
                                 </h5>
                                 <div class="card-description">
