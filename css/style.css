@@ -16,7 +16,7 @@
 @font-face {
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 500;.product-list-content__block .img__block
     font-display: swap;
     src: local('Montserrat Medium'), local(.float-menu'Montserrat-Medium'), url('../fonts/MontserratMedium.woff2') format('woff2');
     unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
@@ -1322,7 +1322,7 @@ input[type="color"]:focus,
 
 .about-info__block .info__footer-block {
     font-size: 16px;
-    padding-left: 30px;
+    padding-left: 25px;
     position: relative;
     letter-spacing: -0.023em;
 }
@@ -4453,7 +4453,7 @@ input.search:hover {
     border: 2px solid #52bc2e;
     font-size: 46px;
     text-align: center;
-    line-height: 34px;
+    line-height: 31px;
 }
 
 .inner-block-name {
@@ -4506,6 +4506,11 @@ input.search:hover {
     color: #52bc2e;
 }
 
+.partner-program a:hover{
+    text-decoration: none;
+    color: #834f1c;
+}
+
 .vakansii .card {
     border: 0;
     padding-bottom: 40px;
@@ -4517,6 +4522,7 @@ input.search:hover {
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 80px;
+    padding-bottom: 116px;
 }
 
 .vakansii .card .mb-0 button {
@@ -5089,7 +5095,7 @@ input.search:hover {
     margin-right: 10px;
     vertical-align: text-top;
     left: 0;
-    top: 6px;
+    top: 0px;
 }
 
 .company-foto_block {
@@ -5174,9 +5180,10 @@ ul.inline-about-info__list {
     list-style: none;
     display: inline-flex;
     column-count: auto;
+    margin-left: 0;
 }
 
-ul.inline-about-info__list li {
+ul.inline-about-info__list li a{
     font: 12px MullerBold;
     text-transform: uppercase;
     color: #834f1c;
@@ -5184,6 +5191,11 @@ ul.inline-about-info__list li {
     border: 1px solid #ddcfc0;
     padding: 13px 28px;
     border-radius: 20px;
+}
+
+ul.inline-about-info__list li a:hover{
+    text-decoration: none;
+    border: 1px solid #834f1c;
 }
 
 .product-info__footer-block > div:nth-child(1) i {
@@ -5331,9 +5343,10 @@ ul.inline-about-info__list li {
     padding-top: 20px;
     color: #52bc2e;
     margin: auto;
-    border-bottom: 1px dotted #52bc2e;
+    /*border-bottom: 1px dotted #52bc2e;*/
     font-size: 15px;
 }
+
 
 /**/
 .toc li,
@@ -5887,13 +5900,6 @@ table.collapse.show ~ .btn-readmore:after {
 .product-list-content__block .img__block{
     height: 276px;
     width: 200px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    border: 1px solid #e9e5e4;
-    -webkit-box-shadow: 0px 40px 25px -30px rgba(180, 150, 121, 0.7);
-    -moz-box-shadow: 0px 40px 25px -30px rgba(180, 150, 121, 0.7);
-    box-shadow: 0px 40px 25px -30px rgba(180, 150, 121, 0.7);
     padding: 5px;
     border-radius: 5px;     
 }
