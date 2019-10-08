@@ -1510,7 +1510,7 @@ i.statup-icon {
 
 .about-us-main__block {
     background: #fbf9f7;
-    /* border: 1px solid #f0eae4;*/
+   /* border: 1px solid #f0eae4;*/
 }
 
 .custom-success:hover,
@@ -1531,13 +1531,13 @@ i.statup-icon {
 
 .contact-map {
     padding-bottom: 98px;
-    /* background: rgba(252, 251, 248, 1);*/
-    /* background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(252, 251, 248, 1) 40%, rgba(252, 251, 248, 1) 100%);
-     background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(0%, rgba(255, 255, 255, 1)), color-stop(40%, rgba(252, 251, 248, 1)), color-stop(100%, rgba(252, 251, 248, 1)));
-     background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(252, 251, 248, 1) 40%, rgba(252, 251, 248, 1) 100%);
-     background: -o-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(252, 251, 248, 1) 40%, rgba(252, 251, 248, 1) 100%);
-     background: -ms-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(252, 251, 248, 1) 40%, rgba(252, 251, 248, 1) 100%);
-     background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(252, 251, 248, 1) 40%, rgba(252, 251, 248, 1) 100%);*/
+   /* background: rgba(252, 251, 248, 1);*/
+   /* background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(252, 251, 248, 1) 40%, rgba(252, 251, 248, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(0%, rgba(255, 255, 255, 1)), color-stop(40%, rgba(252, 251, 248, 1)), color-stop(100%, rgba(252, 251, 248, 1)));
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(252, 251, 248, 1) 40%, rgba(252, 251, 248, 1) 100%);
+    background: -o-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(252, 251, 248, 1) 40%, rgba(252, 251, 248, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(252, 251, 248, 1) 40%, rgba(252, 251, 248, 1) 100%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(252, 251, 248, 1) 40%, rgba(252, 251, 248, 1) 100%);*/
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#fcfbf8', GradientType=0);
 }
 
@@ -4521,7 +4521,7 @@ input.search:hover {
 
 .vakansii .card .mb-0 button {
     color: #52bc2e;
-    /* font-family: "MullerBold";*/
+   /* font-family: "MullerBold";*/
     font-size: 22px;
     line-height: 36px;
     padding: 0 0 0 47px;
@@ -5854,7 +5854,7 @@ table.collapse.show ~ .btn-readmore:after {
     height: 52px;
     background-repeat: no-repeat;
     top: 42%;
-
+   
     background-size: cover;
     z-index: 10;
     cursor: pointer;
@@ -5895,7 +5895,7 @@ table.collapse.show ~ .btn-readmore:after {
     -moz-box-shadow: 0px 40px 25px -30px rgba(180, 150, 121, 0.7);
     box-shadow: 0px 40px 25px -30px rgba(180, 150, 121, 0.7);
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 5px;     
 }
 
 .fav_product-title{
@@ -6120,7 +6120,7 @@ table.collapse.show ~ .btn-readmore:after {
     .main-page {
         background: url(../images/main-combaine-fon.png) no-repeat 300% -191px;
         background-size: 85%;
-    }
+     }
 
     .discount__form {
         width: 620px;
@@ -7773,7 +7773,26 @@ table.collapse.show ~ .btn-readmore:after {
     border-radius: 5px 5px 0 0 !important;
     background-color: #fbf9f7 !important;
     color: #834f1c !important;
+}
+
+.tabs-catalog li:nth-child(1).active a{
     background-image: url(../images/g1_h.png) !important;
+}
+
+.tabs-catalog li:nth-child(2).active a{
+    background-image: url(../images/g2_h.png) !important;
+}
+
+.tabs-catalog li:nth-child(3).active a{
+    background-image: url(../images/g3_h.png) !important;
+}
+
+.tabs-catalog li:nth-child(4).active a{
+    background-image: url(../images/g4_h.png) !important;
+}
+
+.tabs-catalog li:nth-child(5).active a{
+    background-image: url(../images/g5_h.png) !important;
 }
 
 .tabs-catalog li.active a sup{
