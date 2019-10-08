@@ -66,18 +66,18 @@
                         <p class="inner-block-name">Где и как вы хотите получить заказ?</p>
                         <div class="select-block">
                             <div class="form-group col-6">
-                                <input name="delivery" type="radio" id="custom"/>
+                                <input name="delivery" type="radio" id="custom-3"/>
                                 <div class="select-item">
-                                    <label for="custom">Доставка по Ярославской и Ивановской области</label>
+                                    <label for="custom-3">Доставка по Ярославской и Ивановской области</label>
                                     <p class="select-item__description"></p>
                                     <p class="select-item__subdescription">Возможна доставка по маршруту,
                                         доставка на дом и самовывоз </p>
                                 </div>
                             </div>
                             <div class="form-group col-6  mb-7">
-                                <input name="delivery" type="radio" id="custom-2"/>
+                                <input name="delivery" type="radio" id="custom-4"/>
                                 <div class="select-item">
-                                    <label for="custom-2">Доставка в другой регион РФ</label>
+                                    <label for="custom-4">Доставка в другой регион РФ</label>
                                     <p class="select-item__description">Вес влияет на цену доставки</p>
                                     <p class="select-item__subdescription">Возможна доставка до специализированного магазина или на дом</p>
                                 </div>
@@ -134,7 +134,7 @@
                                 </div>
                             </div>
                         </form>
-                        <a href="" class="delivery_calc_btn">Расчитать стоимость доставки</a>
+                        <a href="" class="delivery_calc_btn greenlink">Расчитать стоимость доставки</a>
                         <p class="inner-block-name">Заказ № 1 386</p>
                         <ul class="toc">
                             <li>

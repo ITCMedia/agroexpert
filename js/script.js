@@ -423,6 +423,42 @@ $(document).ready(function () {
             }
         }
     })
+
+    var owl = $("#slider-gen")
+    owl.owlCarousel({
+        loop           : true,
+        margin         : 8,
+        nav            : true,
+        dots           : true,
+        navText        : ['', ''],
+        autoplay       : false,
+        autoplayTimeout: 5000,
+        responsive     : {
+            0  : {
+                items: 1
+            },
+            320: {
+                items: 1
+            },
+            576: {
+                items: 2
+            },
+            767: {
+                items: 1
+            },
+            991: {
+                items: 2
+            }
+        }
+    })
+
+    $('.slider-gen__prev').click(function(){
+        owl.trigger("prev.owl.carousel");
+    })
+
+    $('.slider-gen__next').click(function(){
+        owl.trigger("next.owl.carousel");
+    })
 })
 
 
