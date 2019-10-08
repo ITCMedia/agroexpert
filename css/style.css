@@ -5,7 +5,7 @@
 @font-face {
     font-family: 'MullerBlack';
     src: url('../fonts/Fontfabric - MullerBlack.eot');
-    src: local('вє'), url('../fonts/Fontfabric - MullerBlack.woff') format('woff'),
+    src: local('☺'), url('../fonts/Fontfabric - MullerBlack.woff') format('woff'),
     url('../fonts/Fontfabric - MullerBlack.ttf') format('truetype'),
     url('../fonts/Fontfabric - MullerBlack.svg') format('svg');
     font-weight: normal;
@@ -75,7 +75,7 @@
 @font-face {
     font-family: 'MullerBold';
     src: url('../fonts/Fontfabric - MullerBold.eot');
-    src: local('вє'), url('../fonts/Fontfabric - MullerBold.woff') format('woff'),
+    src: local('☺'), url('../fonts/Fontfabric - MullerBold.woff') format('woff'),
     url('../fonts/Fontfabric - MullerBold.ttf') format('truetype'),
     url('../fonts/Fontfabric - MullerBold.svg') format('svg');
     font-weight: normal;
@@ -85,7 +85,7 @@
 @font-face {
     font-family: 'MullerExtraBold';
     src: url('../fonts/Fontfabric - MullerExtraBold.eot');
-    src: local('вє'), url('../fonts/Fontfabric - MullerExtraBold.woff') format('woff'),
+    src: local('☺'), url('../fonts/Fontfabric - MullerExtraBold.woff') format('woff'),
     url('../fonts/Fontfabric - MullerExtraBold.ttf') format('truetype'),
     url('../fonts/Fontfabric - MullerExtraBold.svg') format('svg');
     font-weight: normal;
@@ -95,7 +95,7 @@
 @font-face {
     font-family: 'MullerHeavy';
     src: url('../fonts/Fontfabric - MullerHeavy.eot');
-    src: local('вє'), url('../fonts/Fontfabric - MullerHeavy.woff') format('woff'),
+    src: local('☺'), url('../fonts/Fontfabric - MullerHeavy.woff') format('woff'),
     url('../fonts/Fontfabric - MullerHeavy.ttf') format('truetype'),
     url('../fonts/Fontfabric - MullerHeavy.svg') format('svg');
     font-weight: normal;
@@ -105,7 +105,7 @@
 @font-face {
     font-family: 'MullerLight';
     src: url('../fonts/Fontfabric - MullerLight.eot');
-    src: local('вє'), url('../fonts/Fontfabric - MullerLight.woff') format('woff'),
+    src: local('☺'), url('../fonts/Fontfabric - MullerLight.woff') format('woff'),
     url('../fonts/Fontfabric - MullerLight.ttf') format('truetype'),
     url('../fonts/Fontfabric - MullerLight.svg') format('svg');
     font-weight: normal;
@@ -115,7 +115,7 @@
 @font-face {
     font-family: 'MullerMedium';
     src: url('../fonts/Fontfabric - MullerMedium.eot');
-    src: local('вє'), url('../fonts/Fontfabric - MullerMedium.woff') format('woff'),
+    src: local('☺'), url('../fonts/Fontfabric - MullerMedium.woff') format('woff'),
     url('../fonts/Fontfabric - MullerMedium.ttf') format('truetype'),
     url('../fonts/Fontfabric - MullerMedium.svg') format('svg');
     font-weight: normal;
@@ -125,7 +125,7 @@
 @font-face {
     font-family: 'MullerRegular';
     src: url('../fonts/Fontfabric - MullerRegular.eot');
-    src: local('вє'), url('../fonts/Fontfabric - MullerRegular.woff') format('woff'),
+    src: local('☺'), url('../fonts/Fontfabric - MullerRegular.woff') format('woff'),
     url('../fonts/Fontfabric - MullerRegular.ttf') format('truetype'),
     url('../fonts/Fontfabric - MullerRegular.svg') format('svg');
     font-weight: normal;
@@ -135,7 +135,7 @@
 @font-face {
     font-family: 'MullerThin';
     src: url('../fonts/Fontfabric - MullerThin.eot');
-    src: local('вє'), url('../fonts/Fontfabric - MullerThin.woff') format('woff'),
+    src: local('☺'), url('../fonts/Fontfabric - MullerThin.woff') format('woff'),
     url('../fonts/Fontfabric - MullerThin.ttf') format('truetype'),
     url('../fonts/Fontfabric - MullerThin.svg') format('svg');
     font-weight: normal;
@@ -790,7 +790,7 @@ table {
 }
 
 .requisites ul li:before {
-    content: "вЂ”";
+    content: "—";
     color: #5ebf35;
     font-size: 23px;
     position: absolute;
@@ -2819,7 +2819,7 @@ section.error-404 {
     font-size: 16px;
 }
 .products__left .greenlink:after{
-    content: " вЂє";
+    content: " ›";
 }
 
 .ml-mh {
@@ -2876,7 +2876,7 @@ section.error-404 {
 
 .accordionprod:after {
     font-family: "Font Awesome 5 Free";
-    content: "вЂє";
+    content: "›";
 }
 
 .products__item:nth-child(3) > div > img {
@@ -4573,7 +4573,7 @@ input.search:hover {
 
 .vakansii .card-body li:before {
     color: #52bc2e;
-    content: "вЂў";
+    content: "•";
     font-size: 18px;
     font-family: "Muller Black";
     margin-top: 2px;
@@ -4697,7 +4697,7 @@ input.search:hover {
 .breadcrumb-item + .breadcrumb-item::before {
     display: inline-block;
     padding-right: .5rem;
-    content: "вЂє";
+    content: "›";
     color: #52bc2e;
     font-family: MullerRegular;
 }
@@ -5611,7 +5611,7 @@ table.collapse.show ~ .btn-readmore:after {
     cursor: pointer;
 }
 
-/* СЃРєСЂС‹РІР°РµРј С‡РµРєР±РѕРєСЃС‹ Рё Р±Р»РѕРєРё СЃ СЃРѕРґРµСЂР¶Р°РЅРёРµРј */
+/* скрываем чекбоксы и блоки с содержанием */
 .hide {
     display: none;
 }
@@ -5620,7 +5620,7 @@ table.collapse.show ~ .btn-readmore:after {
     display: none;
 }
 
-/* РѕС„РѕСЂРјР»СЏРµРј С‚РµРєСЃС‚ label */
+/* оформляем текст label */
 .hide + label {
     position: relative;
     padding-left: 35px;
@@ -5652,7 +5652,7 @@ table.collapse.show ~ .btn-readmore:after {
     left: 0;
 }
 
-/* РІРёРґ С‚РµРєСЃС‚Р° label РїСЂРё Р°РєС‚РёРІРЅРѕРј РїРµСЂРµРєР»СЋС‡Р°С‚РµР»Рµ */
+/* вид текста label при активном переключателе */
 .hide:checked + label {
     color: #212121;
 }
@@ -5661,7 +5661,7 @@ table.collapse.show ~ .btn-readmore:after {
     content: '-';
 }
 
-/* РєРѕРіРґР° С‡РµРєР±РѕРєСЃ Р°РєС‚РёРІРµРЅ РїРѕРєР°Р·С‹РІР°РµРј Р±Р»РѕРєРё СЃ СЃРѕРґРµСЂР¶Р°РЅРёРµРј  */
+/* когда чекбокс активен показываем блоки с содержанием  */
 .hide:checked + label + div {
     display: block;
     padding-left: 35px;
@@ -5708,7 +5708,7 @@ table.collapse.show ~ .btn-readmore:after {
     color: #4bba26;
 }
 
-/* demo РєРѕРЅС‚РµР№РЅРµСЂ */
+/* demo контейнер */
 .phone-tabs {
     margin: 5% 0;
 }
@@ -7589,11 +7589,7 @@ table.collapse.show ~ .btn-readmore:after {
     display: block;
 }
 
-<<<<<<< HEAD
 /* Каталог - Start */
-=======
-/* РљР°С‚Р°Р»РѕРі - Start */
->>>>>>> 9c675d5bc6dbe28b1e15705dbb8e5ac21190ebd0
 .cor-buyers__content .buyers_title{
     font-size: 22px;
     color: #834f1c;
@@ -7627,10 +7623,7 @@ table.collapse.show ~ .btn-readmore:after {
 .product_catalog .product-cart{
     background: #fff;
     float: left;
-<<<<<<< HEAD
-=======
     min-height: 660px;
->>>>>>> 9c675d5bc6dbe28b1e15705dbb8e5ac21190ebd0
 }
 .product_catalog .product-cart:hover{
     z-index: 90;
@@ -7665,11 +7658,7 @@ table.collapse.show ~ .btn-readmore:after {
     -moz-box-shadow: 0px 15px 15px -10px rgba(82, 188, 46, 0.9);
     box-shadow: 0px 15px 15px -10px rgba(82, 188, 46, 0.9);
 }
-<<<<<<< HEAD
 /* Каталог - End */
-=======
-/* РљР°С‚Р°Р»РѕРі - End */
->>>>>>> 9c675d5bc6dbe28b1e15705dbb8e5ac21190ebd0
 /*--------------------------------------------------------*/
 .tabs-catalog{
     width: 100%;
@@ -7779,21 +7768,12 @@ table.collapse.show ~ .btn-readmore:after {
 }
 
 .tabs-catalog li.active a{
-<<<<<<< HEAD
-    border: 1px solid #ebe5df;
-    border-bottom: none;
-    border-radius: 5px 5px 0 0;
-    background-color: #fbf9f7;
-    color: #834f1c;
-    background-image: url(../images/g1_h.png);
-=======
     border: 1px solid #ebe5df !important;
     border-bottom: none !important;
     border-radius: 5px 5px 0 0 !important;
     background-color: #fbf9f7 !important;
     color: #834f1c !important;
     background-image: url(../images/g1_h.png) !important;
->>>>>>> 9c675d5bc6dbe28b1e15705dbb8e5ac21190ebd0
 }
 
 .tabs-catalog li.active a sup{
@@ -7916,8 +7896,6 @@ table.collapse.show ~ .btn-readmore:after {
     overflow: hidden;
 }
 
-<<<<<<< HEAD
-=======
 .slider-product .item{
     height: 300px;
     background-position: center;
@@ -7925,13 +7903,10 @@ table.collapse.show ~ .btn-readmore:after {
     background-repeat: no-repeat;
 }
 
->>>>>>> 9c675d5bc6dbe28b1e15705dbb8e5ac21190ebd0
 .slider-product .owl-dots{
     margin-top: 0;
 }
 
-<<<<<<< HEAD
-=======
 .slider-product .owl-item img{
     width: auto;
     margin: 0 auto;
@@ -7941,7 +7916,6 @@ table.collapse.show ~ .btn-readmore:after {
     text-align: center;
 }
 
->>>>>>> 9c675d5bc6dbe28b1e15705dbb8e5ac21190ebd0
 @media (max-width: 1100px) {
     .product_catalog{
         padding: 0 15px;
@@ -7997,8 +7971,6 @@ table.collapse.show ~ .btn-readmore:after {
         width: 100%;
         text-align: center;
     }
-<<<<<<< HEAD
-=======
 
     .gost__value{
         margin-bottom: 20px;
@@ -8025,7 +7997,6 @@ table.collapse.show ~ .btn-readmore:after {
     .right-information-block p{
         margin-top: 20px;
     }
->>>>>>> 9c675d5bc6dbe28b1e15705dbb8e5ac21190ebd0
 }
 
 @media (max-width: 576px) {

@@ -1,35 +1,3 @@
-/*ymaps.ready(function () {
-    var myMap = new ymaps.Map("mapContacts", {
-        center: [56.851937, 41.350119],
-        zoom: 15,
-        controls: ['routeButtonControl', 'zoomControl']
-    });
-
-    var myPlacemark1 = new ymaps.Placemark([56.852809, 41.348276], {
-        balloonContent: 'Россия, 155900, Ивановская область, г. Шуя, ул. Завокзальная, 1'
-    }, {
-        draggable: false, // Метку можно перемещать.
-        iconLayout: 'default#image',
-        iconImageHref: '/local/templates/.default/images/marker1.png',
-        iconImageSize: [79, 80],
-        iconImageOffset: [-40, -40]
-    });
-
-    myMap.geoObjects.add(myPlacemark1);
-
-    var myPlacemark2 = new ymaps.Placemark([56.850624, 41.351780], {
-        balloonContent: 'Станция Шуя, Северная железная дорога. Код станции: 319003'
-    }, {
-        draggable: false, // Метку можн.top-menu__gambо перемещать.
-        iconLayout: 'default#image',
-        iconImageHref: '/local/templates/.default/images/marker1.png',
-        iconImageSize: [79, 80],
-        iconImageOffset: [-40, -40]
-    });
-
-    myMap.geoObjects.add(myPlacemark2);
-});
-*/
 $('.js-parallax').each(function(){
     var parallax = new Parallax(this, {
         invertX: false,
@@ -41,30 +9,30 @@ $('.js-parallax').each(function(){
 
 $(function(){
     $('.js-animate-counter').each(function(){
-       var animateCounter = $(this),
-           from = animateCounter.data('from') || 0,
-           to = +animateCounter.text(),
-           counterIsDone = false;
+        var animateCounter = $(this),
+            from = animateCounter.data('from') || 0,
+            to = +animateCounter.text(),
+            counterIsDone = false;
 
-       function counterStart(){
-           counterIsDone = true;
-           $({Counter: from}).animate({Counter: to}, {
-               duration: 2000,
-               easing: 'swing',
-               step: function () {
-                   animateCounter.text(Math.ceil(this.Counter));
-               }
-           });
-       }
+        function counterStart(){
+            counterIsDone = true;
+            $({Counter: from}).animate({Counter: to}, {
+                duration: 2000,
+                easing: 'swing',
+                step: function () {
+                    animateCounter.text(Math.ceil(this.Counter));
+                }
+            });
+        }
 
-       $(window).scroll(function(){
-           var wb = $(window).scrollTop() + $(window).height(),
-               ct = animateCounter.offset().top;
+        $(window).scroll(function(){
+            var wb = $(window).scrollTop() + $(window).height(),
+                ct = animateCounter.offset().top;
 
-          if(wb > ct && !counterIsDone){
-              counterStart();
-          }
-       });
+            if(wb > ct && !counterIsDone){
+                counterStart();
+            }
+        });
     });
 });
 
@@ -73,8 +41,8 @@ $(function () {
         spoilerText = $('.js-spoiler-text'),
         isShow = false,
         textBtn = {
-          'true': 'Скрыть',
-          'false': spoilerBtn.text()
+            'true': 'Скрыть',
+            'false': spoilerBtn.text()
         };
 
     spoilerText.hide();
@@ -521,8 +489,80 @@ $(document).ready(function () {
             }
         }
     })
+
 })
 
+var owl2 = $("#slider_recom")
+owl2.owlCarousel({
+    loop           : true,
+    margin         : 0,
+    nav            : false,
+    dots           : true,
+    navText        : ['', ''],
+    autoplay       : false,
+    autoplayTimeout: 5000,
+    responsive     : {
+        0  : {
+            items: 1
+        },
+        320: {
+            items: 1
+        },
+        576: {
+            items: 1
+        },
+        767: {
+            items: 2
+        },
+        991: {
+            items: 3
+        }
+    }
+})
+
+$('#recom_prev').click(function(){
+    owl2.trigger("prev.owl.carousel");
+})
+
+$('#recom_next').click(function(){
+    owl2.trigger("next.owl.carousel");
+})
+
+var owl3 = $("#slider_viewed")
+owl3.owlCarousel({
+    loop           : true,
+    margin         : 0,
+    nav            : false,
+    dots           : true,
+    navText        : ['', ''],
+    autoplay       : false,
+    autoplayTimeout: 5000,
+    responsive     : {
+        0  : {
+            items: 1
+        },
+        320: {
+            items: 1
+        },
+        576: {
+            items: 1
+        },
+        767: {
+            items: 2
+        },
+        991: {
+            items: 3
+        }
+    }
+})
+
+$('#viewed_prev').click(function(){
+    owl3.trigger("prev.owl.carousel");
+})
+
+$('#viewed_next').click(function(){
+    owl3.trigger("next.owl.carousel");
+})
 
 $('.radio-label').click(function () {
     $('.radio-label').removeClass('active')
@@ -975,4 +1015,178 @@ $('#regUser').click(function () {
 
     }
 
+})
+
+$('#sendRec').click(function(){
+    var email = $('#emailRec').val(),
+        flag = 0
+
+    if(email == ''){
+        $('#emailRec').addClass('is-invalid')
+        flag = 1
+    }else{
+        $('#emailRec').addClass('is-valid')
+    }
+
+    if(email != '' && !isEmailValid(email)){
+        $('#emailRec').addClass('is-invalid')
+        flag = 1
+    }else{
+        $('#emailRec').addClass('is-valid')
+    }
+
+    if(email != '' && isEmailValid(email)){
+        $.post('/recovery/check.php', {EMAIL: email}, function(data){
+            if(data == '0'){
+                $('#emailInvalid').css({'display':'block'})
+            }else{
+                $('#emailInvalid').css({'display':'none'})
+                $.post('/recovery/send.php', {EMAIL: email, UID: data}, function(data){
+                    alert(data)
+                })
+            }
+        })
+    }
+})
+
+$('.clickable').click(function(){
+    var id = $(this).attr('id')
+
+    if($(this).hasClass('visible')){
+        $(this).removeClass('visible')
+        $('.' + id).hide()
+    }else{
+        $(this).addClass('visible')
+        $('.' + id).show()
+    }
+})
+
+$('#pointPay').click(function(){
+    document.location.href = '/where-buy/'
+})
+
+$('.nav_contacts').click(function(){
+    var id = $(this).attr('panel')
+
+    $('.nav_contacts').removeClass('active')
+    $(this).addClass('active')
+
+    $('.tab-pane').hide()
+    $('#' + id).show()
+})
+
+$('.slider_tab_nav').click(function(){
+    var id = $(this).attr('panel')
+
+    $('.slider_tab_nav').removeClass('active')
+    $(this).addClass('active')
+
+    $('.panel-slider').hide()
+    $('#' + id).show()
+})
+
+$('.to-back__button').click(function(){
+    document.location.href = "/catalog/"
+})
+
+function zklUnUser(){
+    $('.overlay').fadeIn(200, function(){
+        $('.fav-pp').fadeIn(200);
+        var top = document.documentElement.clientHeight / 2 - $('.fav-pp').height() / 2 + $(window).scrollTop();
+        var left = $('body').width() / 2 - $('.fav-pp').width() / 2;
+        left = left - 40;
+        $('.fav-pp').css('top', top).css('left', left);
+    })
+}
+
+/*---------------Добавляем элемент в закладки--------------*/
+function favorits(uid, aid, element){
+    $.post('/lk/favorits.php', {UID: uid, AID: aid}, function(data){
+        if(data == 1){
+            $(element).addClass('favorits');
+
+            $('body').append('<div class = "popup profile-pp"><a class="close1" href="javascript:void(0);"></a><div class="head">Добавлено в избранное!</div></div>');
+
+            $('.profile-pp').fadeIn(200);
+            var top = document.documentElement.clientHeight / 2 - $('.profile-pp').height() / 2 + $(window).scrollTop();
+            var left = $('body').width() / 2 - $('.profile-pp').width() / 2;
+            left = left - 40;
+            $('.profile-pp').css('top', top).css('left', left);
+
+            $('.close1').bind('click', function(){
+                $('.profile-pp').remove();
+            });
+
+        }else if(data == 0){
+            $(element).removeClass('favorits');
+
+            $('body').append('<div class = "popup profile-pp"><a class="close1" href="javascript:void(0);"></a><div class="head">Удалено из избранного!</div></div>');
+
+            $('.profile-pp').fadeIn(200);
+            var top = document.documentElement.clientHeight / 2 - $('.profile-pp').height() / 2 + $(window).scrollTop();
+            var left = $('body').width() / 2 - $('.profile-pp').width() / 2;
+            left = left - 40;
+            $('.profile-pp').css('top', top).css('left', left);
+
+            $('.close1').bind('click', function(){
+                $('.profile-pp').remove();
+            });
+
+        }else{
+            alert('Ошибка: ' + data);
+        }
+    });
+}
+
+$('.add_basket_fav').click(function(){
+    var prodId = $(this).attr('prodId'),
+        prodName = $(this).attr('prodName'),
+        imgSrc = $(this).attr('imgSrc')
+
+    $.post('/lk/addbasket.php', {PID: prodId}, function(data){
+        $('.top-menu__user__basket span').text(data)
+
+        $('body').append('<div class = "popup profile-pp"><a class="close1" href="javascript:void(0);"></a><div class="head">Товар добавлен в корзину!</div><img src = "' + imgSrc + '" height = "200" /><p>' + prodName + '</p><a href = "/personal/cart/" class = "btn btn-add-basket">В корзину</a></div>');
+
+        $('.profile-pp').fadeIn(200);
+        var top = document.documentElement.clientHeight / 2 - $('.profile-pp').height() / 2 + $(window).scrollTop();
+        var left = $('body').width() / 2 - $('.profile-pp').width() / 2;
+        left = left - 40;
+        $('.profile-pp').css('top', top).css('left', left);
+
+        $('.close1').bind('click', function(){
+            $('.profile-pp').remove();
+        });
+
+    })
+})
+
+$('.tabs-catalog li').click(function(){
+    var category = $(this).attr('category')
+
+    $('.tabs-catalog li').removeClass('active')
+    $(this).addClass('active')
+
+    $('.product_catalog .product-cart').hide()
+    $('.product_catalog .product-cart.' + category).show()
+})
+
+$('.filter-cat ul li').click(function(){
+    var category = $(this).attr('cat')
+
+    $('.filter-cat ul li').removeClass('active')
+    $(this).addClass('active')
+
+    $('.product_catalog .product-cart').hide()
+    $('.product_catalog .product-cart.' + category).show()
+})
+
+$('.filter-cat__bottom ul li').click(function(){
+    var category = $(this).attr('cat')
+
+    $('.filter-cat__bottom ul li').removeClass('active')
+    $(this).addClass('active')
+
+    $('.product_catalog .product-cart').hide()
+    $('.product_catalog .product-cart.' + category).show()
 })
