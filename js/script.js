@@ -1,3 +1,35 @@
+/*ymaps.ready(function () {
+    var myMap = new ymaps.Map("mapContacts", {
+        center: [56.851937, 41.350119],
+        zoom: 15,
+        controls: ['routeButtonControl', 'zoomControl']
+    });
+
+    var myPlacemark1 = new ymaps.Placemark([56.852809, 41.348276], {
+        balloonContent: 'Россия, 155900, Ивановская область, г. Шуя, ул. Завокзальная, 1'
+    }, {
+        draggable: false, // Метку можно перемещать.
+        iconLayout: 'default#image',
+        iconImageHref: '/local/templates/.default/images/marker1.png',
+        iconImageSize: [79, 80],
+        iconImageOffset: [-40, -40]
+    });
+
+    myMap.geoObjects.add(myPlacemark1);
+
+    var myPlacemark2 = new ymaps.Placemark([56.850624, 41.351780], {
+        balloonContent: 'Станция Шуя, Северная железная дорога. Код станции: 319003'
+    }, {
+        draggable: false, // Метку можн.top-menu__gambо перемещать.
+        iconLayout: 'default#image',
+        iconImageHref: '/local/templates/.default/images/marker1.png',
+        iconImageSize: [79, 80],
+        iconImageOffset: [-40, -40]
+    });
+
+    myMap.geoObjects.add(myPlacemark2);
+});
+*/
 $('.js-parallax').each(function(){
     var parallax = new Parallax(this, {
         invertX: false,
@@ -138,9 +170,11 @@ $('#sendDiscount').click(function () {
     }
 
     if (flag == 0) {
-        $('.form-error').text('')
-        $('.discount__form form input').val('')
-        alert('Спасибо за заявку! В ближайшее время мы Вам перезвоним')
+        $.post('/send.php', {PHONE: phone, EVENT: 'action'}, function(data){
+            $('.form-error').text('')
+            $('.discount__form form input').val('')
+            alert('Спасибо за заявку! В ближайшее время мы Вам перезвоним')
+        })
     } else {
         //$('.form-error').text(error)
     }
@@ -423,6 +457,70 @@ $(document).ready(function () {
             }
         }
     })
+
+    var owl = $("#slider-gen")
+    owl.owlCarousel({
+        loop           : true,
+        margin         : 8,
+        nav            : true,
+        dots           : true,
+        navText        : ['', ''],
+        autoplay       : false,
+        autoplayTimeout: 5000,
+        responsive     : {
+            0  : {
+                items: 1
+            },
+            320: {
+                items: 1
+            },
+            576: {
+                items: 2
+            },
+            767: {
+                items: 1
+            },
+            991: {
+                items: 2
+            }
+        }
+    })
+
+    $('.slider-gen__prev').click(function(){
+        owl.trigger("prev.owl.carousel");
+    })
+
+    $('.slider-gen__next').click(function(){
+        owl.trigger("next.owl.carousel");
+    })
+
+    var owl1 = $(".slider-product")
+    owl1.owlCarousel({
+        loop           : false,
+        margin         : 0,
+        nav            : false,
+        dots           : true,
+        navText        : ['', ''],
+        autoplay       : false,
+        autoplayTimeout: 5000,
+        responsive     : {
+            0  : {
+                items: 1
+            },
+            320: {
+                items: 1
+            },
+            576: {
+                items: 1
+            },
+            767: {
+                items: 1
+            },
+            991: {
+                items: 1
+            }
+        }
+    })
 })
 
 
@@ -456,6 +554,12 @@ $('.order-discount').mousemove(function (e) {
 */
 $('.form-control').focus(function () {
     $(this).removeClass('input-error')
+})
+
+$('.form-control').blur(function(){
+    if($(this).val() != ""){
+        $(this).removeClass('is-invalid')
+    }
 })
 
 $('.send__order__mess').click(function () {
@@ -503,4 +607,372 @@ $('.send__order__mess').click(function () {
         $('#inputPassword4').val('')
         $('#validationTextarea').val('')
     } else {return false;}
+})
+
+$('#editLk').click(function(){
+    var name = $('#validationServer01').val(),
+        company = $('#validationServer02').val(),
+        email = $('#validationServerUsername').val(),
+        phone = $('#validationServerPhone').val(),
+        addr = $('#validationServerAddres').val(),
+        rekv = $('#validationServerRequisites').val(),
+        uid   = $('#userId').val(),
+        flag = 0
+
+
+    if(name == ""){
+        $('#validationServer01').addClass('is-invalid')
+        flag = 1
+    }else{
+        $('#validationServer01').addClass('is-valid')
+    }
+
+    if(company == ""){
+        $('#validationServer02').addClass('is-invalid')
+        flag = 1
+    }else{
+        $('#validationServer02').addClass('is-valid')
+    }
+
+    if(email == ""){
+        $('#validationServerUsername').addClass('is-invalid')
+        flag == 1
+    }else{
+        $('#validationServerUsername').addClass('is-valid')
+    }
+
+    if(email != "" && !isEmailValid(email)){
+        $('#validationServerUsername').addClass('is-invalid')
+        $('#emailInvalid').css({"display":"block"})
+        flag = 1
+    }else{
+        $('#validationServerUsername').addClass('is-valid')
+        $('#emailInvalid').css({"display":"none"})
+    }
+
+    if(phone == ""){
+        $('#validationServerPhone').addClass('is-invalid')
+        flag = 1
+    }else{
+        $('#validationServerPhone').addClass('is-valid')
+    }
+
+    if(addr == ""){
+        $('#validationServerAddres').addClass('is-invalid')
+        flag = 1
+    }else{
+        $('#validationServerAddres').addClass('is-valid')
+    }
+
+    if(rekv == ""){
+        $('#validationServerRequisites').addClass('is-invalid')
+        flag = 1
+    }else{
+        $('#validationServerRequisites').addClass('is-valid')
+    }
+
+    if(flag == 0){
+        $.post('/lk/edit/edit.php', {UID: uid, NAME: name, COMPANY: company, EMAIL: email, PHONE: phone, ADDR: addr, REKV: rekv}, function(data){
+            alert(data)
+        })
+    }else{
+
+    }
+
+})
+
+$('#changePass').click(function(){
+    var oldPass = $('#oldPass').val(),
+        newPass = $('#newPass').val(),
+        confirm = $('#confirmPass').val(),
+        uid     = $('#userId').val(),
+        flag    = 0
+
+    $.post('/lk/password-change/check.php', {UID: uid, OLDPASS: oldPass}, function(data){
+        if(data == '0'){
+            $('#oldPass').addClass('is-invalid')
+            $('#confinvalid2').css({"display":"block"})
+            flag = 1
+        }else{
+            $('#oldPass').addClass('is-valid')
+            $('#confinvalid2').css({"display":"none"})
+        }
+    })
+
+    if(oldPass == ""){
+        $('#oldPass').addClass('is-invalid')
+        flag = 1
+    }else{
+        $('#oldPass').addClass('is-valid')
+    }
+
+    if(newPass == ""){
+        $('#newPass').addClass('is-invalid')
+        flag = 1
+    }else{
+        $('#newPass').addClass('is-valid')
+    }
+
+    if(confirm == ""){
+        $('#confirmPass').addClass('is-invalid')
+        flag = 1
+    }else{
+        $('#confirmPass').addClass('is-valid')
+    }
+
+    if(confirm != newPass){
+        $('#confirmPass').addClass('is-invalid')
+        $('#newPass').addClass('is-invalid')
+        $('#confinvalid').css({"display":"block"})
+        flag = 1
+    }else{
+        $('#confirmPass').addClass('is-valid')
+        $('#newPass').addClass('is-valid')
+        $('#confinvalid').css({"display":"none"})
+    }
+
+    if(flag == 0){
+        $.post('/lk/password-change/change.php', {UID: uid, OLDPASS: oldPass, NEWPASS: newPass, CONFIRM: confirm}, function(data){
+            alert(data)
+            $('#oldPass').val("")
+            $('#newPass').val("")
+            $('#confirmPass').val("")
+        })
+    }else{
+
+    }
+})
+
+$('#authForm').submit(function(){
+    return false
+})
+
+$('#authUser').click(function(){
+    var login = $('#inputEmail').val(),
+        pass = $('#inputPassword').val(),
+        flag = 0
+
+    if(login == ""){
+        $('#inputEmail').addClass('is-invalid')
+        flag = 1
+    }else{
+        $('#inputEmail').addClass('is-valid')
+    }
+
+    if(pass == ""){
+        $('#inputPassword').addClass('is-invalid')
+        flag = 1
+    }else{
+        $('#inputPassword').addClass('is-valid')
+    }
+
+    if(flag == 0){
+        $.post('/lk/auth.php', {LOGIN: login, PASS: pass}, function(data){
+            if(data == '1') {
+                document.location.href = '/lk/'
+            }else{
+                alert('Неверный логин или пароль!')
+            }
+        })
+    }else{
+
+    }
+})
+
+$('#authUser2').click(function(){
+    var login = $('#emailUser').val(),
+        pass = $('#passUser').val(),
+        flag = 0
+
+    if(login == ""){
+        $('#emailUser').addClass('is-invalid')
+        flag = 1
+    }else{
+        $('#emailUser').addClass('is-valid')
+    }
+
+    if(pass == ""){
+        $('#passUser').addClass('is-invalid')
+        flag = 1
+    }else{
+        $('#passUser').addClass('is-valid')
+    }
+
+    if(flag == 0){
+        $.post('/lk/auth.php', {LOGIN: login, PASS: pass}, function(data){
+            if(data == '1') {
+                document.location.href = '/lk/'
+            }else{
+                alert('Неверный логин или пароль!')
+            }
+        })
+    }else{
+        $('.auth__text').css({"display":"none"})
+        $('.auth__text__err').css({"display":"block"})
+    }
+})
+
+$('.js-dynamic-select').change(function () {
+    var $this = $(this), hide_fild = $('.js-hide-field');
+    hide_fild.hide();
+
+    switch ($this.val()) {
+        case '1':
+            hide_fild.eq(1).show();
+            hide_fild.eq(2).show();
+            break;
+        case '2':
+            hide_fild.eq(0).show();
+            hide_fild.eq(3).show();
+            break;
+        case '3':
+            hide_fild.eq(2).show();
+            break;
+    }
+});
+
+
+$('#regUser').click(function () {
+    var forma = $('#exampleFormControlSelect1').val(),
+        email = $('#emailUser').val(),
+        company = $('#companyName').val(),
+        inn = $('#innUser').val(),
+        fio = $('#fioUser').val(),
+        ogrn = $('#ogrnUser').val(),
+        pass = $('#passUser').val(),
+        confirm = $('#confirmPass').val(),
+        policy = $('#customCheck1').prop("checked"),
+        flag = 0
+
+    if(email == ""){
+        $('#emailUser').addClass('is-invalid')
+        flag = 1
+    }else{
+        $('#emailUser').addClass('is-valid')
+    }
+
+    if(pass == ""){
+        $('#passUser').addClass('is-invalid')
+        flag = 1
+    }else{
+        $('#passUser').addClass('is-valid')
+    }
+
+    if(confirm == ""){
+        $('#confirmPass').addClass('is-invalid')
+        flag = 1
+    }else{
+        $('#confirmPass').addClass('is-valid')
+    }
+
+    if(pass != confirm){
+        $('#confinvalid').css({"display":"block"})
+        $('#passUser').addClass('is-invalid')
+        $('#confirmPass').addClass('is-invalid')
+        flag = 1
+    }else{
+        $('#confinvalid').css({"display":"none"})
+        $('#passUser').addClass('is-valid')
+        $('#confirmPass').addClass('is-valid')
+    }
+
+    if(policy == false){
+        $('#customCheck1').addClass('is-invalid')
+        flag = 1
+    }else{
+        $('#customCheck1').addClass('is-valid')
+    }
+
+    if(forma == 0){
+        $('#exampleFormControlSelect1').addClass('is-invalid')
+        flag = 1;
+    }else{
+        $('#exampleFormControlSelect1').addClass('is-valid')
+    }
+
+    if(forma == 1){
+
+        if(inn == ""){
+            $('#innUser').addClass('is-invalid')
+            flag = 1
+        }else{
+            $('#innUser').addClass('is-valid')
+        }
+
+        if(fio == ""){
+            $('#fioUser').addClass('is-invalid')
+            flag = 1
+        }else{
+            $('#fioUser').addClass('is-valid')
+        }
+
+        if(flag == 0){
+            $.post('/register/reg.php', {EMAIL: email, PASS: pass, CONFIRM: confirm, INN: inn, FIO: fio, EVENT: 'forma1'}, function(data){
+                if(data == '1'){
+                    alert('Пользователь успешно добавлен!')
+                    $('#emailUser').val('')
+                    $('#innUser').val('')
+                    $('#fioUser').val('')
+                    $('#passUser').val('')
+                    $('#confirmPass').val('')
+                }else {
+                    alert(data)
+                }
+            })
+        }
+    }
+
+    if(forma == 2){
+
+        if(company == ""){
+            $('#companyName').addClass('is-invalid')
+            flag = 1
+        }else{
+            $('#companyName').addClass('is-valid')
+        }
+
+        if(ogrn == ""){
+            $('#ogrnUser').addClass('is-invalid')
+            flag = 1
+        }else{
+            $('#ogrnUser').addClass('is-valid')
+        }
+
+        $.post('/register/reg.php', {EMAIL: email, PASS: pass, CONFIRM: confirm, COMPANY: company, OGRN: ogrn, EVENT: 'forma2'}, function(data){
+            if(data == '1'){
+                alert('Пользователь успешно добавлен!')
+                $('#emailUser').val('')
+                $('#companyName').val('')
+                $('#ogrnUser').val('')
+                $('#passUser').val('')
+                $('#confirmPass').val('')
+            }else {
+                alert(data)
+            }
+        })
+    }
+
+    if(forma == 3){
+
+        if(fio == ""){
+            $('#fioUser').addClass('is-invalid')
+            flag = 1
+        }else{
+            $('#fioUser').addClass('is-valid')
+        }
+
+        $.post('/register/reg.php', {EMAIL: email, PASS: pass, CONFIRM: confirm, FIO: fio, EVENT: 'forma3'}, function(data){
+            if(data == '1'){
+                alert('Пользователь успешно добавлен!')
+                $('#emailUser').val('')
+                $('#fioUser').val('')
+                $('#passUser').val('')
+                $('#confirmPass').val('')
+            }else {
+                alert(data)
+            }
+        })
+
+    }
+
 })

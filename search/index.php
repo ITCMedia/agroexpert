@@ -48,80 +48,70 @@
             </div>
             <div class="result-list">
                 <div class="result-item row">
-                    <div class="col-1"></div>
-                    <div class="col-11">
+                    <div class="col-12">
                         <div class="search-result__title">В 2017 году зарегистрированы ТМ «<font>Сытный</font>» и ТМ «<font>Сытный</font> ПРО». С 2019 года разработаны и выведены на рынок корма ТМ «КОРМЛИНА».</div>
                         <div class="search-result__description">В производстве используется только качественное сырье. Часть зерна выращивается по техническому заданию нашей производственной лаборатории сельскохозяйственными производителями, практикующими безопасное земледелие по системе «Био».</div>
                         <div class="search-item__section">Новости</div>
                     </div>
                 </div>
                 <div class="result-item row">
-                    <div class="col-1"></div>
-                    <div class="col-11">
+                    <div class="col-12">
                         <div class="search-result__title"><font>Сытный</font>™ PRO Телёнок рост</div>
                         <div class="search-result__description"></div>
                         <div class="search-item__section">Каталог товаров</div>
                     </div>
                 </div>
                 <div class="result-item row">
-                    <div class="col-1"></div>
-                    <div class="col-11">
+                    <div class="col-12">
                         <div class="search-result__title"><font>Сытный</font>™ PRO Телёнок рост</div>
                         <div class="search-result__description"></div>
                         <div class="search-item__section">Каталог товаров</div>
                     </div>
                 </div>
                 <div class="result-item row">
-                    <div class="col-1"></div>
-                    <div class="col-11">
+                    <div class="col-12">
                         <div class="search-result__title">В 2017 году зарегистрированы ТМ «<font>Сытный</font>» и ТМ «<font>Сытный</font> ПРО». С 2019 года разработаны и выведены на рынок корма ТМ «КОРМЛИНА».</div>
                         <div class="search-result__description">В производстве используется только качественное сырье. Часть зерна выращивается по техническому заданию нашей производственной лаборатории сельскохозяйственными производителями, практикующими безопасное земледелие по системе «Био».</div>
                         <div class="search-item__section">Новости</div>
                     </div>
                 </div>
                 <div class="result-item row">
-                    <div class="col-1"></div>
-                    <div class="col-11">
+                    <div class="col-12">
                         <div class="search-result__title"><font>Сытный</font>™ PRO Телёнок рост</div>
                         <div class="search-result__description"></div>
                         <div class="search-item__section">Каталог товаров</div>
                     </div>
                 </div>
                 <div class="result-item row">
-                    <div class="col-1"></div>
-                    <div class="col-11">
+                    <div class="col-12">
                         <div class="search-result__title"><font>Сытный</font>™ PRO Телёнок рост</div>
                         <div class="search-result__description"></div>
                         <div class="search-item__section">Каталог товаров</div>
                     </div>
                 </div>
                 <div class="result-item row">
-                    <div class="col-1"></div>
-                    <div class="col-11">
+                    <div class="col-12">
                         <div class="search-result__title"><font>Сытный</font>™ PRO Телёнок рост</div>
                         <div class="search-result__description"></div>
                         <div class="search-item__section">Каталог товаров</div>
                     </div>
                 </div>
                 <div class="result-item row">
-                    <div class="col-1"></div>
-                    <div class="col-11">
+                    <div class="col-12">
                         <div class="search-result__title">В 2017 году зарегистрированы ТМ «<font>Сытный</font>» и ТМ «<font>Сытный</font> ПРО». С 2019 года разработаны и выведены на рынок корма ТМ «КОРМЛИНА».</div>
                         <div class="search-result__description">В производстве используется только качественное сырье. Часть зерна выращивается по техническому заданию нашей производственной лаборатории сельскохозяйственными производителями, практикующими безопасное земледелие по системе «Био».</div>
                         <div class="search-item__section">Новости</div>
                     </div>
                 </div>
                 <div class="result-item row">
-                    <div class="col-1"></div>
-                    <div class="col-11">
+                    <div class="col-12">
                         <div class="search-result__title"><font>Сытный</font>™ PRO Телёнок рост</div>
                         <div class="search-result__description"></div>
                         <div class="search-item__section">Каталог товаров</div>
                     </div>
                 </div>
                 <div class="result-item row">
-                    <div class="col-1"></div>
-                    <div class="col-11">
+                    <div class="col-12">
                         <div class="search-result__title"><font>Сытный</font>™ PRO Телёнок рост</div>
                         <div class="search-result__description"></div>
                         <div class="search-item__section">Каталог товаров</div>

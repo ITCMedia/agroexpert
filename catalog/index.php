@@ -6,9 +6,9 @@
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="../css/style.css" rel="stylesheet"/>
-    <link href="../css/font-awesome/css/all.min.css" rel="stylesheet">
-    <link href="../css/font-awesome/css/fontawesome.min.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet"/>
+    <link href="/css/font-awesome/css/all.min.css" rel="stylesheet">
+    <link href="/css/font-awesome/css/fontawesome.min.css" rel="stylesheet">
 </head>
 <body>
 <? require(__DIR__ . '/../header.php'); ?>
@@ -78,7 +78,7 @@
 <section class="product_catalog">
     <div class="container">
         <div class="row">
-            <ul class="nav nav-tabs">
+            <ul class="nav nav-tabs tabs-catalog">
                 <li class="active">
                     <a data-toggle="animals tab" href="#panel1">Для KPC<sup>10</sup></a>
                 </li>
@@ -95,6 +95,16 @@
                     <a data-toggle="animals tab" href="#panel5">Для свиней<sup>4</sup></a>
                 </li>
             </ul>
+        </div>
+        <div class = "row filter-cat">
+            <ul>
+                <li class = "active"><a href = "">Все</a></li>
+                <li><a href = "">Эконом</a></li>
+                <li><a href = "">Баланс</a></li>
+                <li><a href = "">Сытный<sup>ТМ</sup></a></li>
+                <li><a href = "">Сытный Pro<sup>ТМ</sup></a></li>
+            </ul>
+            <div class = "filter-cat__hint">Более 40 видов кормов</div>
         </div>
         <div class="row tab-content">
             <div id="panel1" class="tab-pane fade active show">
@@ -137,35 +147,56 @@
                 <?}?>
             </div>
 
+            <!--
             <div id="panel2" class="tab-pane">
                 <p>Панель 2</p>
             </div>
             <div id="panel3" class="tab-pane">
                 <p>Панель 3</p>
-            </div>
+            </div>-->
+        </div>
+        <div class = "row filter-cat filter-cat__bottom">
+            <ul>
+                <li class = "active"><a href = "">Для птицы</a></li>
+                <li><a href = "">Для телят</a></li>
+                <li><a href = "">Для крупного рогатого скота</a></li>
+                <li><a href = "">Для коз и МРС</a></li>
+                <li><a href = "">Для свиней</a></li>
+                <li><a href = "">Для кроликов</a></li>
+                <li><a href = "">Баланс</a></li>
+                <li><a href = "">Сытный<sup>ТМ</sup></a></li>
+                <li><a href = "">Сытный Pro<sup>ТМ</sup></a></li>
+            </ul>
         </div>
     </div>
 </section>
 
 <section class="payment-method__block">
     <div class="container">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-4 col-lg-4 col-md-4">
-                    <p>Мы каждый день «едим» комбикорм</p>
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-4">
+                <h3>Мы каждый день «едим» комбикорм</h3>
+            </div>
+            <div class="col-xl-8 col-lg-8 col-md-8">
+                <div class="cor-buyers__content">
+                    <p>Руководство “Агро-Эксперт” не поддерживает стремление производителей сельскохозяйственной продукции к сверхприбылям за счет химических добавок, которые опасны для здоровья людей. 
+Перед тем как купить максимально эффективные зарубежные комбикорма и добавить их в рацион животных или птиц, подумайте, за счет чего достигается эта эффективность? 
+                    </p>
+                    <p>
+                    Подумайте также и о том, как эта “эффективность” скажется на ваших детях, друзьях и знакомых, тех людях, которые покупают вашу продукцию по пути домой.  
+                    </p>
                 </div>
-                <div class="col-xl-8 col-lg-8 col-md-8">
-                    <div class="cor-buyers__content">
-                        <p>Руководство “Агро-Эксперт” не поддерживает стремление производителей сельскохозяйственной
-                            продукции к сверхприбылям за счет химических добавок, которые опасны для здоровья людей.
-                            Перед тем как купить максимально эффективные зарубежные комбикорма и добавить их в рацион
-                            животных или птиц, подумайте, за счет чего достигается эта эффективность?
-                        </p>
-                        <p>
-                            Подумайте также и о том, как эта “эффективность” скажется на ваших детях, друзьях и
-                            знакомых, тех людях, которые покупают вашу продукцию по пути домой.
-                        </p>
-                    </div>
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-xl-12">
+                <div class = "cat-citata">
+                    <p>Великий Гиппократ говорил:</p>
+                    <div class = "cat-citata__wrap">
+                        <img class = "left" src = "/images/bird_l.png" />
+                        <p>Если отца болезни нужно еще поискать,<br/> то ее мать известна точно - это плохая еда!</p>
+                        <img class = "right" src = "/images/bird_r.png" />
+                    </div>    
                 </div>
             </div>
         </div>

@@ -175,8 +175,7 @@
                 <div class="row no-gutters">
                     <div class="result-list">
                         <div class="result-item row no-gutters">
-                            <div class="col-1"></div>
-                            <div class="col-11">
+                            <div class="col-12">
                                 <div class="about-info-result__title">
                                     Более 40 видов кормов
                                 </div>
@@ -207,8 +206,7 @@
                     </div>
                     <div class="result-list">
                         <div class="result-item row">
-                            <div class="col-1"></div>
-                            <div class="col-11">
+                            <div class="col-12">
                                 <div class="about-info-result__title mb-3">Существует несколько линеек кормов отличных друг от друга по качественному составу , который в свою очередь определяется набором входящего в корм сырья, что в конечном итоге определяет и цену продукта.
                                     для всех видов сельскохозяйственных животных и птицы</div>
                                 <div class="about-info-result__description">
@@ -234,68 +232,91 @@
 <section class="company-foto_block">
     <div class="container">
         <div class="row no-gutters">
-            <div class="tabs mt-10">
-                <h2>Современное производство</h2>
-                <ul class="nav inner-nav photo-tabs mb-3">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Цеха</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Лаборатория</a>
-                    </li>
-                </ul>
-                <div class="row no-gutters two-column-photos__block slider">
-                    <div class="slide-item col-12">
+            <div class = "col-xl-12">
+                <div class="tabs mt-10">
+                    <h2>Современное производство</h2>
+                    <ul class="nav inner-nav photo-tabs mb-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Цеха</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Лаборатория</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-12">
+                <div class = "owl-carousel" id = "slider-gen">
+                    <div class = "item">
                         <div class="row no-gutters">
-                            <div class="col-8 img-col">
-                                <img width="330" src="/images/about-us-photo-1.png">
+                            <div class="col-xl-8 col-lg-8 col-md-8 img-col">
+                                <img src="/images/about-us-photo-1.png">
                             </div>
-                            <div class="col-4 no-gutters">
-                                <div class="col-12"><img width="165" src="/images/about-us-photo-2.png"></div>
-                                <div class="col-12"><img width="165" src="/images/about-us-photo-3.png"></div>
+                            <div class="col-xl-4 col-lg-4 col-md-4 no-gutters">
+                                <div class="col-lg-12 img-col"><img src="/images/about-us-photo-2.png"></div>
+                                <div class="col-lg-12 img-col"><img src="/images/about-us-photo-3.png"></div>
                             </div>
                         </div>
                         <div class="row bottom no-gutters">
-                            <div class="col-4 img-col"><img width="165" src="/images/about-us-photo-4.png"></div>
-                            <div class="col-4 img-col"><img width="165"src="/images/about-us-photo-1.png"></div>
-                            <div class="col-4"><img width="165" src="/images/about-us-photo-2.png"></div>
+                            <div class="col-xl-4 col-lg-4 col-md-4 img-col"><img src="/images/about-us-photo-4.png"></div>
+                            <div class="col-xl-4 col-lg-4 col-md-4 img-col"><img src="/images/about-us-photo-1.png"></div>
+                            <div class="col-xl-4 col-lg-4 col-md-4 img-col"><img src="/images/about-us-photo-2.png"></div>
                         </div>
                     </div>
-                    <div class="slide-item col-12">
+                    <div class = "item">
+                        <div class="row bottom no-gutters">
+                            <div class="col-xl-4 col-lg-4 col-md-4 img-col"><img src="/images/about-us-photo-4.png"></div>
+                            <div class="col-xl-4 col-lg-4 col-md-4 img-col"><img src="/images/about-us-photo-1.png"></div>
+                            <div class="col-xl-4 col-lg-4 col-md-4"><img src="/images/about-us-photo-2.png"></div>
+                        </div>
                         <div class="row no-gutters">
-                            <div class="col-8 img-col">
+                            <div class="col-xl-8 col-lg-8 col-md-8 img-col">
                                 <img width="330" src="/images/about-us-photo-1.png">
                             </div>
-                            <div class="col-4 no-gutters">
-                                <div class="col-12"><img width="165" src="/images/about-us-photo-2.png"></div>
-                                <div class="col-12"><img width="165" src="/images/about-us-photo-3.png"></div>
+                            <div class="col-xl-4 col-lg-4 col-md-4 no-gutters">
+                                <div class="col-xl-12 img-col"><img src="/images/about-us-photo-2.png"></div>
+                                <div class="col-xl-12 img-col"><img src="/images/about-us-photo-3.png"></div>
                             </div>
-                        </div>
-                        <div class="row bottom no-gutters">
-                            <div class="col-4 img-col"><img width="165" src="/images/about-us-photo-4.png"></div>
-                            <div class="col-4 img-col"><img width="165"src="/images/about-us-photo-1.png"></div>
-                            <div class="col-4"><img width="165" src="/images/about-us-photo-2.png"></div>
                         </div>
                     </div>
-                    <div class="slide-item col-12">
+                    <div class = "item">
                         <div class="row no-gutters">
-                            <div class="col-8 img-col">
-                                <img width="330" src="/images/about-us-photo-1.png">
+                            <div class="col-xl-8 col-lg-8 col-md-8 img-col">
+                                <img src="/images/about-us-photo-1.png">
                             </div>
-                            <div class="col-4 no-gutters">
-                                <div class="col-12"><img width="165" src="/images/about-us-photo-2.png"></div>
-                                <div class="col-12"><img width="165" src="/images/about-us-photo-3.png"></div>
+                            <div class="col-xl-4 col-lg-4 col-md-4 no-gutters">
+                                <div class="col-lg-12 img-col"><img src="/images/about-us-photo-2.png"></div>
+                                <div class="col-lg-12 img-col"><img src="/images/about-us-photo-3.png"></div>
                             </div>
                         </div>
                         <div class="row bottom no-gutters">
-                            <div class="col-4 img-col"><img width="165" src="/images/about-us-photo-4.png"></div>
-                            <div class="col-4 img-col"><img width="165"src="/images/about-us-photo-1.png"></div>
-                            <div class="col-4"><img width="165" src="/images/about-us-photo-2.png"></div>
+                            <div class="col-xl-4 col-lg-4 col-md-4 img-col"><img src="/images/about-us-photo-4.png"></div>
+                            <div class="col-xl-4 col-lg-4 col-md-4 img-col"><img src="/images/about-us-photo-1.png"></div>
+                            <div class="col-xl-4 col-lg-4 col-md-4 img-col"><img src="/images/about-us-photo-2.png"></div>
+                        </div>
+                    </div>
+                    <div class = "item">
+                        <div class="row bottom no-gutters">
+                            <div class="col-xl-4 col-lg-4 col-md-4 img-col"><img src="/images/about-us-photo-4.png"></div>
+                            <div class="col-xl-4 col-lg-4 col-md-4 img-col"><img src="/images/about-us-photo-1.png"></div>
+                            <div class="col-xl-4 col-lg-4 col-md-4 img-col"><img src="/images/about-us-photo-2.png"></div>
+                        </div>
+                        <div class="row no-gutters">
+                            <div class="col-xl-8 col-lg-8 col-md-8 img-col">
+                                <img width="330" src="/images/about-us-photo-1.png">
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-4 img-col no-gutters">
+                                <div class="col-xl-12"><img src="/images/about-us-photo-2.png"></div>
+                                <div class="col-xl-12"><img src="/images/about-us-photo-3.png"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <button class = "slider-gen__prev"></button>
+                <button class = "slider-gen__next"></button>
             </div>
-
         </div>
         <div class="row counters__block no-gutters mt-10">
             <div class="col-4 about-info__block">
@@ -311,8 +332,7 @@
                 <div class="row no-gutters">
                     <div class="result-list">
                         <div class="result-item row no-gutters">
-                            <div class="col-1"></div>
-                            <div class="col-11">
+                            <div class="col-12">
                                 <div class="about-info-result__title"><span>400</span> тонн/сутки</div>
                                 <div class="about-info-result__description">
                                     <p>
@@ -324,8 +344,7 @@
                     </div>
                     <div class="result-list">
                         <div class="result-item row no-gutters">
-                            <div class="col-1"></div>
-                            <div class="col-11">
+                            <div class="col-12">
                                 <div class="about-info-result__title"><span>130</span> человек</div>
                                 <div class="about-info-result__description">
                                     Штат сотрудников предприятия
@@ -342,8 +361,7 @@
                 <div class="row no-gutters">
                     <div class="result-list">
                         <div class="result-item row no-gutters">
-                            <div class="col-1"></div>
-                            <div class="col-11">
+                            <div class="col-12">
                                 <div class="about-info-result__title"><span>900+</span> клиентов</div>
                                 <div class="about-info-result__description">
                                     <p>
@@ -355,8 +373,7 @@
                     </div>
                     <div class="result-list">
                         <div class="result-item row no-gutters">
-                            <div class="col-1"></div>
-                            <div class="col-11">
+                            <div class="col-12">
                                 <div class="about-info-result__title"><span>200+</span> постащиков</div>
                                 <div class="about-info-result__description">
                                     Помогают производить качественные корма
