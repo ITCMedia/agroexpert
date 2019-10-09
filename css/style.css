@@ -2227,9 +2227,10 @@ section.error-404 {
 
 .top-menu__user {
     float: right;
-    overflow: hidden;
+    /*overflow: hidden;*/
     padding-top: 10px;
     margin-top: 10px;
+    position: relative;
 }
 
 .top-menu__user__phone {
@@ -4148,8 +4149,8 @@ input.search:hover {
 
 .float-menu__close {
     position: absolute;
-    width: 64px;
-    height: 64px;
+    width: 23px;
+    height: 23px;
     background-image: url(../images/close.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -4157,8 +4158,8 @@ input.search:hover {
     background-color: unset;
     border: none;
     cursor: pointer;
-    top: 32px;
-    right: 32px;
+    top: 54px;
+    right: 47px;
 }
 
 .float-menu__wrap {
@@ -4317,6 +4318,62 @@ input.search:hover {
 .float-menu__social {
     padding: 0;
     margin-top: 107px;
+}
+
+.float__menu-geoip{
+    position: absolute;
+    top: 49px;
+    right: 110px;
+}
+
+.float__menu-geoip input{
+    width: 206px;
+    height: 36px;
+    background-color: #f8f4ef;
+    font-size: 15px;
+    color: #834f1c;
+    border: none;
+    padding-left: 60px;
+    border-radius: 15px;
+    background-image: url(../images/geo_search.png);
+    background-repeat: no-repeat;
+    background-position: 13px center;
+    cursor: pointer;
+}
+
+.float__menu-geoip input:hover{
+    background-color: #f1e9e2;
+}
+
+.list__region{
+    border-radius: 15px;
+    padding: 10px;
+    border: 1px solid #ebe5df;
+    margin-top: 5px;
+    background-color: #f8f4ef;
+    display: none;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+
+#list__region1{
+    top: 53px;
+}
+
+.list__region li{
+    cursor: pointer;
+    font-size: 15px;
+    color: #834f1c;
+    margin-bottom: 10px;
+}
+
+.list__region li.active{
+    color: #5ebf35;
+}
+
+.list__region li:hover{
+    color: #5ebf35;
 }
 
 .social {
@@ -8267,6 +8324,10 @@ table.collapse.show ~ .btn-readmore:after {
 
     .vakansii .card .mb-0 button{
         font-size: 14px;
+    }
+
+    .float__menu-geoip{
+        display: none;
     }
 }
 

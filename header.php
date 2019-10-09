@@ -16,6 +16,15 @@
 <section class="float-menu">
     <div class="float-menu__logo"></div>
     <button class="float-menu__close"></button>
+    <div class = "float__menu-geoip">
+        <input type = "text" id = "region" name = "region" value = "Ивановская обл." />
+        <ul id = "list__region" class = "list__region">
+            <li class = "active">Ивановская обл.</li>
+            <li>Московская обл.</li>
+            <li>Ленинградска обл.</li>
+            <li>Астраханская обл.</li>
+        </ul>
+    </div>
     <div class="container">
         <div class="float-menu__wrap">
             <div class="row">
@@ -112,7 +121,7 @@
                         <li><a href="">Контакты</a></li>
                     </ul>
                     <div class="top-menu__user">
-                        <a class="top-menu__user__geo" href=""></a>
+                        <a class="top-menu__user__geo" href="javascript:void(0);"></a>
                         <a class="top-menu__user__phone" href=""></a>
                         <a class="top-menu__user__basket" href=""><span>5</span></a>
                         <a class="top-menu__user__input" href="javascript:void(0)" data-toggle="modal" data-target="#oneclickAuthModal">Войти</a>
@@ -121,6 +130,12 @@
                             <input type="submit" value = ""/>
                             <input class="search top-menu__search" value="" placeholder="Поиск"/>
                         </form>
+                        <ul id = "list__region1" class = "list__region">
+                            <li class = "active">Ивановская обл.</li>
+                            <li>Московская обл.</li>
+                            <li>Ленинградска обл.</li>
+                            <li>Астраханская обл.</li>
+                        </ul>
                     </div>
                 </div>
             </div>

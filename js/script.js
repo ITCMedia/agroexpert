@@ -540,4 +540,24 @@ $('.send__order__mess').click(function () {
         $('#validationTextarea').val('')
     } else {return false;}
 })
+/*Все, что связано с GeoIp*/
+$('#region').click(function(){
+    if($(this).hasClass('active') == false){
+        $('#list__region').fadeIn(200)
+        $(this).addClass('active')
+    }else{
+        $('#list__region').fadeOut(200)
+        $(this).removeClass('active')
+    }
+})
 
+$('.top-menu__user__geo').click(function () {
+    if($(this).hasClass('active') == false){
+        $('#list__region1').fadeIn(200)
+        $(this).addClass('active')
+    }else{
+        $('#list__region1').fadeOut(200)
+        $(this).removeClass('active')
+    }
+})
+/*----------------------*/
